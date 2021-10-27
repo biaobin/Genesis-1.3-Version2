@@ -1,0 +1,3060 @@
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            node148
+  Device name:           mlx5_2
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4123
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+-------------------------------
+Genesis 1.3 has begun execution
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+Please enter input file name 
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+-------------------------------
+Genesis 1.3 has begun execution
+(Version 1.0 Unix)
+
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    15
+***  writing history record for slice    32
+***  writing history record for slice     2
+***  writing history record for slice     7
+***  writing history record for slice    29
+***  writing history record for slice     1
+***  writing history record for slice    47
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    64
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    34
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    33
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    79
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    14
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    39
+***  writing history record for slice    61
+***  writing history record for slice    96
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice     4
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  Input-error: cannot convert to individiual input
+***  EN
+***  writing history record for slice    65
+***  writing history record for slice    28
+***  writing history record for slice    17
+***  writing history record for slice    18
+***  writing history record for slice   111
+***  writing history record for slice    66
+***  writing history record for slice     5
+***  writing history record for slice    46
+***  writing history record for slice    71
+***  writing history record for slice    23
+***  writing history record for slice    27
+***  writing history record for slice    26
+***  writing history record for slice     6
+***  writing history record for slice    16
+***  writing history record for slice    20
+***  writing history record for slice   128
+***  writing history record for slice    36
+***  writing history record for slice    10
+***  writing history record for slice    21
+***  writing history record for slice    30
+***  writing history record for slice    11
+***  writing history record for slice    24
+***  writing history record for slice     9
+***  writing history record for slice    12
+***  writing history record for slice    97
+***  writing history record for slice    60
+***  writing history record for slice    49
+***  writing history record for slice    25
+***  writing history record for slice    50
+***  writing history record for slice    13
+***  writing history record for slice    31
+***  writing history record for slice   143
+***  writing history record for slice    98
+***  writing history record for slice     3
+***  writing history record for slice    78
+***  writing history record for slice    93
+***  writing history record for slice   103
+***  writing history record for slice    59
+***  writing history record for slice    58
+***  writing history record for slice    38
+***  writing history record for slice    22
+***  writing history record for slice     8
+***  writing history record for slice   160
+***  writing history record for slice    68
+***  writing history record for slice    19
+***  writing history record for slice    42
+***  writing history record for slice    53
+***  writing history record for slice    62
+***  writing history record for slice    43
+***  writing history record for slice    56
+***  writing history record for slice    41
+***  writing history record for slice    44
+***  writing history record for slice   129
+***  writing history record for slice    92
+***  writing history record for slice    81
+***  writing history record for slice    57
+***  writing history record for slice    82
+***  writing history record for slice    37
+***  writing history record for slice   175
+***  writing history record for slice   130
+***  writing history record for slice    35
+***  writing history record for slice   110
+***  writing history record for slice    55
+***  writing history record for slice   135
+***  writing history record for slice    91
+***  writing history record for slice    90
+***  writing history record for slice    54
+***  writing history record for slice    48
+***  writing history record for slice    52
+***  writing history record for slice    40
+***  writing history record for slice   192
+***  writing history record for slice   100
+***  writing history record for slice    51
+***  writing history record for slice    74
+***  writing history record for slice    85
+***  writing history record for slice    94
+***  writing history record for slice    75
+***  writing history record for slice    88
+***  writing history record for slice    73
+***  writing history record for slice    76
+***  writing history record for slice   161
+***  writing history record for slice   124
+***  writing history record for slice    45
+***  writing history record for slice    63
+***  writing history record for slice    89
+***  writing history record for slice   114
+***  writing history record for slice   125
+***  writing history record for slice   162
+***  writing history record for slice    67
+***  writing history record for slice    70
+***  writing history record for slice    87
+***  writing history record for slice   167
+***  writing history record for slice   123
+***  writing history record for slice   122
+***  writing history record for slice    86
+***  writing history record for slice    80
+***  writing history record for slice    84
+***  writing history record for slice    72
+***  writing history record for slice   224
+***  writing history record for slice   132
+***  writing history record for slice    83
+***  writing history record for slice   106
+***  writing history record for slice   117
+***  writing history record for slice   126
+***  writing history record for slice   107
+***  writing history record for slice   120
+***  writing history record for slice   105
+***  writing history record for slice   113
+***  writing history record for slice   108
+***  writing history record for slice   193
+***  writing history record for slice   156
+***  writing history record for slice    69
+***  writing history record for slice   207
+***  writing history record for slice   121
+***  writing history record for slice   146
+***  writing history record for slice   157
+***  writing history record for slice   194
+***  writing history record for slice   142
+***  writing history record for slice    99
+***  writing history record for slice   102
+***  writing history record for slice   199
+***  writing history record for slice   155
+***  writing history record for slice   118
+***  writing history record for slice   112
+***  writing history record for slice   116
+***  writing history record for slice   104
+***  writing history record for slice   256
+***  writing history record for slice   164
+***  writing history record for slice   115
+***  writing history record for slice   138
+***  writing history record for slice   149
+***  writing history record for slice   158
+***  writing history record for slice   139
+***  writing history record for slice   152
+***  writing history record for slice   145
+***  writing history record for slice   140
+***  writing history record for slice    77
+***  writing history record for slice   225
+***  writing history record for slice   188
+***  writing history record for slice    95
+***  writing history record for slice   101
+***  writing history record for slice   153
+***  writing history record for slice   178
+***  writing history record for slice   189
+***  writing history record for slice   226
+***  writing history record for slice   174
+***  writing history record for slice   119
+***  writing history record for slice   131
+***  writing history record for slice   134
+***  writing history record for slice   231
+***  writing history record for slice   154
+***  writing history record for slice   187
+***  writing history record for slice   150
+***  writing history record for slice   144
+***  writing history record for slice   148
+***  writing history record for slice   136
+***  writing history record for slice   288
+***  writing history record for slice   196
+***  writing history record for slice   147
+***  writing history record for slice   170
+***  writing history record for slice   181
+***  writing history record for slice   190
+***  writing history record for slice   137
+***  writing history record for slice   184
+***  writing history record for slice   177
+***  writing history record for slice   172
+***  writing history record for slice   239
+***  writing history record for slice   220
+***  writing history record for slice   185
+***  writing history record for slice   210
+***  writing history record for slice   221
+***  writing history record for slice   258
+***  writing history record for slice   206
+***  writing history record for slice   151
+***  writing history record for slice   163
+***  writing history record for slice   166
+***  writing history record for slice   263
+***  writing history record for slice   186
+***  writing history record for slice   219
+***  writing history record for slice   182
+***  writing history record for slice   176
+***  writing history record for slice   180
+***  writing history record for slice   168
+***  writing history record for slice   320
+***  writing history record for slice   228
+***  writing history record for slice   171
+***  writing history record for slice   179
+***  writing history record for slice   202
+***  writing history record for slice   213
+***  writing history record for slice   222
+***  writing history record for slice   169
+***  writing history record for slice   109
+***  writing history record for slice   257
+***  writing history record for slice   216
+***  writing history record for slice   209
+***  writing history record for slice   204
+***  writing history record for slice   127
+***  writing history record for slice   133
+***  writing history record for slice   252
+***  writing history record for slice   217
+***  writing history record for slice   242
+***  writing history record for slice   253
+***  writing history record for slice   238
+***  writing history record for slice   195
+***  writing history record for slice   198
+***  writing history record for slice   295
+***  writing history record for slice   218
+***  writing history record for slice   251
+***  writing history record for slice   214
+***  writing history record for slice   208
+***  writing history record for slice   212
+***  writing history record for slice   200
+***  writing history record for slice   352
+***  writing history record for slice   260
+***  writing history record for slice   211
+***  writing history record for slice   234
+***  writing history record for slice   245
+***  writing history record for slice   254
+***  writing history record for slice   289
+***  writing history record for slice   248
+***  writing history record for slice   241
+***  writing history record for slice   271
+***  writing history record for slice   236
+***  writing history record for slice   165
+***  writing history record for slice   284
+***  writing history record for slice   290
+***  writing history record for slice   274
+***  writing history record for slice   183
+***  writing history record for slice   270
+***  writing history record for slice   227
+***  writing history record for slice   230
+***  writing history record for slice   327
+***  writing history record for slice   250
+***  writing history record for slice   283
+***  writing history record for slice   246
+***  writing history record for slice   240
+***  writing history record for slice   244
+***  writing history record for slice   232
+***  writing history record for slice   203
+***  writing history record for slice   384
+***  writing history record for slice   292
+***  writing history record for slice   243
+***  writing history record for slice   266
+***  writing history record for slice   201
+***  writing history record for slice   141
+***  writing history record for slice   286
+***  writing history record for slice   321
+***  writing history record for slice   280
+***  writing history record for slice   159
+***  writing history record for slice   303
+***  writing history record for slice   268
+***  writing history record for slice   249
+***  writing history record for slice   285
+***  writing history record for slice   316
+***  writing history record for slice   322
+***  writing history record for slice   306
+***  writing history record for slice   215
+***  writing history record for slice   302
+***  writing history record for slice   259
+***  writing history record for slice   262
+***  writing history record for slice   359
+***  writing history record for slice   282
+***  writing history record for slice   315
+***  writing history record for slice   278
+***  writing history record for slice   272
+***  writing history record for slice   276
+***  writing history record for slice   264
+***  writing history record for slice   235
+***  writing history record for slice   416
+***  writing history record for slice   277
+***  writing history record for slice   324
+***  writing history record for slice   275
+***  writing history record for slice   298
+***  writing history record for slice   233
+***  writing history record for slice   173
+***  writing history record for slice   318
+***  writing history record for slice   273
+***  writing history record for slice   353
+***  writing history record for slice   312
+***  writing history record for slice   197
+***  writing history record for slice   335
+***  writing history record for slice   300
+***  writing history record for slice   317
+***  writing history record for slice   348
+***  writing history record for slice   354
+***  writing history record for slice   338
+***  writing history record for slice   247
+***  writing history record for slice   334
+***  writing history record for slice   291
+***  writing history record for slice   294
+***  writing history record for slice   391
+***  writing history record for slice   314
+***  writing history record for slice   347
+***  writing history record for slice   310
+***  writing history record for slice   304
+***  writing history record for slice   308
+***  writing history record for slice   296
+***  writing history record for slice   267
+***  writing history record for slice   448
+***  writing history record for slice   309
+***  writing history record for slice   356
+***  writing history record for slice   307
+***  writing history record for slice   330
+***  writing history record for slice   205
+***  writing history record for slice   350
+***  writing history record for slice   191
+***  writing history record for slice   385
+***  writing history record for slice   281
+***  writing history record for slice   344
+***  writing history record for slice   367
+***  writing history record for slice   332
+***  writing history record for slice   349
+***  writing history record for slice   380
+***  writing history record for slice   386
+***  writing history record for slice   370
+***  writing history record for slice   279
+***  writing history record for slice   366
+***  writing history record for slice   323
+***  writing history record for slice   326
+***  writing history record for slice   423
+***  writing history record for slice   346
+***  writing history record for slice   379
+***  writing history record for slice   342
+***  writing history record for slice   336
+***  writing history record for slice   340
+***  writing history record for slice   328
+***  writing history record for slice   341
+***  writing history record for slice   388
+***  writing history record for slice   480
+***  writing history record for slice   265
+***  writing history record for slice   339
+***  writing history record for slice   362
+***  writing history record for slice   305
+***  writing history record for slice   237
+***  writing history record for slice   382
+***  writing history record for slice   223
+***  writing history record for slice   417
+***  writing history record for slice   229
+***  writing history record for slice   313
+***  writing history record for slice   376
+***  writing history record for slice   399
+***  writing history record for slice   364
+***  writing history record for slice   381
+***  writing history record for slice   412
+***  writing history record for slice   418
+***  writing history record for slice   402
+***  writing history record for slice   311
+***  writing history record for slice   398
+***  writing history record for slice   355
+***  writing history record for slice   358
+***  writing history record for slice   378
+***  writing history record for slice   455
+***  writing history record for slice   374
+***  writing history record for slice   299
+***  writing history record for slice   368
+***  writing history record for slice   372
+***  writing history record for slice   360
+***  writing history record for slice   373
+***  writing history record for slice   420
+***  writing history record for slice   371
+***  writing history record for slice   394
+***  writing history record for slice   337
+***  writing history record for slice   512
+***  writing history record for slice   269
+***  writing history record for slice   414
+***  writing history record for slice   449
+***  writing history record for slice   345
+***  writing history record for slice   408
+***  writing history record for slice   431
+***  writing history record for slice   396
+***  writing history record for slice   413
+***  writing history record for slice   444
+***  writing history record for slice   450
+***  writing history record for slice   434
+***  writing history record for slice   343
+***  writing history record for slice   430
+***  writing history record for slice   411
+***  writing history record for slice   387
+***  writing history record for slice   390
+***  writing history record for slice   410
+***  writing history record for slice   406
+***  writing history record for slice   487
+***  writing history record for slice   331
+***  writing history record for slice   400
+***  writing history record for slice   404
+***  writing history record for slice   392
+***  writing history record for slice   297
+***  writing history record for slice   405
+***  writing history record for slice   452
+***  writing history record for slice   403
+***  writing history record for slice   426
+***  writing history record for slice   301
+***  writing history record for slice   544
+***  writing history record for slice   255
+***  writing history record for slice   446
+***  writing history record for slice   261
+***  writing history record for slice   481
+***  writing history record for slice   440
+***  writing history record for slice   428
+***  writing history record for slice   445
+***  writing history record for slice   463
+***  writing history record for slice   476
+***  writing history record for slice   482
+***  writing history record for slice   443
+***  writing history record for slice   466
+***  writing history record for slice   462
+***  writing history record for slice   419
+***  writing history record for slice   442
+***  writing history record for slice   438
+***  writing history record for slice   363
+***  writing history record for slice   519
+***  writing history record for slice   424
+***  writing history record for slice   437
+***  writing history record for slice   369
+***  writing history record for slice   458
+***  writing history record for slice   333
+***  writing history record for slice   576
+***  writing history record for slice   287
+***  writing history record for slice   478
+***  writing history record for slice   377
+***  writing history record for slice   293
+***  writing history record for slice   513
+***  writing history record for slice   460
+***  writing history record for slice   477
+***  writing history record for slice   375
+***  writing history record for slice   495
+***  writing history record for slice   514
+***  writing history record for slice   475
+***  writing history record for slice   422
+***  writing history record for slice   451
+***  writing history record for slice   474
+***  writing history record for slice   432
+***  writing history record for slice   436
+***  writing history record for slice   329
+***  writing history record for slice   435
+***  writing history record for slice   470
+***  writing history record for slice   456
+***  writing history record for slice   551
+***  writing history record for slice   469
+***  writing history record for slice   484
+***  writing history record for slice   401
+***  writing history record for slice   490
+***  writing history record for slice   365
+***  writing history record for slice   608
+***  writing history record for slice   409
+***  writing history record for slice   325
+***  writing history record for slice   510
+***  writing history record for slice   472
+***  writing history record for slice   545
+***  writing history record for slice   492
+***  writing history record for slice   509
+***  writing history record for slice   508
+***  writing history record for slice   527
+***  writing history record for slice   498
+***  writing history record for slice   494
+***  writing history record for slice   546
+***  writing history record for slice   507
+***  writing history record for slice   454
+***  writing history record for slice   483
+***  writing history record for slice   464
+***  writing history record for slice   506
+***  writing history record for slice   395
+***  writing history record for slice   361
+***  writing history record for slice   468
+***  writing history record for slice   433
+***  writing history record for slice   467
+***  writing history record for slice   502
+***  writing history record for slice   488
+***  writing history record for slice   583
+***  writing history record for slice   501
+***  writing history record for slice   516
+***  writing history record for slice   522
+***  writing history record for slice   319
+***  writing history record for slice   441
+***  writing history record for slice   357
+***  writing history record for slice   640
+[node148.csns.ihep.ac.cn:212798] 15 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[node148.csns.ihep.ac.cn:212798] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+***  writing history record for slice   542
+***  writing history record for slice   504
+***  writing history record for slice   577
+***  writing history record for slice   407
+***  writing history record for slice   524
+***  writing history record for slice   541
+***  writing history record for slice   540
+***  writing history record for slice   559
+***  writing history record for slice   530
+***  writing history record for slice   526
+***  writing history record for slice   578
+***  writing history record for slice   539
+***  writing history record for slice   486
+***  writing history record for slice   393
+***  writing history record for slice   496
+***  writing history record for slice   538
+***  writing history record for slice   500
+***  writing history record for slice   499
+***  writing history record for slice   534
+***  writing history record for slice   397
+***  writing history record for slice   520
+***  writing history record for slice   615
+***  writing history record for slice   533
+***  writing history record for slice   548
+***  writing history record for slice   554
+***  writing history record for slice   389
+***  writing history record for slice   473
+***  writing history record for slice   672
+***  writing history record for slice   574
+***  writing history record for slice   536
+***  writing history record for slice   515
+***  writing history record for slice   427
+***  writing history record for slice   556
+***  writing history record for slice   573
+***  writing history record for slice   572
+***  writing history record for slice   465
+***  writing history record for slice   562
+***  writing history record for slice   558
+***  writing history record for slice   610
+***  writing history record for slice   571
+***  writing history record for slice   518
+***  writing history record for slice   351
+***  writing history record for slice   429
+***  writing history record for slice   528
+***  writing history record for slice   570
+***  writing history record for slice   439
+***  writing history record for slice   532
+***  writing history record for slice   531
+***  writing history record for slice   566
+***  writing history record for slice   421
+***  writing history record for slice   552
+***  writing history record for slice   609
+***  writing history record for slice   647
+***  writing history record for slice   565
+***  writing history record for slice   580
+***  writing history record for slice   586
+***  writing history record for slice   505
+***  writing history record for slice   704
+***  writing history record for slice   606
+***  writing history record for slice   568
+***  writing history record for slice   591
+***  writing history record for slice   425
+***  writing history record for slice   459
+***  writing history record for slice   588
+***  writing history record for slice   605
+***  writing history record for slice   604
+***  writing history record for slice   497
+***  writing history record for slice   594
+***  writing history record for slice   590
+***  writing history record for slice   642
+***  writing history record for slice   383
+***  writing history record for slice   550
+***  writing history record for slice   461
+***  writing history record for slice   560
+***  writing history record for slice   602
+***  writing history record for slice   471
+***  writing history record for slice   564
+***  writing history record for slice   453
+***  writing history record for slice   598
+***  writing history record for slice   584
+***  writing history record for slice   679
+***  writing history record for slice   597
+***  writing history record for slice   612
+***  writing history record for slice   547
+***  writing history record for slice   618
+***  writing history record for slice   537
+***  writing history record for slice   736
+***  writing history record for slice   638
+***  writing history record for slice   600
+***  writing history record for slice   491
+***  writing history record for slice   620
+***  writing history record for slice   603
+***  writing history record for slice   415
+***  writing history record for slice   636
+***  writing history record for slice   529
+***  writing history record for slice   626
+***  writing history record for slice   563
+***  writing history record for slice   674
+***  writing history record for slice   582
+***  writing history record for slice   493
+***  writing history record for slice   592
+***  writing history record for slice   641
+***  writing history record for slice   634
+***  writing history record for slice   503
+***  writing history record for slice   596
+***  writing history record for slice   485
+***  writing history record for slice   630
+***  writing history record for slice   616
+***  writing history record for slice   711
+***  writing history record for slice   629
+***  writing history record for slice   644
+***  writing history record for slice   579
+***  writing history record for slice   650
+***  writing history record for slice   457
+***  writing history record for slice   623
+***  writing history record for slice   768
+***  writing history record for slice   670
+***  writing history record for slice   632
+***  writing history record for slice   637
+***  writing history record for slice   652
+***  writing history record for slice   668
+***  writing history record for slice   658
+***  writing history record for slice   622
+***  writing history record for slice   595
+***  writing history record for slice   706
+***  writing history record for slice   614
+***  writing history record for slice   525
+***  writing history record for slice   624
+***  writing history record for slice   673
+***  writing history record for slice   666
+***  writing history record for slice   569
+***  writing history record for slice   628
+***  writing history record for slice   517
+***  writing history record for slice   662
+***  writing history record for slice   648
+***  writing history record for slice   523
+***  writing history record for slice   743
+***  writing history record for slice   635
+***  writing history record for slice   661
+***  writing history record for slice   676
+***  writing history record for slice   611
+***  writing history record for slice   682
+***  writing history record for slice   489
+***  writing history record for slice   655
+***  writing history record for slice   800
+***  writing history record for slice   702
+***  writing history record for slice   447
+***  writing history record for slice   664
+***  writing history record for slice   561
+***  writing history record for slice   669
+***  writing history record for slice   684
+***  writing history record for slice   700
+***  writing history record for slice   690
+***  writing history record for slice   654
+***  writing history record for slice   627
+***  writing history record for slice   535
+***  writing history record for slice   738
+***  writing history record for slice   646
+***  writing history record for slice   557
+***  writing history record for slice   656
+***  writing history record for slice   705
+***  writing history record for slice   698
+***  writing history record for slice   601
+***  writing history record for slice   660
+***  writing history record for slice   549
+***  writing history record for slice   694
+***  writing history record for slice   680
+***  writing history record for slice   775
+***  writing history record for slice   693
+***  writing history record for slice   708
+***  writing history record for slice   643
+***  writing history record for slice   714
+***  writing history record for slice   687
+***  writing history record for slice   832
+***  writing history record for slice   734
+***  writing history record for slice   479
+***  writing history record for slice   696
+***  writing history record for slice   701
+***  writing history record for slice   716
+***  writing history record for slice   732
+***  writing history record for slice   722
+***  writing history record for slice   686
+***  writing history record for slice   567
+***  writing history record for slice   770
+***  writing history record for slice   678
+***  writing history record for slice   589
+***  writing history record for slice   688
+***  writing history record for slice   737
+***  writing history record for slice   730
+***  writing history record for slice   633
+***  writing history record for slice   555
+***  writing history record for slice   692
+***  writing history record for slice   667
+***  writing history record for slice   521
+***  writing history record for slice   581
+***  writing history record for slice   726
+***  writing history record for slice   712
+***  writing history record for slice   807
+***  writing history record for slice   725
+***  writing history record for slice   740
+***  writing history record for slice   675
+***  writing history record for slice   746
+***  writing history record for slice   593
+***  writing history record for slice   719
+***  writing history record for slice   864
+***  writing history record for slice   766
+***  writing history record for slice   511
+***  writing history record for slice   728
+***  writing history record for slice   733
+***  writing history record for slice   748
+***  writing history record for slice   659
+***  writing history record for slice   764
+***  writing history record for slice   754
+***  writing history record for slice   718
+***  writing history record for slice   599
+***  writing history record for slice   802
+***  writing history record for slice   710
+***  writing history record for slice   621
+***  writing history record for slice   720
+***  writing history record for slice   769
+***  writing history record for slice   762
+***  writing history record for slice   587
+***  writing history record for slice   724
+***  writing history record for slice   613
+***  writing history record for slice   758
+***  writing history record for slice   744
+***  writing history record for slice   839
+***  writing history record for slice   757
+***  writing history record for slice   772
+***  writing history record for slice   707
+***  writing history record for slice   778
+***  writing history record for slice   751
+***  writing history record for slice   896
+***  writing history record for slice   798
+***  writing history record for slice   543
+***  writing history record for slice   760
+***  writing history record for slice   765
+***  writing history record for slice   780
+***  writing history record for slice   691
+***  writing history record for slice   796
+***  writing history record for slice   786
+***  writing history record for slice   750
+***  writing history record for slice   631
+***  writing history record for slice   834
+***  writing history record for slice   665
+***  writing history record for slice   742
+***  writing history record for slice   653
+***  writing history record for slice   752
+***  writing history record for slice   801
+***  writing history record for slice   794
+***  writing history record for slice   699
+***  writing history record for slice   553
+***  writing history record for slice   619
+***  writing history record for slice   756
+***  writing history record for slice   625
+***  writing history record for slice   645
+***  writing history record for slice   790
+***  writing history record for slice   776
+***  writing history record for slice   871
+***  writing history record for slice   789
+***  writing history record for slice   804
+***  writing history record for slice   739
+***  writing history record for slice   810
+***  writing history record for slice   783
+***  writing history record for slice   830
+***  writing history record for slice   575
+***  writing history record for slice   792
+***  writing history record for slice   797
+***  writing history record for slice   812
+***  writing history record for slice   723
+***  writing history record for slice   828
+***  writing history record for slice   818
+***  writing history record for slice   782
+***  writing history record for slice   663
+***  writing history record for slice   866
+***  writing history record for slice   697
+***  writing history record for slice   774
+***  writing history record for slice   685
+***  writing history record for slice   784
+***  writing history record for slice   833
+***  writing history record for slice   826
+***  writing history record for slice   651
+***  writing history record for slice   788
+***  writing history record for slice   677
+***  writing history record for slice   822
+***  writing history record for slice   808
+***  writing history record for slice   903
+***  writing history record for slice   821
+***  writing history record for slice   836
+***  writing history record for slice   771
+***  writing history record for slice   928
+***  writing history record for slice   842
+***  writing history record for slice   815
+***  writing history record for slice   862
+***  writing history record for slice   607
+***  writing history record for slice   824
+***  writing history record for slice   829
+***  writing history record for slice   844
+***  writing history record for slice   755
+***  writing history record for slice   860
+***  writing history record for slice   850
+***  writing history record for slice   814
+***  writing history record for slice   695
+***  writing history record for slice   898
+***  writing history record for slice   731
+***  writing history record for slice   585
+***  writing history record for slice   729
+***  writing history record for slice   806
+***  writing history record for slice   717
+***  writing history record for slice   816
+***  writing history record for slice   865
+***  writing history record for slice   858
+***  writing history record for slice   657
+***  writing history record for slice   683
+***  writing history record for slice   820
+***  writing history record for slice   709
+***  writing history record for slice   854
+***  writing history record for slice   840
+***  writing history record for slice   935
+***  writing history record for slice   853
+***  writing history record for slice   868
+***  writing history record for slice   803
+***  writing history record for slice   960
+***  writing history record for slice   874
+***  writing history record for slice   847
+***  writing history record for slice   894
+***  writing history record for slice   639
+***  writing history record for slice   856
+***  writing history record for slice   861
+***  writing history record for slice   876
+***  writing history record for slice   787
+***  writing history record for slice   892
+***  writing history record for slice   882
+***  writing history record for slice   846
+***  writing history record for slice   727
+***  writing history record for slice   930
+***  writing history record for slice   761
+***  writing history record for slice   838
+***  writing history record for slice   749
+***  writing history record for slice   848
+***  writing history record for slice   897
+***  writing history record for slice   890
+***  writing history record for slice   715
+***  writing history record for slice   852
+***  writing history record for slice   741
+***  writing history record for slice   886
+***  writing history record for slice   872
+***  writing history record for slice   885
+***  writing history record for slice   900
+***  writing history record for slice   835
+***  writing history record for slice   992
+***  writing history record for slice   906
+***  writing history record for slice   879
+***  writing history record for slice   926
+***  writing history record for slice   671
+***  writing history record for slice   888
+***  writing history record for slice   893
+***  writing history record for slice   908
+***  writing history record for slice   819
+***  writing history record for slice   924
+***  writing history record for slice   914
+***  writing history record for slice   763
+***  writing history record for slice   617
+***  writing history record for slice   878
+***  writing history record for slice   759
+***  writing history record for slice   962
+***  writing history record for slice   793
+***  writing history record for slice   870
+***  writing history record for slice   689
+***  writing history record for slice   781
+***  writing history record for slice   880
+***  writing history record for slice   967
+***  writing history record for slice   929
+***  writing history record for slice   922
+***  writing history record for slice   747
+***  writing history record for slice   884
+***  writing history record for slice   773
+***  writing history record for slice   918
+***  writing history record for slice   904
+***  writing history record for slice   917
+***  writing history record for slice   932
+***  writing history record for slice   867
+***  writing history record for slice  1024
+***  writing history record for slice   938
+***  writing history record for slice   911
+***  writing history record for slice   958
+***  writing history record for slice   703
+***  writing history record for slice   920
+***  writing history record for slice   925
+***  writing history record for slice   940
+***  writing history record for slice   851
+***  writing history record for slice   956
+***  writing history record for slice   946
+***  writing history record for slice   795
+***  writing history record for slice   649
+***  writing history record for slice   910
+***  writing history record for slice   791
+***  writing history record for slice   994
+***  writing history record for slice   825
+***  writing history record for slice   902
+***  writing history record for slice   813
+***  writing history record for slice   912
+***  writing history record for slice   999
+***  writing history record for slice   961
+***  writing history record for slice   954
+***  writing history record for slice   779
+***  writing history record for slice   916
+***  writing history record for slice   805
+***  writing history record for slice   950
+***  writing history record for slice   936
+***  writing history record for slice   949
+***  writing history record for slice   964
+***  writing history record for slice   899
+***  writing history record for slice  1056
+***  writing history record for slice   970
+***  writing history record for slice   943
+***  writing history record for slice   990
+***  writing history record for slice   735
+***  writing history record for slice   952
+***  writing history record for slice   957
+***  writing history record for slice   972
+***  writing history record for slice   883
+***  writing history record for slice   988
+***  writing history record for slice   978
+***  writing history record for slice   681
+***  writing history record for slice   942
+***  writing history record for slice   721
+***  writing history record for slice  1026
+***  writing history record for slice   857
+***  writing history record for slice   934
+***  writing history record for slice   845
+***  writing history record for slice   944
+***  writing history record for slice  1031
+***  writing history record for slice   993
+***  writing history record for slice   986
+***  writing history record for slice   811
+***  writing history record for slice   948
+***  writing history record for slice   837
+***  writing history record for slice   982
+***  writing history record for slice   968
+***  writing history record for slice   981
+***  writing history record for slice   996
+***  writing history record for slice   931
+***  writing history record for slice  1002
+***  writing history record for slice   975
+***  writing history record for slice  1022
+***  writing history record for slice   767
+***  writing history record for slice   984
+***  writing history record for slice   989
+***  writing history record for slice  1004
+***  writing history record for slice   827
+***  writing history record for slice   823
+***  writing history record for slice   915
+***  writing history record for slice  1020
+***  writing history record for slice  1010
+***  writing history record for slice   713
+***  writing history record for slice   974
+***  writing history record for slice   753
+***  writing history record for slice  1058
+***  writing history record for slice   889
+***  writing history record for slice   966
+***  writing history record for slice   877
+***  writing history record for slice   976
+***  writing history record for slice  1063
+***  writing history record for slice  1025
+***  writing history record for slice  1018
+***  writing history record for slice   843
+***  writing history record for slice   980
+***  writing history record for slice   869
+***  writing history record for slice  1014
+***  writing history record for slice  1000
+***  writing history record for slice  1013
+***  writing history record for slice  1088
+***  writing history record for slice  1028
+***  writing history record for slice   963
+***  writing history record for slice  1034
+***  writing history record for slice  1007
+***  writing history record for slice  1054
+***  writing history record for slice   799
+***  writing history record for slice  1016
+***  writing history record for slice  1021
+***  writing history record for slice  1036
+***  writing history record for slice   947
+***  writing history record for slice  1052
+***  writing history record for slice  1042
+***  writing history record for slice   745
+***  writing history record for slice  1006
+***  writing history record for slice   785
+***  writing history record for slice  1090
+***  writing history record for slice   921
+***  writing history record for slice   909
+***  writing history record for slice  1008
+***  writing history record for slice  1095
+***  writing history record for slice  1057
+***  writing history record for slice  1050
+***  writing history record for slice   875
+***  writing history record for slice  1012
+***  writing history record for slice   901
+***  writing history record for slice  1046
+***  writing history record for slice  1032
+***  writing history record for slice  1045
+***  writing history record for slice  1120
+***  writing history record for slice   859
+***  writing history record for slice   855
+***  writing history record for slice  1060
+***  writing history record for slice   995
+***  writing history record for slice  1066
+***  writing history record for slice  1039
+***  writing history record for slice  1086
+***  writing history record for slice   831
+***  writing history record for slice  1048
+***  writing history record for slice  1053
+***  writing history record for slice  1068
+***  writing history record for slice   979
+***  writing history record for slice  1074
+***  writing history record for slice   777
+***  writing history record for slice   998
+***  writing history record for slice  1038
+***  writing history record for slice   817
+***  writing history record for slice  1122
+***  writing history record for slice   941
+***  writing history record for slice  1040
+***  writing history record for slice  1127
+***  writing history record for slice  1089
+***  writing history record for slice  1082
+***  writing history record for slice   907
+***  writing history record for slice  1044
+***  writing history record for slice   933
+***  writing history record for slice  1078
+***  writing history record for slice  1064
+***  writing history record for slice  1077
+***  writing history record for slice  1152
+***  writing history record for slice   887
+***  writing history record for slice  1084
+***  writing history record for slice  1092
+***  writing history record for slice  1027
+***  writing history record for slice  1098
+***  writing history record for slice  1071
+***  writing history record for slice  1118
+***  writing history record for slice   863
+***  writing history record for slice  1080
+***  writing history record for slice  1085
+***  writing history record for slice  1100
+***  writing history record for slice  1011
+***  writing history record for slice  1106
+***  writing history record for slice   809
+***  writing history record for slice  1030
+***  writing history record for slice  1070
+***  writing history record for slice   953
+***  writing history record for slice  1154
+***  writing history record for slice   973
+***  writing history record for slice  1072
+***  writing history record for slice  1159
+***  writing history record for slice  1121
+***  writing history record for slice  1114
+***  writing history record for slice   939
+***  writing history record for slice  1076
+***  writing history record for slice   965
+***  writing history record for slice  1110
+***  writing history record for slice  1096
+***  writing history record for slice   891
+***  writing history record for slice  1109
+***  writing history record for slice  1184
+***  writing history record for slice   919
+***  writing history record for slice  1116
+***  writing history record for slice  1124
+***  writing history record for slice  1059
+***  writing history record for slice  1130
+***  writing history record for slice  1103
+***  writing history record for slice  1150
+***  writing history record for slice   895
+***  writing history record for slice  1112
+***  writing history record for slice  1117
+***  writing history record for slice  1132
+***  writing history record for slice  1043
+***  writing history record for slice  1138
+***  writing history record for slice   841
+***  writing history record for slice   849
+***  writing history record for slice  1062
+***  writing history record for slice  1102
+***  writing history record for slice   985
+***  writing history record for slice  1186
+***  writing history record for slice  1005
+***  writing history record for slice  1104
+***  writing history record for slice  1191
+***  writing history record for slice  1153
+***  writing history record for slice  1146
+***  writing history record for slice   971
+***  writing history record for slice  1108
+***  writing history record for slice   997
+***  writing history record for slice  1142
+***  writing history record for slice  1128
+***  writing history record for slice  1141
+***  writing history record for slice  1216
+***  writing history record for slice   951
+***  writing history record for slice  1148
+***  writing history record for slice  1156
+***  writing history record for slice  1091
+***  writing history record for slice  1162
+***  writing history record for slice  1135
+***  writing history record for slice  1182
+***  writing history record for slice   927
+***  writing history record for slice  1144
+***  writing history record for slice  1149
+***  writing history record for slice  1164
+***  writing history record for slice  1075
+***  writing history record for slice  1170
+***  writing history record for slice   873
+***  writing history record for slice   881
+***  writing history record for slice  1094
+***  writing history record for slice  1134
+***  writing history record for slice  1017
+***  writing history record for slice  1218
+***  writing history record for slice  1037
+***  writing history record for slice  1136
+***  writing history record for slice  1223
+***  writing history record for slice  1185
+***  writing history record for slice  1178
+***  writing history record for slice  1003
+***  writing history record for slice  1140
+***  writing history record for slice   923
+***  writing history record for slice  1029
+***  writing history record for slice  1174
+***  writing history record for slice  1160
+***  writing history record for slice  1173
+***  writing history record for slice  1248
+***  writing history record for slice   983
+***  writing history record for slice  1180
+***  writing history record for slice  1188
+***  writing history record for slice  1123
+***  writing history record for slice  1194
+***  writing history record for slice  1167
+***  writing history record for slice  1214
+***  writing history record for slice   959
+***  writing history record for slice  1176
+***  writing history record for slice  1181
+***  writing history record for slice  1196
+***  writing history record for slice  1107
+***  writing history record for slice  1202
+***  writing history record for slice   905
+***  writing history record for slice   913
+***  writing history record for slice  1126
+***  writing history record for slice  1166
+***  writing history record for slice  1049
+***  writing history record for slice  1250
+***  writing history record for slice  1069
+***  writing history record for slice  1168
+***  writing history record for slice  1255
+***  writing history record for slice  1217
+***  writing history record for slice  1210
+***  writing history record for slice  1035
+***  writing history record for slice  1172
+***  writing history record for slice  1061
+***  writing history record for slice  1206
+***  writing history record for slice  1192
+***  writing history record for slice  1205
+***  writing history record for slice  1280
+***  writing history record for slice  1015
+***  writing history record for slice  1212
+***  writing history record for slice  1220
+***  writing history record for slice  1155
+***  writing history record for slice  1226
+***  writing history record for slice  1199
+***  writing history record for slice  1246
+***  writing history record for slice   991
+***  writing history record for slice  1208
+***  writing history record for slice  1213
+***  writing history record for slice  1228
+***  writing history record for slice  1139
+***  writing history record for slice  1234
+***  writing history record for slice   937
+***  writing history record for slice   945
+***  writing history record for slice  1158
+***  writing history record for slice  1198
+***  writing history record for slice  1081
+***  writing history record for slice  1282
+***  writing history record for slice  1101
+***  writing history record for slice  1200
+***  writing history record for slice  1287
+***  writing history record for slice  1249
+***  writing history record for slice  1242
+***  writing history record for slice   955
+***  writing history record for slice  1204
+***  writing history record for slice  1093
+***  writing history record for slice  1238
+***  writing history record for slice  1224
+***  writing history record for slice  1237
+***  writing history record for slice  1312
+***  writing history record for slice  1047
+***  writing history record for slice  1244
+***  writing history record for slice  1252
+***  writing history record for slice  1187
+***  writing history record for slice  1258
+***  writing history record for slice  1231
+***  writing history record for slice  1278
+***  writing history record for slice  1023
+***  writing history record for slice  1240
+***  writing history record for slice  1245
+***  writing history record for slice  1260
+***  writing history record for slice  1171
+***  writing history record for slice  1266
+***  writing history record for slice   969
+***  writing history record for slice   977
+***  writing history record for slice  1190
+***  writing history record for slice  1230
+***  writing history record for slice  1113
+***  writing history record for slice  1314
+***  writing history record for slice  1133
+***  writing history record for slice  1232
+***  writing history record for slice  1319
+***  writing history record for slice  1067
+***  writing history record for slice  1281
+***  writing history record for slice  1274
+***  writing history record for slice   987
+***  writing history record for slice  1236
+***  writing history record for slice  1125
+***  writing history record for slice  1270
+***  writing history record for slice  1256
+***  writing history record for slice  1269
+***  writing history record for slice  1344
+***  writing history record for slice  1079
+***  writing history record for slice  1276
+***  writing history record for slice  1284
+***  writing history record for slice  1219
+***  writing history record for slice  1290
+***  writing history record for slice  1263
+***  writing history record for slice  1310
+***  writing history record for slice  1055
+***  writing history record for slice  1272
+***  writing history record for slice  1277
+***  writing history record for slice  1292
+***  writing history record for slice  1203
+***  writing history record for slice  1298
+***  writing history record for slice  1001
+***  writing history record for slice  1009
+***  writing history record for slice  1222
+***  writing history record for slice  1262
+***  writing history record for slice  1145
+***  writing history record for slice  1346
+***  writing history record for slice  1165
+***  writing history record for slice  1264
+***  writing history record for slice  1351
+***  writing history record for slice  1313
+***  writing history record for slice  1306
+***  writing history record for slice  1019
+***  writing history record for slice  1268
+***  writing history record for slice  1302
+***  writing history record for slice  1288
+***  writing history record for slice  1301
+***  writing history record for slice  1376
+***  writing history record for slice  1157
+***  writing history record for slice  1308
+***  writing history record for slice  1316
+***  writing history record for slice  1251
+***  writing history record for slice  1322
+***  writing history record for slice  1295
+***  writing history record for slice  1342
+***  writing history record for slice  1087
+***  writing history record for slice  1304
+***  writing history record for slice  1309
+***  writing history record for slice  1324
+***  writing history record for slice  1235
+***  writing history record for slice  1330
+***  writing history record for slice  1033
+***  writing history record for slice  1041
+***  writing history record for slice  1254
+***  writing history record for slice  1294
+***  writing history record for slice  1099
+***  writing history record for slice  1197
+***  writing history record for slice  1296
+***  writing history record for slice  1383
+***  writing history record for slice  1345
+***  writing history record for slice  1378
+***  writing history record for slice  1338
+***  writing history record for slice  1051
+***  writing history record for slice  1300
+***  writing history record for slice  1334
+***  writing history record for slice  1111
+***  writing history record for slice  1320
+***  writing history record for slice  1333
+***  writing history record for slice  1408
+***  writing history record for slice  1189
+***  writing history record for slice  1340
+***  writing history record for slice  1348
+***  writing history record for slice  1283
+***  writing history record for slice  1354
+***  writing history record for slice  1327
+***  writing history record for slice  1374
+***  writing history record for slice  1119
+***  writing history record for slice  1336
+***  writing history record for slice  1341
+***  writing history record for slice  1356
+***  writing history record for slice  1267
+***  writing history record for slice  1362
+***  writing history record for slice  1065
+***  writing history record for slice  1177
+***  writing history record for slice  1073
+***  writing history record for slice  1286
+***  writing history record for slice  1326
+***  writing history record for slice  1229
+***  writing history record for slice  1328
+***  writing history record for slice  1377
+***  writing history record for slice  1410
+***  writing history record for slice  1370
+***  writing history record for slice  1083
+***  writing history record for slice  1332
+***  writing history record for slice  1366
+***  writing history record for slice  1143
+***  writing history record for slice  1352
+***  writing history record for slice  1365
+***  writing history record for slice  1440
+***  writing history record for slice  1221
+***  writing history record for slice  1372
+***  writing history record for slice  1380
+***  writing history record for slice  1315
+***  writing history record for slice  1386
+***  writing history record for slice  1359
+***  writing history record for slice  1406
+***  writing history record for slice  1151
+***  writing history record for slice  1368
+***  writing history record for slice  1373
+***  writing history record for slice  1388
+***  writing history record for slice  1299
+***  writing history record for slice  1394
+***  writing history record for slice  1097
+***  writing history record for slice  1105
+***  writing history record for slice  1318
+***  writing history record for slice  1131
+***  writing history record for slice  1415
+***  writing history record for slice  1358
+***  writing history record for slice  1261
+***  writing history record for slice  1360
+***  writing history record for slice  1409
+***  writing history record for slice  1442
+***  writing history record for slice  1402
+***  writing history record for slice  1115
+***  writing history record for slice  1364
+***  writing history record for slice  1398
+***  writing history record for slice  1175
+***  writing history record for slice  1384
+***  writing history record for slice  1397
+***  writing history record for slice  1472
+***  writing history record for slice  1253
+***  writing history record for slice  1404
+***  writing history record for slice  1412
+***  writing history record for slice  1347
+***  writing history record for slice  1418
+***  writing history record for slice  1209
+***  writing history record for slice  1438
+***  writing history record for slice  1183
+***  writing history record for slice  1400
+***  writing history record for slice  1405
+***  writing history record for slice  1420
+***  writing history record for slice  1331
+***  writing history record for slice  1426
+***  writing history record for slice  1129
+***  writing history record for slice  1137
+***  writing history record for slice  1350
+***  writing history record for slice  1447
+***  writing history record for slice  1390
+***  writing history record for slice  1293
+***  writing history record for slice  1392
+***  writing history record for slice  1441
+***  writing history record for slice  1474
+***  writing history record for slice  1434
+***  writing history record for slice  1147
+***  writing history record for slice  1396
+***  writing history record for slice  1430
+***  writing history record for slice  1207
+***  writing history record for slice  1416
+***  writing history record for slice  1391
+***  writing history record for slice  1504
+***  writing history record for slice  1285
+***  writing history record for slice  1436
+***  writing history record for slice  1444
+***  writing history record for slice  1379
+***  writing history record for slice  1450
+***  writing history record for slice  1241
+***  writing history record for slice  1470
+***  writing history record for slice  1215
+***  writing history record for slice  1432
+***  writing history record for slice  1437
+***  writing history record for slice  1452
+***  writing history record for slice  1363
+***  writing history record for slice  1161
+***  writing history record for slice  1163
+***  writing history record for slice  1169
+***  writing history record for slice  1382
+***  writing history record for slice  1479
+***  writing history record for slice  1422
+***  writing history record for slice  1325
+***  writing history record for slice  1424
+***  writing history record for slice  1473
+***  writing history record for slice  1506
+***  writing history record for slice  1466
+***  writing history record for slice  1179
+***  writing history record for slice  1428
+***  writing history record for slice  1462
+***  writing history record for slice  1429
+***  writing history record for slice  1448
+***  writing history record for slice  1423
+***  writing history record for slice  1536
+***  writing history record for slice  1317
+***  writing history record for slice  1468
+***  writing history record for slice  1476
+***  writing history record for slice  1411
+***  writing history record for slice  1482
+***  writing history record for slice  1273
+***  writing history record for slice  1502
+***  writing history record for slice  1247
+***  writing history record for slice  1464
+***  writing history record for slice  1458
+***  writing history record for slice  1469
+***  writing history record for slice  1484
+***  writing history record for slice  1395
+***  writing history record for slice  1193
+***  writing history record for slice  1201
+***  writing history record for slice  1414
+***  writing history record for slice  1511
+***  writing history record for slice  1454
+***  writing history record for slice  1357
+***  writing history record for slice  1456
+***  writing history record for slice  1505
+***  writing history record for slice  1538
+***  writing history record for slice  1498
+***  writing history record for slice  1211
+***  writing history record for slice  1239
+***  writing history record for slice  1460
+***  writing history record for slice  1494
+***  writing history record for slice  1461
+***  writing history record for slice  1480
+***  writing history record for slice  1455
+***  writing history record for slice  1568
+***  writing history record for slice  1349
+***  writing history record for slice  1500
+***  writing history record for slice  1508
+***  writing history record for slice  1443
+***  writing history record for slice  1514
+***  writing history record for slice  1195
+***  writing history record for slice  1305
+***  writing history record for slice  1534
+***  writing history record for slice  1279
+***  writing history record for slice  1496
+***  writing history record for slice  1490
+***  writing history record for slice  1501
+***  writing history record for slice  1516
+***  writing history record for slice  1427
+***  writing history record for slice  1225
+***  writing history record for slice  1233
+***  writing history record for slice  1446
+***  writing history record for slice  1543
+***  writing history record for slice  1486
+***  writing history record for slice  1389
+***  writing history record for slice  1488
+***  writing history record for slice  1537
+***  writing history record for slice  1570
+***  writing history record for slice  1530
+***  writing history record for slice  1243
+***  writing history record for slice  1271
+***  writing history record for slice  1492
+***  writing history record for slice  1526
+***  writing history record for slice  1493
+***  writing history record for slice  1512
+***  writing history record for slice  1487
+***  writing history record for slice  1600
+***  writing history record for slice  1381
+***  writing history record for slice  1532
+***  writing history record for slice  1540
+***  writing history record for slice  1475
+***  writing history record for slice  1546
+***  writing history record for slice  1337
+***  writing history record for slice  1566
+***  writing history record for slice  1311
+***  writing history record for slice  1528
+***  writing history record for slice  1522
+***  writing history record for slice  1533
+***  writing history record for slice  1548
+***  writing history record for slice  1257
+***  writing history record for slice  1265
+***  writing history record for slice  1478
+***  writing history record for slice  1575
+***  writing history record for slice  1518
+***  writing history record for slice  1421
+***  writing history record for slice  1520
+***  writing history record for slice  1569
+***  writing history record for slice  1602
+***  writing history record for slice  1562
+***  writing history record for slice  1275
+***  writing history record for slice  1303
+***  writing history record for slice  1524
+***  writing history record for slice  1558
+***  writing history record for slice  1525
+***  writing history record for slice  1227
+***  writing history record for slice  1544
+***  writing history record for slice  1519
+***  writing history record for slice  1632
+***  writing history record for slice  1413
+***  writing history record for slice  1564
+***  writing history record for slice  1572
+***  writing history record for slice  1507
+***  writing history record for slice  1578
+***  writing history record for slice  1369
+***  writing history record for slice  1598
+***  writing history record for slice  1343
+***  writing history record for slice  1560
+***  writing history record for slice  1459
+***  writing history record for slice  1554
+***  writing history record for slice  1565
+***  writing history record for slice  1580
+***  writing history record for slice  1289
+***  writing history record for slice  1297
+***  writing history record for slice  1510
+***  writing history record for slice  1607
+***  writing history record for slice  1550
+***  writing history record for slice  1453
+***  writing history record for slice  1552
+***  writing history record for slice  1601
+***  writing history record for slice  1634
+***  writing history record for slice  1594
+***  writing history record for slice  1335
+***  writing history record for slice  1556
+***  writing history record for slice  1590
+***  writing history record for slice  1259
+***  writing history record for slice  1576
+***  writing history record for slice  1551
+***  writing history record for slice  1664
+***  writing history record for slice  1445
+***  writing history record for slice  1596
+***  writing history record for slice  1604
+***  writing history record for slice  1539
+***  writing history record for slice  1610
+***  writing history record for slice  1630
+***  writing history record for slice  1375
+***  writing history record for slice  1592
+***  writing history record for slice  1491
+***  writing history record for slice  1586
+***  writing history record for slice  1597
+***  writing history record for slice  1612
+***  writing history record for slice  1307
+***  writing history record for slice  1542
+***  writing history record for slice  1557
+***  writing history record for slice  1582
+***  writing history record for slice  1485
+***  writing history record for slice  1584
+***  writing history record for slice  1633
+***  writing history record for slice  1666
+***  writing history record for slice  1626
+***  writing history record for slice  1367
+***  writing history record for slice  1588
+***  writing history record for slice  1622
+***  writing history record for slice  1291
+***  writing history record for slice  1608
+***  writing history record for slice  1583
+***  writing history record for slice  1696
+***  writing history record for slice  1477
+***  writing history record for slice  1628
+***  writing history record for slice  1636
+***  writing history record for slice  1401
+***  writing history record for slice  1571
+***  writing history record for slice  1642
+***  writing history record for slice  1662
+***  writing history record for slice  1407
+***  writing history record for slice  1624
+***  writing history record for slice  1523
+***  writing history record for slice  1618
+***  writing history record for slice  1329
+***  writing history record for slice  1321
+***  writing history record for slice  1629
+***  writing history record for slice  1644
+***  writing history record for slice  1639
+***  writing history record for slice  1339
+***  writing history record for slice  1574
+***  writing history record for slice  1589
+***  writing history record for slice  1614
+***  writing history record for slice  1517
+***  writing history record for slice  1616
+***  writing history record for slice  1665
+***  writing history record for slice  1658
+***  writing history record for slice  1399
+***  writing history record for slice  1620
+***  writing history record for slice  1654
+***  writing history record for slice  1323
+***  writing history record for slice  1640
+***  writing history record for slice  1615
+***  writing history record for slice  1728
+***  writing history record for slice  1509
+***  writing history record for slice  1660
+***  writing history record for slice  1668
+***  writing history record for slice  1603
+***  writing history record for slice  1674
+***  writing history record for slice  1694
+***  writing history record for slice  1439
+***  writing history record for slice  1656
+***  writing history record for slice  1555
+***  writing history record for slice  1650
+***  writing history record for slice  1353
+***  writing history record for slice  1698
+***  writing history record for slice  1661
+***  writing history record for slice  1676
+***  writing history record for slice  1671
+***  writing history record for slice  1371
+***  writing history record for slice  1606
+***  writing history record for slice  1621
+***  writing history record for slice  1646
+***  writing history record for slice  1549
+***  writing history record for slice  1648
+***  writing history record for slice  1697
+***  writing history record for slice  1690
+***  writing history record for slice  1431
+***  writing history record for slice  1686
+***  writing history record for slice  1355
+***  writing history record for slice  1672
+***  writing history record for slice  1647
+***  writing history record for slice  1760
+***  writing history record for slice  1541
+***  writing history record for slice  1692
+***  writing history record for slice  1433
+***  writing history record for slice  1700
+***  writing history record for slice  1361
+***  writing history record for slice  1635
+***  writing history record for slice  1706
+***  writing history record for slice  1726
+***  writing history record for slice  1471
+***  writing history record for slice  1688
+***  writing history record for slice  1587
+***  writing history record for slice  1682
+***  writing history record for slice  1385
+***  writing history record for slice  1730
+***  writing history record for slice  1693
+***  writing history record for slice  1708
+***  writing history record for slice  1403
+***  writing history record for slice  1638
+***  writing history record for slice  1653
+***  writing history record for slice  1678
+***  writing history record for slice  1581
+***  writing history record for slice  1680
+***  writing history record for slice  1729
+***  writing history record for slice  1652
+***  writing history record for slice  1722
+***  writing history record for slice  1463
+***  writing history record for slice  1718
+***  writing history record for slice  1387
+***  writing history record for slice  1704
+***  writing history record for slice  1679
+***  writing history record for slice  1792
+***  writing history record for slice  1573
+***  writing history record for slice  1724
+***  writing history record for slice  1465
+***  writing history record for slice  1732
+***  writing history record for slice  1667
+***  writing history record for slice  1738
+***  writing history record for slice  1758
+***  writing history record for slice  1703
+***  writing history record for slice  1503
+***  writing history record for slice  1720
+***  writing history record for slice  1619
+***  writing history record for slice  1714
+***  writing history record for slice  1417
+***  writing history record for slice  1762
+***  writing history record for slice  1725
+***  writing history record for slice  1740
+***  writing history record for slice  1435
+***  writing history record for slice  1670
+***  writing history record for slice  1685
+***  writing history record for slice  1710
+***  writing history record for slice  1613
+***  writing history record for slice  1712
+***  writing history record for slice  1761
+***  writing history record for slice  1684
+***  writing history record for slice  1754
+***  writing history record for slice  1495
+***  writing history record for slice  1750
+***  writing history record for slice  1419
+***  writing history record for slice  1736
+***  writing history record for slice  1711
+***  writing history record for slice  1824
+***  writing history record for slice  1605
+***  writing history record for slice  1393
+***  writing history record for slice  1756
+***  writing history record for slice  1497
+***  writing history record for slice  1764
+***  writing history record for slice  1699
+***  writing history record for slice  1770
+***  writing history record for slice  1790
+***  writing history record for slice  1735
+***  writing history record for slice  1535
+***  writing history record for slice  1752
+***  writing history record for slice  1651
+***  writing history record for slice  1746
+***  writing history record for slice  1449
+***  writing history record for slice  1794
+***  writing history record for slice  1757
+***  writing history record for slice  1772
+***  writing history record for slice  1467
+***  writing history record for slice  1702
+***  writing history record for slice  1717
+***  writing history record for slice  1742
+***  writing history record for slice  1645
+***  writing history record for slice  1744
+***  writing history record for slice  1793
+***  writing history record for slice  1786
+***  writing history record for slice  1527
+***  writing history record for slice  1782
+***  writing history record for slice  1451
+***  writing history record for slice  1768
+***  writing history record for slice  1743
+***  writing history record for slice  1856
+***  writing history record for slice  1425
+***  writing history record for slice  1788
+***  writing history record for slice  1529
+***  writing history record for slice  1796
+***  writing history record for slice  1731
+***  writing history record for slice  1802
+***  writing history record for slice  1822
+***  writing history record for slice  1567
+***  writing history record for slice  1784
+***  writing history record for slice  1683
+***  writing history record for slice  1778
+***  writing history record for slice  1481
+***  writing history record for slice  1826
+***  writing history record for slice  1789
+***  writing history record for slice  1804
+***  writing history record for slice  1499
+***  writing history record for slice  1734
+***  writing history record for slice  1749
+***  writing history record for slice  1716
+***  writing history record for slice  1774
+***  writing history record for slice  1677
+***  writing history record for slice  1776
+***  writing history record for slice  1825
+***  writing history record for slice  1818
+***  writing history record for slice  1637
+***  writing history record for slice  1559
+***  writing history record for slice  1814
+***  writing history record for slice  1483
+***  writing history record for slice  1800
+***  writing history record for slice  1775
+***  writing history record for slice  1888
+***  writing history record for slice  1767
+***  writing history record for slice  1457
+***  writing history record for slice  1820
+***  writing history record for slice  1561
+***  writing history record for slice  1828
+***  writing history record for slice  1763
+***  writing history record for slice  1834
+***  writing history record for slice  1854
+***  writing history record for slice  1599
+***  writing history record for slice  1816
+***  writing history record for slice  1715
+***  writing history record for slice  1810
+***  writing history record for slice  1513
+***  writing history record for slice  1858
+***  writing history record for slice  1821
+***  writing history record for slice  1836
+***  writing history record for slice  1531
+***  writing history record for slice  1766
+***  writing history record for slice  1781
+***  writing history record for slice  1748
+***  writing history record for slice  1806
+***  writing history record for slice  1709
+***  writing history record for slice  1808
+***  writing history record for slice  1857
+***  writing history record for slice  1850
+***  writing history record for slice  1669
+***  writing history record for slice  1591
+***  writing history record for slice  1846
+***  writing history record for slice  1515
+***  writing history record for slice  1832
+***  writing history record for slice  1807
+***  writing history record for slice  1920
+***  writing history record for slice  1799
+***  writing history record for slice  1852
+***  writing history record for slice  1593
+***  writing history record for slice  1860
+***  writing history record for slice  1795
+***  writing history record for slice  1866
+***  writing history record for slice  1886
+***  writing history record for slice  1631
+***  writing history record for slice  1848
+***  writing history record for slice  1747
+***  writing history record for slice  1842
+***  writing history record for slice  1545
+***  writing history record for slice  1890
+***  writing history record for slice  1853
+***  writing history record for slice  1868
+***  writing history record for slice  1563
+***  writing history record for slice  1798
+***  writing history record for slice  1813
+***  writing history record for slice  1838
+***  writing history record for slice  1741
+***  writing history record for slice  1840
+***  writing history record for slice  1889
+***  writing history record for slice  1882
+***  writing history record for slice  1701
+***  writing history record for slice  1623
+***  writing history record for slice  1878
+***  writing history record for slice  1547
+***  writing history record for slice  1864
+***  writing history record for slice  1489
+***  writing history record for slice  1839
+***  writing history record for slice  1952
+***  writing history record for slice  1831
+***  writing history record for slice  1884
+***  writing history record for slice  1625
+***  writing history record for slice  1892
+***  writing history record for slice  1827
+***  writing history record for slice  1898
+***  writing history record for slice  1918
+***  writing history record for slice  1663
+***  writing history record for slice  1880
+***  writing history record for slice  1779
+***  writing history record for slice  1874
+***  writing history record for slice  1577
+***  writing history record for slice  1922
+***  writing history record for slice  1780
+***  writing history record for slice  1885
+***  writing history record for slice  1900
+***  writing history record for slice  1595
+***  writing history record for slice  1830
+***  writing history record for slice  1845
+***  writing history record for slice  1870
+***  writing history record for slice  1773
+***  writing history record for slice  1872
+***  writing history record for slice  1921
+***  writing history record for slice  1914
+***  writing history record for slice  1655
+***  writing history record for slice  1910
+***  writing history record for slice  1579
+***  writing history record for slice  1896
+***  writing history record for slice  1871
+***  writing history record for slice  1984
+***  writing history record for slice  1863
+***  writing history record for slice  1916
+***  writing history record for slice  1657
+***  writing history record for slice  1924
+***  writing history record for slice  1859
+***  writing history record for slice  1930
+***  writing history record for slice  1950
+***  writing history record for slice  1695
+***  writing history record for slice  1912
+***  writing history record for slice  1811
+***  writing history record for slice  1906
+***  writing history record for slice  1609
+***  writing history record for slice  1954
+***  writing history record for slice  1812
+***  writing history record for slice  1917
+***  writing history record for slice  1932
+***  writing history record for slice  1627
+***  writing history record for slice  1862
+***  writing history record for slice  1877
+***  writing history record for slice  1902
+***  writing history record for slice  1733
+***  writing history record for slice  1904
+***  writing history record for slice  1953
+***  writing history record for slice  1946
+***  writing history record for slice  1521
+***  writing history record for slice  1942
+***  writing history record for slice  1611
+***  writing history record for slice  1928
+***  writing history record for slice  1903
+***  writing history record for slice  2016
+***  writing history record for slice  1895
+***  writing history record for slice  1948
+***  writing history record for slice  1689
+***  writing history record for slice  1956
+***  writing history record for slice  1891
+***  writing history record for slice  1962
+***  writing history record for slice  1982
+***  writing history record for slice  1727
+***  writing history record for slice  1944
+***  writing history record for slice  1843
+***  writing history record for slice  1938
+***  writing history record for slice  1805
+***  writing history record for slice  1986
+***  writing history record for slice  1844
+***  writing history record for slice  1949
+***  writing history record for slice  1964
+***  writing history record for slice  1659
+***  writing history record for slice  1894
+***  writing history record for slice  1687
+***  writing history record for slice  1909
+***  writing history record for slice  1934
+***  writing history record for slice  1765
+***  writing history record for slice  1936
+***  writing history record for slice  1985
+***  writing history record for slice  1978
+***  writing history record for slice  1974
+***  writing history record for slice  1643
+***  writing history record for slice  1960
+***  writing history record for slice  1935
+***  writing history record for slice  2048
+***  writing history record for slice  1927
+***  writing history record for slice  1980
+***  writing history record for slice  1721
+***  writing history record for slice  1988
+***  writing history record for slice  1923
+***  writing history record for slice  1994
+***  writing history record for slice  2014
+***  writing history record for slice  1641
+***  writing history record for slice  1976
+***  writing history record for slice  1875
+***  writing history record for slice  1970
+***  writing history record for slice  1837
+***  writing history record for slice  2018
+***  writing history record for slice  1876
+***  writing history record for slice  1996
+***  writing history record for slice  1691
+***  writing history record for slice  1926
+***  writing history record for slice  1941
+***  writing history record for slice  1966
+***  writing history record for slice  1797
+***  writing history record for slice  1968
+***  writing history record for slice  1553
+***  writing history record for slice  2010
+***  writing history record for slice  2006
+***  writing history record for slice  1675
+***  writing history record for slice  1992
+***  writing history record for slice  1759
+***  writing history record for slice  2080
+***  writing history record for slice  1959
+***  writing history record for slice  2012
+***  writing history record for slice  1753
+***  writing history record for slice  2020
+***  writing history record for slice  1955
+***  writing history record for slice  2046
+***  writing history record for slice  1673
+***  writing history record for slice  1981
+***  writing history record for slice  1719
+***  writing history record for slice  2008
+***  writing history record for slice  1907
+***  writing history record for slice  2002
+***  writing history record for slice  1869
+***  writing history record for slice  1908
+***  writing history record for slice  2028
+***  writing history record for slice  1723
+***  writing history record for slice  1973
+***  writing history record for slice  1998
+***  writing history record for slice  2017
+***  writing history record for slice  1967
+***  writing history record for slice  1829
+***  writing history record for slice  2000
+***  writing history record for slice  1585
+***  writing history record for slice  2042
+***  writing history record for slice  2038
+***  writing history record for slice  1707
+***  writing history record for slice  2024
+***  writing history record for slice  2026
+***  writing history record for slice  1791
+***  writing history record for slice  2112
+***  writing history record for slice  1991
+***  writing history record for slice  2044
+***  writing history record for slice  1785
+***  writing history record for slice  2052
+***  writing history record for slice  1987
+***  writing history record for slice  2078
+***  writing history record for slice  1705
+***  writing history record for slice  2013
+***  writing history record for slice  1751
+***  writing history record for slice  2040
+***  writing history record for slice  2050
+***  writing history record for slice  1939
+***  writing history record for slice  2034
+***  writing history record for slice  1901
+***  writing history record for slice  1958
+***  writing history record for slice  1940
+***  writing history record for slice  2060
+***  writing history record for slice  2005
+***  writing history record for slice  2030
+***  writing history record for slice  2049
+***  writing history record for slice  1999
+***  writing history record for slice  1861
+***  writing history record for slice  2032
+***  writing history record for slice  1617
+***  writing history record for slice  2074
+***  writing history record for slice  2070
+***  writing history record for slice  1739
+***  writing history record for slice  2058
+***  writing history record for slice  2056
+***  writing history record for slice  1823
+***  writing history record for slice  2144
+***  writing history record for slice  2023
+***  writing history record for slice  2076
+***  writing history record for slice  1817
+***  writing history record for slice  2084
+***  writing history record for slice  2019
+***  writing history record for slice  2110
+***  writing history record for slice  1737
+***  writing history record for slice  1783
+***  writing history record for slice  2072
+***  writing history record for slice  2082
+***  writing history record for slice  1971
+***  writing history record for slice  2066
+***  writing history record for slice  1933
+***  writing history record for slice  1990
+***  writing history record for slice  1755
+***  writing history record for slice  1972
+***  writing history record for slice  2092
+***  writing history record for slice  2037
+***  writing history record for slice  2062
+***  writing history record for slice  2031
+***  writing history record for slice  1893
+***  writing history record for slice  2064
+***  writing history record for slice  1649
+***  writing history record for slice  2106
+***  writing history record for slice  2102
+***  writing history record for slice  1771
+***  writing history record for slice  2090
+***  writing history record for slice  2088
+***  writing history record for slice  1855
+***  writing history record for slice  2176
+***  writing history record for slice  2055
+***  writing history record for slice  2108
+***  writing history record for slice  1849
+***  writing history record for slice  2116
+***  writing history record for slice  2051
+***  writing history record for slice  2045
+***  writing history record for slice  2142
+***  writing history record for slice  1769
+***  writing history record for slice  1815
+***  writing history record for slice  2104
+***  writing history record for slice  2114
+***  writing history record for slice  2003
+***  writing history record for slice  2098
+***  writing history record for slice  1965
+***  writing history record for slice  2022
+***  writing history record for slice  1787
+***  writing history record for slice  2004
+***  writing history record for slice  2124
+***  writing history record for slice  2081
+***  writing history record for slice  2069
+***  writing history record for slice  2094
+***  writing history record for slice  1925
+***  writing history record for slice  2096
+***  writing history record for slice  1681
+***  writing history record for slice  2138
+***  writing history record for slice  2134
+***  writing history record for slice  1803
+***  writing history record for slice  2122
+***  writing history record for slice  2120
+***  writing history record for slice  1887
+***  writing history record for slice  2208
+***  writing history record for slice  2087
+***  writing history record for slice  2140
+***  writing history record for slice  1881
+***  writing history record for slice  2148
+***  writing history record for slice  2083
+***  writing history record for slice  2077
+***  writing history record for slice  2174
+***  writing history record for slice  1801
+***  writing history record for slice  1847
+***  writing history record for slice  2136
+***  writing history record for slice  2146
+***  writing history record for slice  2035
+***  writing history record for slice  2130
+***  writing history record for slice  1997
+***  writing history record for slice  2054
+***  writing history record for slice  2063
+***  writing history record for slice  2036
+***  writing history record for slice  2156
+***  writing history record for slice  2101
+***  writing history record for slice  2126
+***  writing history record for slice  1957
+***  writing history record for slice  2128
+***  writing history record for slice  1713
+***  writing history record for slice  2170
+***  writing history record for slice  2166
+***  writing history record for slice  1835
+***  writing history record for slice  2154
+***  writing history record for slice  2152
+***  writing history record for slice  1919
+***  writing history record for slice  2240
+***  writing history record for slice  2119
+***  writing history record for slice  2172
+***  writing history record for slice  1913
+***  writing history record for slice  2180
+***  writing history record for slice  2109
+***  writing history record for slice  1819
+***  writing history record for slice  2206
+***  writing history record for slice  1879
+***  writing history record for slice  2168
+***  writing history record for slice  2178
+***  writing history record for slice  2113
+***  writing history record for slice  2162
+***  writing history record for slice  2029
+***  writing history record for slice  2086
+***  writing history record for slice  2095
+***  writing history record for slice  2068
+***  writing history record for slice  2188
+***  writing history record for slice  2133
+***  writing history record for slice  2158
+***  writing history record for slice  2210
+***  writing history record for slice  1989
+***  writing history record for slice  2160
+***  writing history record for slice  1745
+***  writing history record for slice  2202
+***  writing history record for slice  2198
+***  writing history record for slice  1867
+***  writing history record for slice  2186
+***  writing history record for slice  2184
+***  writing history record for slice  1951
+***  writing history record for slice  2272
+***  writing history record for slice  2151
+***  writing history record for slice  2204
+***  writing history record for slice  2115
+***  writing history record for slice  1833
+***  writing history record for slice  1945
+***  writing history record for slice  2212
+***  writing history record for slice  2141
+***  writing history record for slice  1851
+***  writing history record for slice  2238
+***  writing history record for slice  2067
+***  writing history record for slice  1911
+***  writing history record for slice  2200
+***  writing history record for slice  2145
+***  writing history record for slice  2194
+***  writing history record for slice  2061
+***  writing history record for slice  2118
+***  writing history record for slice  2127
+***  writing history record for slice  2100
+***  writing history record for slice  2220
+***  writing history record for slice  2165
+***  writing history record for slice  2190
+***  writing history record for slice  2242
+***  writing history record for slice  2021
+***  writing history record for slice  2192
+***  writing history record for slice  1777
+***  writing history record for slice  2234
+***  writing history record for slice  2230
+***  writing history record for slice  1899
+***  writing history record for slice  2218
+***  writing history record for slice  2304
+***  writing history record for slice  2216
+***  writing history record for slice  1983
+***  writing history record for slice  2183
+***  writing history record for slice  2236
+***  writing history record for slice  2147
+***  writing history record for slice  1865
+***  writing history record for slice  1977
+***  writing history record for slice  2244
+***  writing history record for slice  1883
+***  writing history record for slice  2270
+***  writing history record for slice  2099
+***  writing history record for slice  1943
+***  writing history record for slice  2232
+***  writing history record for slice  2177
+***  writing history record for slice  2226
+***  writing history record for slice  2093
+***  writing history record for slice  2150
+***  writing history record for slice  2159
+***  writing history record for slice  2132
+***  writing history record for slice  2252
+***  writing history record for slice  2197
+***  writing history record for slice  2222
+***  writing history record for slice  2274
+***  writing history record for slice  2053
+***  writing history record for slice  2224
+***  writing history record for slice  1809
+***  writing history record for slice  2266
+***  writing history record for slice  2262
+***  writing history record for slice  1931
+***  writing history record for slice  2336
+***  writing history record for slice  2250
+***  writing history record for slice  2248
+***  writing history record for slice  2173
+***  writing history record for slice  2215
+***  writing history record for slice  2268
+***  writing history record for slice  1897
+***  writing history record for slice  2009
+***  writing history record for slice  2276
+***  writing history record for slice  1915
+***  writing history record for slice  2302
+***  writing history record for slice  2131
+***  writing history record for slice  1975
+***  writing history record for slice  2264
+***  writing history record for slice  2209
+***  writing history record for slice  2258
+***  writing history record for slice  2125
+***  writing history record for slice  2182
+***  writing history record for slice  2191
+***  writing history record for slice  2164
+***  writing history record for slice  2284
+***  writing history record for slice  2229
+***  writing history record for slice  2306
+***  writing history record for slice  2254
+***  writing history record for slice  2085
+***  writing history record for slice  2256
+***  writing history record for slice  2298
+***  writing history record for slice  1841
+***  writing history record for slice  2294
+***  writing history record for slice  2015
+***  writing history record for slice  2368
+***  writing history record for slice  1963
+***  writing history record for slice  2282
+***  writing history record for slice  2179
+***  writing history record for slice  2280
+***  writing history record for slice  2205
+***  writing history record for slice  2300
+***  writing history record for slice  2247
+***  writing history record for slice  2308
+***  writing history record for slice  2334
+***  writing history record for slice  1929
+***  writing history record for slice  2163
+***  writing history record for slice  2296
+***  writing history record for slice  2290
+***  writing history record for slice  2157
+***  writing history record for slice  2214
+***  writing history record for slice  2316
+***  writing history record for slice  2223
+***  writing history record for slice  2196
+***  writing history record for slice  2338
+***  writing history record for slice  2261
+***  writing history record for slice  2286
+***  writing history record for slice  2117
+***  writing history record for slice  2288
+***  writing history record for slice  1873
+***  writing history record for slice  2326
+***  writing history record for slice  2400
+***  writing history record for slice  2047
+***  writing history record for slice  2314
+***  writing history record for slice  1995
+***  writing history record for slice  2312
+***  writing history record for slice  2332
+***  writing history record for slice  2211
+***  writing history record for slice  2237
+***  writing history record for slice  2041
+***  writing history record for slice  1947
+***  writing history record for slice  2279
+***  writing history record for slice  2340
+***  writing history record for slice  2366
+***  writing history record for slice  2007
+***  writing history record for slice  2241
+***  writing history record for slice  2328
+***  writing history record for slice  2322
+***  writing history record for slice  1961
+***  writing history record for slice  2348
+***  writing history record for slice  2189
+***  writing history record for slice  2246
+***  writing history record for slice  2255
+***  writing history record for slice  2228
+***  writing history record for slice  2370
+***  writing history record for slice  2293
+***  writing history record for slice  2318
+***  writing history record for slice  2330
+***  writing history record for slice  2320
+***  writing history record for slice  2358
+***  writing history record for slice  2432
+***  writing history record for slice  2149
+***  writing history record for slice  2346
+***  writing history record for slice  2344
+***  writing history record for slice  1905
+***  writing history record for slice  2364
+***  writing history record for slice  2027
+***  writing history record for slice  2243
+***  writing history record for slice  2311
+***  writing history record for slice  2269
+***  writing history record for slice  2073
+***  writing history record for slice  1979
+***  writing history record for slice  2372
+***  writing history record for slice  2398
+***  writing history record for slice  2360
+***  writing history record for slice  2354
+***  writing history record for slice  2195
+***  writing history record for slice  2273
+***  writing history record for slice  2380
+***  writing history record for slice  1993
+***  writing history record for slice  2402
+***  writing history record for slice  2221
+***  writing history record for slice  2278
+***  writing history record for slice  2287
+***  writing history record for slice  2260
+***  writing history record for slice  2350
+***  writing history record for slice  2362
+***  writing history record for slice  2352
+***  writing history record for slice  2390
+***  writing history record for slice  2464
+***  writing history record for slice  2378
+***  writing history record for slice  2181
+***  writing history record for slice  2376
+***  writing history record for slice  2079
+***  writing history record for slice  1937
+***  writing history record for slice  2396
+***  writing history record for slice  2343
+***  writing history record for slice  2301
+***  writing history record for slice  2059
+***  writing history record for slice  2275
+***  writing history record for slice  2404
+***  writing history record for slice  2105
+***  writing history record for slice  2011
+***  writing history record for slice  2430
+***  writing history record for slice  2392
+***  writing history record for slice  2386
+***  writing history record for slice  2039
+***  writing history record for slice  2227
+***  writing history record for slice  2412
+***  writing history record for slice  2325
+***  writing history record for slice  2434
+***  writing history record for slice  2310
+***  writing history record for slice  2025
+***  writing history record for slice  2319
+***  writing history record for slice  2382
+***  writing history record for slice  2394
+***  writing history record for slice  2292
+***  writing history record for slice  2384
+***  writing history record for slice  2422
+***  writing history record for slice  2496
+***  writing history record for slice  2410
+***  writing history record for slice  2408
+***  writing history record for slice  2213
+***  writing history record for slice  2428
+***  writing history record for slice  2111
+***  writing history record for slice  2375
+***  writing history record for slice  1969
+***  writing history record for slice  2333
+***  writing history record for slice  2307
+***  writing history record for slice  2436
+***  writing history record for slice  2091
+***  writing history record for slice  2137
+***  writing history record for slice  2305
+***  writing history record for slice  2462
+***  writing history record for slice  2424
+***  writing history record for slice  2418
+***  writing history record for slice  2444
+***  writing history record for slice  2357
+***  writing history record for slice  2253
+***  writing history record for slice  2466
+***  writing history record for slice  2342
+***  writing history record for slice  2259
+***  writing history record for slice  2351
+***  writing history record for slice  2414
+***  writing history record for slice  2426
+***  writing history record for slice  2324
+***  writing history record for slice  2416
+***  writing history record for slice  2057
+***  writing history record for slice  2454
+***  writing history record for slice  2528
+***  writing history record for slice  2442
+***  writing history record for slice  2440
+***  writing history record for slice  2460
+***  writing history record for slice  2407
+***  writing history record for slice  2245
+***  writing history record for slice  2001
+***  writing history record for slice  2339
+***  writing history record for slice  2468
+***  writing history record for slice  2043
+***  writing history record for slice  2337
+***  writing history record for slice  2494
+***  writing history record for slice  2456
+***  writing history record for slice  2476
+***  writing history record for slice  2389
+***  writing history record for slice  2071
+***  writing history record for slice  2498
+***  writing history record for slice  2374
+***  writing history record for slice  2383
+***  writing history record for slice  2446
+***  writing history record for slice  2458
+***  writing history record for slice  2356
+***  writing history record for slice  2448
+***  writing history record for slice  2486
+***  writing history record for slice  2560
+***  writing history record for slice  2089
+***  writing history record for slice  2474
+***  writing history record for slice  2472
+***  writing history record for slice  2143
+***  writing history record for slice  2492
+***  writing history record for slice  2365
+***  writing history record for slice  2439
+***  writing history record for slice  2123
+***  writing history record for slice  2371
+***  writing history record for slice  2500
+***  writing history record for slice  2450
+***  writing history record for slice  2369
+***  writing history record for slice  2277
+***  writing history record for slice  2169
+***  writing history record for slice  2526
+***  writing history record for slice  2033
+***  writing history record for slice  2488
+***  writing history record for slice  2508
+***  writing history record for slice  2285
+***  writing history record for slice  2421
+***  writing history record for slice  2291
+***  writing history record for slice  2530
+***  writing history record for slice  2406
+***  writing history record for slice  2415
+***  writing history record for slice  2478
+***  writing history record for slice  2490
+***  writing history record for slice  2388
+***  writing history record for slice  2480
+***  writing history record for slice  2518
+***  writing history record for slice  2592
+***  writing history record for slice  2506
+***  writing history record for slice  2504
+***  writing history record for slice  2121
+***  writing history record for slice  2175
+***  writing history record for slice  2524
+***  writing history record for slice  2397
+***  writing history record for slice  2471
+***  writing history record for slice  2403
+***  writing history record for slice  2532
+***  writing history record for slice  2482
+***  writing history record for slice  2155
+***  writing history record for slice  2309
+***  writing history record for slice  2558
+***  writing history record for slice  2201
+***  writing history record for slice  2520
+***  writing history record for slice  2065
+***  writing history record for slice  2075
+***  writing history record for slice  2540
+***  writing history record for slice  2323
+***  writing history record for slice  2562
+***  writing history record for slice  2103
+***  writing history record for slice  2438
+***  writing history record for slice  2447
+***  writing history record for slice  2522
+***  writing history record for slice  2420
+***  writing history record for slice  2512
+***  writing history record for slice  2550
+***  writing history record for slice  2624
+***  writing history record for slice  2538
+***  writing history record for slice  2536
+***  writing history record for slice  2153
+***  writing history record for slice  2207
+***  writing history record for slice  2556
+***  writing history record for slice  2429
+***  writing history record for slice  2503
+***  writing history record for slice  2435
+***  writing history record for slice  2564
+***  writing history record for slice  2514
+***  writing history record for slice  2401
+***  writing history record for slice  2341
+***  writing history record for slice  2187
+***  writing history record for slice  2590
+***  writing history record for slice  2233
+***  writing history record for slice  2552
+***  writing history record for slice  2317
+***  writing history record for slice  2453
+***  writing history record for slice  2572
+***  writing history record for slice  2097
+***  writing history record for slice  2355
+***  writing history record for slice  2510
+***  writing history record for slice  2594
+***  writing history record for slice  2470
+***  writing history record for slice  2479
+***  writing history record for slice  2554
+***  writing history record for slice  2135
+***  writing history record for slice  2452
+***  writing history record for slice  2544
+***  writing history record for slice  2582
+***  writing history record for slice  2656
+***  writing history record for slice  2570
+***  writing history record for slice  2568
+***  writing history record for slice  2588
+***  writing history record for slice  2461
+***  writing history record for slice  2185
+***  writing history record for slice  2596
+***  writing history record for slice  2239
+***  writing history record for slice  2546
+***  writing history record for slice  2373
+***  writing history record for slice  2622
+***  writing history record for slice  2219
+***  writing history record for slice  2584
+***  writing history record for slice  2265
+***  writing history record for slice  2107
+***  writing history record for slice  2485
+***  writing history record for slice  2604
+***  writing history record for slice  2129
+***  writing history record for slice  2387
+***  writing history record for slice  2542
+***  writing history record for slice  2626
+***  writing history record for slice  2502
+***  writing history record for slice  2511
+***  writing history record for slice  2586
+***  writing history record for slice  2484
+***  writing history record for slice  2576
+***  writing history record for slice  2614
+***  writing history record for slice  2688
+***  writing history record for slice  2602
+***  writing history record for slice  2535
+***  writing history record for slice  2467
+***  writing history record for slice  2167
+***  writing history record for slice  2600
+***  writing history record for slice  2620
+***  writing history record for slice  2433
+***  writing history record for slice  2628
+***  writing history record for slice  2578
+***  writing history record for slice  2405
+***  writing history record for slice  2654
+***  writing history record for slice  2349
+***  writing history record for slice  2217
+***  writing history record for slice  2616
+***  writing history record for slice  2271
+***  writing history record for slice  2297
+***  writing history record for slice  2517
+***  writing history record for slice  2636
+***  writing history record for slice  2419
+***  writing history record for slice  2574
+***  writing history record for slice  2658
+***  writing history record for slice  2534
+***  writing history record for slice  2543
+***  writing history record for slice  2618
+***  writing history record for slice  2161
+***  writing history record for slice  2516
+***  writing history record for slice  2608
+***  writing history record for slice  2646
+***  writing history record for slice  2720
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2634
+***  writing history record for slice  2567
+***  writing history record for slice  2499
+***  writing history record for slice  2632
+***  writing history record for slice  2493
+***  writing history record for slice  2652
+***  writing history record for slice  2465
+***  writing history record for slice  2660
+***  writing history record for slice  2610
+***  writing history record for slice  2437
+***  writing history record for slice  2686
+***  writing history record for slice  2249
+***  writing history record for slice  2251
+***  writing history record for slice  2139
+***  writing history record for slice  2648
+***  writing history record for slice  2329
+***  writing history record for slice  2668
+***  writing history record for slice  2451
+***  writing history record for slice  2606
+***  writing history record for slice  2690
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2566
+***  writing history record for slice  2575
+***  writing history record for slice  2650
+***  writing history record for slice  2548
+***  writing history record for slice  2640
+***  writing history record for slice  2193
+***  writing history record for slice  2678
+***  writing history record for slice  2666
+***  writing history record for slice  2599
+***  writing history record for slice  2199
+***  writing history record for slice  2531
+***  writing history record for slice  2664
+***  writing history record for slice  2525
+***  writing history record for slice  2684
+***  writing history record for slice  2497
+***  writing history record for slice  2692
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2381
+***  writing history record for slice  2642
+***  writing history record for slice  2469
+***  writing history record for slice  2718
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2303
+***  writing history record for slice  2549
+***  writing history record for slice  2680
+***  writing history record for slice  2361
+***  writing history record for slice  2700
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2281
+***  writing history record for slice  2638
+***  writing history record for slice  2171
+***  writing history record for slice  2598
+***  writing history record for slice  2580
+***  writing history record for slice  2672
+***  writing history record for slice  2225
+***  writing history record for slice  2710
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2698
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2563
+***  writing history record for slice  2696
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2557
+***  writing history record for slice  2716
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2413
+***  writing history record for slice  2674
+***  writing history record for slice  2335
+***  writing history record for slice  2483
+***  writing history record for slice  2581
+***  writing history record for slice  2712
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2393
+***  writing history record for slice  2283
+***  writing history record for slice  2607
+***  writing history record for slice  2682
+***  writing history record for slice  2670
+***  writing history record for slice  2630
+***  writing history record for slice  2612
+***  writing history record for slice  2704
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2631
+***  writing history record for slice  2595
+***  writing history record for slice  2529
+***  writing history record for slice  2589
+***  writing history record for slice  2231
+***  writing history record for slice  2501
+***  writing history record for slice  2445
+***  writing history record for slice  2706
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2367
+***  writing history record for slice  2313
+***  writing history record for slice  2425
+***  writing history record for slice  2639
+***  writing history record for slice  2714
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2702
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2662
+***  writing history record for slice  2644
+***  writing history record for slice  2203
+***  writing history record for slice  2257
+***  writing history record for slice  2663
+***  writing history record for slice  2627
+***  writing history record for slice  2621
+***  writing history record for slice  2533
+***  writing history record for slice  2515
+***  writing history record for slice  2477
+***  writing history record for slice  2399
+***  writing history record for slice  2613
+***  writing history record for slice  2315
+***  writing history record for slice  2345
+***  writing history record for slice  2457
+***  writing history record for slice  2671
+***  writing history record for slice  2676
+***  writing history record for slice  2695
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2289
+***  writing history record for slice  2561
+***  writing history record for slice  2263
+***  writing history record for slice  2547
+***  writing history record for slice  2645
+***  writing history record for slice  2694
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2347
+***  writing history record for slice  2377
+***  writing history record for slice  2489
+***  writing history record for slice  2703
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2708
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2235
+***  writing history record for slice  2321
+***  writing history record for slice  2593
+***  writing history record for slice  2659
+***  writing history record for slice  2653
+***  writing history record for slice  2565
+***  writing history record for slice  2509
+***  writing history record for slice  2431
+***  writing history record for slice  2579
+***  writing history record for slice  2677
+***  writing history record for slice  2379
+***  writing history record for slice  2409
+***  writing history record for slice  2521
+***  writing history record for slice  2353
+***  writing history record for slice  2691
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2685
+***  writing history record for slice  2295
+***  writing history record for slice  2463
+***  writing history record for slice  2611
+***  writing history record for slice  2709
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2441
+***  writing history record for slice  2625
+***  writing history record for slice  2553
+***  writing history record for slice  2385
+***  writing history record for slice  2267
+***  writing history record for slice  2597
+***  writing history record for slice  2541
+***  writing history record for slice  2717
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2411
+***  writing history record for slice  2495
+***  writing history record for slice  2643
+***  writing history record for slice  2473
+***  writing history record for slice  2417
+***  writing history record for slice  2573
+***  writing history record for slice  2327
+***  writing history record for slice  2657
+***  writing history record for slice  2585
+***  writing history record for slice  2443
+***  writing history record for slice  2527
+***  writing history record for slice  2299
+***  writing history record for slice  2629
+***  writing history record for slice  2505
+***  writing history record for slice  2449
+***  writing history record for slice  2359
+***  writing history record for slice  2689
+***  writing history record for slice  2617
+***  writing history record for slice  2475
+***  writing history record for slice  2675
+***  writing history record for slice  2605
+***  writing history record for slice  2537
+***  writing history record for slice  2481
+***  writing history record for slice  2391
+***  writing history record for slice  2649
+***  writing history record for slice  2507
+***  writing history record for slice  2559
+***  writing history record for slice  2331
+***  writing history record for slice  2661
+***  writing history record for slice  2569
+***  writing history record for slice  2707
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2681
+***  writing history record for slice  2637
+***  writing history record for slice  2591
+***  writing history record for slice  2513
+***  writing history record for slice  2423
+***  writing history record for slice  2693
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2539
+***  writing history record for slice  2601
+***  writing history record for slice  2363
+***  writing history record for slice  2455
+***  writing history record for slice  2713
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2669
+***  writing history record for slice  2623
+***  writing history record for slice  2545
+***  writing history record for slice  2571
+***  writing history record for slice  2633
+***  writing history record for slice  2395
+***  writing history record for slice  2701
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2487
+***  writing history record for slice  2655
+***  writing history record for slice  2665
+***  writing history record for slice  2577
+***  writing history record for slice  2427
+***  writing history record for slice  2603
+***  writing history record for slice  2519
+***  writing history record for slice  2687
+***  writing history record for slice  2697
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2459
+***  writing history record for slice  2635
+***  writing history record for slice  2609
+***  writing history record for slice  2551
+***  writing history record for slice  2719
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2491
+***  writing history record for slice  2667
+***  writing history record for slice  2583
+***  writing history record for slice  2523
+***  writing history record for slice  2641
+***  writing history record for slice  2699
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2615
+***  writing history record for slice  2555
+***  writing history record for slice  2673
+***  writing history record for slice  2647
+***  writing history record for slice  2587
+***  writing history record for slice  2705
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2679
+***  writing history record for slice  2619
+***  writing history record for slice  2711
+***  closing files
+
+Genesis run has finished
+------------------------
+***  writing history record for slice  2651
+***  writing history record for slice  2683
+***  writing history record for slice  2715
+***  closing files
+
+Genesis run has finished
+------------------------
+***  closing files
+
+Genesis run has finished
+------------------------
