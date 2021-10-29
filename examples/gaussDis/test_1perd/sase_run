@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#SBATCH --job-name=genesis            #the name of your submit
+#SBATCH --mail-user=libb@ihep.ac.cn   #your email adress
+#SBATCH --mail-type=ALL               #mail type, when info you: NONE, BEGIN, END, FAIL, REQUEUE, ALL
+#SBATCH --partition=ACC               #the partition of cluster
+#SBATCH --time=1-00:00:00#7 days      #the maximum of runnig time
+#SBATCH --output=./run_%j.out         #the logfile name
+#SBATCH --nodes=1                     #how many nodes you are going to use
+#SBATCH --ntasks-per-node=32          #how many tasks you will execute on each node
+#SBATCH --mem=16GB                     #16 GB RAM per node
+                                      #for our case, it's how many cores you will
+                                      #use on each node
+#SBATCH --output=job_ele.log
+echo rad.in | mpirun genesis
+
