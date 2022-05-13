@@ -1,2 +1,6 @@
 genesis
 *.out
+
+*.swp
+*.pyc
+tags
