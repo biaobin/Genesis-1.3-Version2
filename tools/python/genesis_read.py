@@ -8,6 +8,7 @@ from globals import m_e_eV, epsilon_0, speed_of_light, q_e, h_eV_s, lambda_C_r, 
 import numpy as np
 import matplotlib 
 import matplotlib.pyplot as plt
+import sys
 
 _logger = logging.getLogger(__name__) 
 
@@ -445,20 +446,45 @@ def read_out_file(filePath, read_level=2, precision=float,debug=1):
     _logger.debug(ind_str + 'done in %.2f seconds' % (time.time() - start_time))
     return out
 
+def out2txt(filePath, read_level=2, precision=float,debug=1):
+    try:
+        t1 = time.time()
+        out = read_out_file(filePath)
+        t2 = time.time()
+    except:
+        print("ERROR, read outfile failed.")
+        sys.exit()
+    else:
+        print("file reading finished, time=",t2-t1,"s")
 
+    # save the data
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # t current power
+    # ---------------
+    t = out.t                      #[fs]
+    current = out.I                #[A]
+    power = out.power_int[:,-1]    #[W]
+    
+    tmp = np.array([t,current,power])
+    
+    np.savetxt('tip.txt',tmp.transpose())
+    
+    # s-power gain curve
+    # ------------------
+    s = out.z                      #[m]
+    powertol = out.power_z_mean    #[W]
+    pulseEnergy = out.pulse_energy #[J]
+    
+    tmp = np.array([s,powertol,pulseEnergy])
+    
+    np.savetxt('spe.txt',tmp.transpose())
+    
+    # lambda-amp
+    out.calc_spec(mode='mid',npad=1)
+    lamda = out.freq_lamd                         #[nm]
+    amp = out.spec[:,-1]/np.max(out.spec[:,-1])  #last position
+    
+    tmp = np.array([lamda, amp])
+    
+    np.savetxt('lamamp.txt',tmp.transpose())
+    

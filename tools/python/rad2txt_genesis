@@ -1,0 +1,22 @@
+#author: Biaobin Li
+#date:   2022/05/13
+#usage:  read rad.out using python module,
+#then output some columns into txt file.
+
+#!/usr/bin/env python3
+
+import genesis_read as generead
+import sys
+
+if len(sys.argv) !=2:
+    print("Error, usage: out2txt_genesis rad.out")
+    sys.exit()
+    
+filepath = sys.argv[1]
+
+generead.out2txt(filepath)
+
+
+
+
+
