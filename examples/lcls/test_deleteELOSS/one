@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo lcls_wake_CU.in | mpirun -np 64 genesis

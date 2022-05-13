@@ -1,0 +1,1401 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+1	check.f	/^ 1        write(6,100) $/;"	l	subroutine:chk_input	file:
+1	input.f	/^ 1       call getfirstchar(cline,ix1)$/;"	l	subroutine:getbeamfileinfo	file:
+1	input.f	/^ 1       call getfirstchar(cline,ix1)$/;"	l	subroutine:getdistfileinfo	file:
+1	input.f	/^ 1       call getfirstchar(cline,ix1)$/;"	l	subroutine:getradfileinfo	file:
+1	input.f	/^ 1    read(ndis,200,err=100,end=50) line$/;"	l	subroutine:readslice	file:
+1	input.f	/^ 1    read(nin,100,err=20,end=50) line$/;"	l	subroutine:readbeamfile	file:
+1	input.f	/^ 1    read(nin,100,err=20,end=50) line$/;"	l	subroutine:readradfile	file:
+1	input.f	/^ 1    read(nio,200,err=100,end=50) line$/;"	l	function:readdistfile	file:
+1	input.f	/^ 1    readfield=printerr(errreadfld,fieldfile)$/;"	l	function:readfield	file:
+1	loadbeam.f	/^   1     n1=int(dble(mget)*ran1(iseed))+1$/;"	l	subroutine:loaddist	file:
+1	loadbeam.f	/^ 1       snoise=(sn1+sn2)*0.5$/;"	l	subroutine:shotnoise_penman	file:
+1	magfield.f	/^ 1       i=i+1$/;"	l	subroutine:magwrite	file:
+1	magfield.f	/^ 1    read(nmin,1000,end=2,err=100) line    ! read line$/;"	l	subroutine:magread	file:
+1	math.f	/^ 1       v1=hammv(j)*2.d0-1.d0$/;"	l	function:gasham	file:
+1	math.f	/^ 1       v1=ran1(idum)*2.d0-1.d0$/;"	l	function:gasran	file:
+1	math.f	/^1         if ((ibit.ge.ip1).and.(i2rev.gt.ibit)) then$/;"	l	subroutine:fourn	file:
+1	output.f	/^ 1            write(6,100) $/;"	l	function:openoutputfile	file:
+10	input.f	/^ 10   readin=printerr(erropenin,inputfile)$/;"	l	function:readin	file:
+10	loadbeam.f	/^ 10   continue$/;"	l	subroutine:loadquiet	file:
+10	math.f	/^ 10   if(ju-jl.gt.1) then$/;"	l	function:luf	file:
+10	math.f	/^ 10   xsi(j)=xsi(j)\/float(nbase(j))$/;"	l	function:hammv	file:
+10	mpi.f	/^ 10   format('less ',a,'.slice',I6.6,' >> ',a)$/;"	l	subroutine:mpi_merge	file:
+10	output.f	/^ 10   format(\/'********** output: slice ',i5\/$/;"	l	subroutine:outhistheader	file:
+10	output.f	/^ 10   format(a)$/;"	l	subroutine:outglob	file:
+10	output.f	/^ 10   openoutputfile=printerr(erropen,outputfile)$/;"	l	function:openoutputfile	file:
+10	output.f	/^ 10   write(nlog,100) text$/;"	l	function:printerr	file:
+10	timerec.f	/^ 10   it=printerr(errread,'CRTIME-scratch')$/;"	l	subroutine:pulltimerec	file:
+10	timerec.f	/^ 10   it=printerr(errread,'CRTIME-scratch')$/;"	l	subroutine:pushtimerec	file:
+100	check.f	/^ 100  format('Please enter magnetic input file name')$/;"	l	subroutine:chk_input	file:
+100	input.f	/^ 100  detectfiletype=printerr(erropen,file) $/;"	l	function:detectfiletype	file:
+100	input.f	/^ 100  format('Please enter input file name ')$/;"	l	function:readin	file:
+100	input.f	/^ 100  format(A3,I1.1)$/;"	l	subroutine:initio	file:
+100	input.f	/^ 100  format(a)$/;"	l	subroutine:readbeamfile	file:
+100	input.f	/^ 100  format(a)$/;"	l	subroutine:readradfile	file:
+100	input.f	/^ 100  i=printerr(errread,'DISTFILE')$/;"	l	subroutine:readslice	file:
+100	input.f	/^ 100  openbininput=printerr(erropen,file)$/;"	l	function:openbininput	file:
+100	input.f	/^ 100  readdistfile=printerr(errread,file)$/;"	l	function:readdistfile	file:
+100	input.f	/^ 100  readpart=printerr(errread,partfile)$/;"	l	function:readpart	file:
+100	magfield.f	/^ 100  idum=printerr(errread,maginfile)$/;"	l	subroutine:magread	file:
+100	output.f	/^ 100  format('***  File-error: ',a,\/,$/;"	l	function:printerr	file:
+100	output.f	/^ 100  format('***  closing files')$/;"	l	subroutine:last	file:
+100	output.f	/^ 100  format('-------------------------------',\/,$/;"	l	subroutine:first	file:
+100	output.f	/^ 100  format('Please enter output file name ')$/;"	l	function:openoutputfile	file:
+100	output.f	/^ 100  i=printerr(erropen,'MPI Binary Temp Files')$/;"	l	subroutine:outdump	file:
+100	output.f	/^ 100  iopenerr=printerr(erropen,'MPI Binary Temp Files')$/;"	l	subroutine:openoutputbinmpi	file:
+100	output.f	/^ 100  openbinfile=printerr(erropen,filename)$/;"	l	function:openbinfile	file:
+100	output.f	/^ 100  opentextfile=printerr(erropen,file)$/;"	l	function:opentextfile	file:
+100	pushp.f	/^ 100  format(f4.0)$/;"	l	subroutine:chk_loss	file:
+100	timerec.f	/^ 100  ntmp=printerr(erropen,'CRTIME-scratch')$/;"	l	subroutine:opentimerec	file:
+1000	magfield.f	/^ 1000 format(a)$/;"	l	subroutine:magread	file:
+1000	output.f	/^ 1000 format(1x,'$newrun',\/, $/;"	l	function:openoutputfile	file:
+1001	output.f	/^ 1001 format(1x,'ncar  =',i5,\/,$/;"	l	function:openoutputfile	file:
+1002	output.f	/^ 1002 format(1x,'iphsty=',i5,\/,$/;"	l	function:openoutputfile	file:
+1003	output.f	/^ 1003 format(1x,'idmpfld=',i5,\/,$/;"	l	function:openoutputfile	file:
+1004	output.f	/^ 1004 format(1x,'trama=',i5,\/,$/;"	l	function:openoutputfile	file:
+101	output.f	/^ 101  format('***  File-error: ',a,\/,$/;"	l	function:printerr	file:
+1010	output.f	/^ 1010 format(1x,a,1h',a,1h')$/;"	l	function:openoutputfile	file:
+102	output.f	/^ 102  format('***  File-error: ',a,\/,$/;"	l	function:printerr	file:
+1020	output.f	/^ 1020 format(1x,a4)$/;"	l	function:openoutputfile	file:
+103	output.f	/^ 103  format('***  File-error: ',a,\/,$/;"	l	function:printerr	file:
+104	output.f	/^ 104  format('***  Scan-warning: conflict with ITDP',\/,$/;"	l	function:printerr	file:
+105	output.f	/^ 105  format('***  Scan-warning: conflict with BEAMFILE',\/,$/;"	l	function:printerr	file:
+105	output.f	/^ 105  format(a30)$/;"	l	function:openoutputfile	file:
+106	output.f	/^ 106  format('***  Beamfile-warning: size exceeds NSMAX',\/,$/;"	l	function:printerr	file:
+107	output.f	/^ 107  format('***  Input-error: ',a)$/;"	l	function:printerr	file:
+108	output.f	/^ 108  format('***  Input-warning: ',a)$/;"	l	function:printerr	file:
+109	output.f	/^ 109  format('***  Input-error: cannot convert to individiual input',\/,$/;"	l	function:printerr	file:
+11	math.f	/^11    continue$/;"	l	subroutine:fourn	file:
+11	output.f	/^ 11   format(\/'********** output: slice ',i5\/$/;"	l	subroutine:outhistheader	file:
+11	output.f	/^ 11   format(i5,a)$/;"	l	subroutine:outglob	file:
+11	output.f	/^ 11   write(nlog,101) text$/;"	l	function:printerr	file:
+110	check.f	/^ 110  format('Please enter magnetic output file name')$/;"	l	subroutine:chk_input	file:
+110	input.f	/^ 110  detectfiletype=printerr(errread,file)$/;"	l	function:detectfiletype	file:
+110	input.f	/^ 110  format('Auto-adjustment of time window:',\/,$/;"	l	subroutine:readbeamfile	file:
+110	input.f	/^ 110  format('Auto-adjustment of time window:',\/,$/;"	l	subroutine:readradfile	file:
+110	input.f	/^ 110  format(a30)$/;"	l	function:readin	file:
+110	output.f	/^ 110  format(  '- - - - - - - - - - - - - - - - - - - - - - - -'$/;"	l	function:openoutputfile	file:
+110	output.f	/^ 110  format('***  Numerical-error: boundary exceeded of',a,\/,$/;"	l	function:printerr	file:
+111	output.f	/^ 111  format('***  Round-warning: section not multiple of XLAMD',\/,$/;"	l	function:printerr	file:
+112	output.f	/^ 112  format('***  Extrapolation-warning: exceeding time window of',\/,$/;"	l	function:printerr	file:
+113	output.f	/^ 113  format('***  Scan-error: conflict with MAGINFILE:',a,\/,$/;"	l	function:printerr	file:
+114	output.f	/^ 114  format('***  Scan-error: conflict with MAGOUTFILE:',a,\/,$/;"	l	function:printerr	file:
+115	output.f	/^ 115  format('***  Warning: particle loss of ',a,'%')$/;"	l	function:printerr	file:
+116	output.f	/^ 116  format('***  Warning: external magnet definition too short for '$/;"	l	function:printerr	file:
+117	output.f	/^ 117  format('***  Error: invalid filename:',a)$/;"	l	function:printerr	file:
+118	output.f	/^ 118  format('***  File-error: cannot read from FIELDFILE:',a)$/;"	l	function:printerr	file:
+119	output.f	/^ 119  format('***  Warning: ',a)$/;"	l	function:printerr	file:
+12	math.f	/^12            continue$/;"	l	subroutine:fourn	file:
+12	output.f	/^ 12   format(e14.4,a)$/;"	l	subroutine:outglob	file:
+12	output.f	/^ 12   write(nlog,102) text$/;"	l	function:printerr	file:
+120	output.f	/^ 120  format('***  Error: cannot run in background mode.',\/,$/;"	l	function:printerr	file:
+121	output.f	/^ 121  format('***  Error: CRTIME cannot hold slippage field.',\/,$/;"	l	function:printerr	file:
+122	output.f	/^ 122  format('***  Error: unphysical parameter for loading',\/,$/;"	l	function:printerr	file:
+123	output.f	/^ 123  format('***  ',a)$/;"	l	function:printerr	file:
+13	math.f	/^13          continue$/;"	l	subroutine:fourn	file:
+13	output.f	/^ 13   format(30i2)$/;"	l	subroutine:outglob	file:
+13	output.f	/^ 13   write(nlog,103) text$/;"	l	function:printerr	file:
+14	math.f	/^14      continue$/;"	l	subroutine:fourn	file:
+14	output.f	/^ 14   format(i7,a)$/;"	l	subroutine:outglob	file:
+14	output.f	/^ 14   write(nlog,104) text$/;"	l	function:printerr	file:
+15	math.f	/^15            continue$/;"	l	subroutine:fourn	file:
+15	output.f	/^ 15   write(nlog,105) text$/;"	l	function:printerr	file:
+16	math.f	/^16          continue$/;"	l	subroutine:fourn	file:
+16	output.f	/^ 16   write(nlog,106) text$/;"	l	function:printerr	file:
+17	math.f	/^17        continue$/;"	l	subroutine:fourn	file:
+17	output.f	/^ 17   write(nlog,107) text$/;"	l	function:printerr	file:
+18	math.f	/^18    continue$/;"	l	subroutine:fourn	file:
+18	output.f	/^ 18   write(nlog,108) text$/;"	l	function:printerr	file:
+19	output.f	/^ 19   write(nlog,109) text$/;"	l	function:printerr	file:
+2	check.f	/^ 2         write(6,110)$/;"	l	subroutine:chk_input	file:
+2	input.f	/^ 2       format('.node',I6.6)$/;"	l	subroutine:initio	file:
+2	magfield.f	/^ 2      continue   $/;"	l	subroutine:magwrite	file:
+2	magfield.f	/^ 2    if(int_version.eq.2) magversion = 1.0$/;"	l	subroutine:magread	file:
+2	math.f	/^2       if(ifp1.lt.ip2)then$/;"	l	subroutine:fourn	file:
+2	output.f	/^ 2    format('.slice',I6.6)$/;"	l	subroutine:openoutputbinmpi	file:
+2	output.f	/^ 2    format('.slice',I6.6)$/;"	l	subroutine:outhist	file:
+2	output.f	/^2     format('.slice',I6.6)$/;"	l	subroutine:outdump	file:
+20	input.f	/^ 20   i=printerr(errread,file)$/;"	l	subroutine:readbeamfile	file:
+20	input.f	/^ 20   i=printerr(errread,file)$/;"	l	subroutine:readradfile	file:
+20	input.f	/^ 20   readin=printerr(errreadin,inputfile)$/;"	l	function:readin	file:
+20	loadbeam.f	/^ 20   continue$/;"	l	subroutine:loadquiet	file:
+20	mpi.f	/^ 20   format('rm ',a,'.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+20	output.f	/^   20 format ('Slice ', i5,': Simulation ',i3,'% completed.')$/;"	l	subroutine:status	file:
+20	output.f	/^ 20   format((3(a14))) $/;"	l	subroutine:outglob	file:
+20	output.f	/^ 20   format((50(a14))) $/;"	l	subroutine:outhistheader	file:
+20	output.f	/^ 20   write(nlog,110) text$/;"	l	function:printerr	file:
+200	check.f	/^ 200  format(a30)$/;"	l	subroutine:chk_input	file:
+200	input.f	/^ 200  format(a)$/;"	l	function:detectfiletype	file:
+200	input.f	/^ 200  format(a)$/;"	l	function:readdistfile	file:
+200	input.f	/^ 200  format(a)$/;"	l	subroutine:readslice	file:
+200	output.f	/^ 200  format(\/,'Genesis run has finished',\/,$/;"	l	subroutine:last	file:
+21	output.f	/^ 21   format((3(1pe14.4)))$/;"	l	subroutine:outglob	file:
+21	output.f	/^ 21   write(nlog,111) text$/;"	l	function:printerr	file:
+22	output.f	/^ 22   write(nlog,112) text$/;"	l	function:printerr	file:
+23	output.f	/^ 23   write(nlog,113) text$/;"	l	function:printerr	file:
+24	output.f	/^ 24   write(nlog,114) text$/;"	l	function:printerr	file:
+25	output.f	/^ 25   write(nlog,115) text$/;"	l	function:printerr	file:
+26	output.f	/^ 26   write(nlog,116) text$/;"	l	function:printerr	file:
+27	output.f	/^ 27   write(nlog,117) text$/;"	l	function:printerr	file:
+28	output.f	/^ 28   write(nlog,118) text$/;"	l	function:printerr	file:
+29	output.f	/^ 29   write(nlog,119) text$/;"	l	function:printerr	file:
+3	output.f	/^ 3    format(I1.1)$/;"	l	subroutine:outdump	file:
+30	magfield.f	/^  30  format(a3,1x,1pe14.4,1x,1pe14.4,1x,i4) $/;"	l	subroutine:magwrite	file:
+30	mpi.f	/^ 30   format('cat ',a,'.par.slice',I6.6,' >> ',a,'.par')$/;"	l	subroutine:mpi_merge	file:
+30	output.f	/^ 30   format((50(1pe14.4)))$/;"	l	subroutine:outhist	file:
+30	output.f	/^ 30   write(nlog,120) text$/;"	l	function:printerr	file:
+31	mpi.f	/^ 31   format('cat ',a,'.dpa.slice',I6.6,' >> ',a,'.dpa')$/;"	l	subroutine:mpi_merge	file:
+31	output.f	/^ 31   write(nlog,121) text$/;"	l	function:printerr	file:
+32	output.f	/^ 32   write(nlog,122) text$/;"	l	function:printerr	file:
+33	output.f	/^ 33   write(nlog,123) text$/;"	l	function:printerr	file:
+40	magfield.f	/^  40  format(a,1x,1f4.2,1x,a) $/;"	l	subroutine:magwrite	file:
+40	mpi.f	/^ 40   format('rm ',a,'.par.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+41	mpi.f	/^ 41   format('rm ',a,'.dpa.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+45	magfield.f	/^  45  format(a,1x,1f7.5,1x,a) $/;"	l	subroutine:magwrite	file:
+5	input.f	/^ 5      if (nlog.eq.6)  i=printerr(erropen,file)$/;"	l	subroutine:initio	file:
+5	output.f	/^ 5    format('***  writing history record for slice ',i5)$/;"	l	subroutine:outhistheader	file:
+5	output.f	/^ 5    format(I1.1)$/;"	l	subroutine:openoutputbinmpi	file:
+50	input.f	/^ 50   close(nin)$/;"	l	subroutine:readbeamfile	file:
+50	input.f	/^ 50   close(nin)$/;"	l	subroutine:readradfile	file:
+50	input.f	/^ 50   rewind(ndis)              !set file pointer back$/;"	l	subroutine:readslice	file:
+50	input.f	/^ 50   rewind(nio)               !go back to file beginning$/;"	l	function:readdistfile	file:
+50	magfield.f	/^  50  format(a) $/;"	l	subroutine:magwrite	file:
+50	mpi.f	/^ 50   format('cat ',a,'.fld.slice',I6.6,' >> ',a,'.fld')$/;"	l	subroutine:mpi_merge	file:
+50	output.f	/^ 50   format('Size of ',a,' file [Mbytes]:',i4)      $/;"	l	subroutine:outglob	file:
+50	output.f	/^ 50   format(I1.1)$/;"	l	subroutine:outhistheader	file:
+51	mpi.f	/^ 51   format('cat ',a,'.dfl.slice',I6.6,' >> ',a,'.dfl')$/;"	l	subroutine:mpi_merge	file:
+60	magfield.f	/^  60  format(a3,1x,1pe14.4,1x,i4,1x,i4) $/;"	l	subroutine:magwrite	file:
+60	mpi.f	/^ 60   format('rm ',a,'.fld.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+61	mpi.f	/^ 61   format('rm ',a,'.dfl.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+70	mpi.f	/^ 70   format('cat ',a,'.fld',I1.1,'.slice',I6.6,' >> ',a,'.fld',I1.1)$/;"	l	subroutine:mpi_merge	file:
+71	mpi.f	/^ 71   format('cat ',a,'.dfl',I1.1,'.slice',I6.6,' >> ',a,'.dfl',I1.1)$/;"	l	subroutine:mpi_merge	file:
+80	mpi.f	/^ 80   format('rm ',a,'.fld',I1.1,'.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+81	mpi.f	/^ 81   format('rm ',a,'.dfl',I1.1,'.slice',I6.6)$/;"	l	subroutine:mpi_merge	file:
+999	string.f	/^ 999  nchar=index(line(nchar1:nchar1),' ')$/;"	l	function:strlen	file:
+BIGNI	math.f	/^      real*8 bessj, x, BIGNO, BIGNI$/;"	L	function:bessj	file:
+BIGNO	math.f	/^      real*8 bessj, x, BIGNO,/;"	L	function:bessj	file:
+COMPILER	Makefile	/^COMPILER = mpif77$/;"	m
+EXECUTABLE	Makefile	/^EXECUTABLE = genesis $/;"	m
+IACC	math.f	/^      integer n, IACC$/;"	L	function:bessj	file:
+SOURCE	Makefile	/^SOURCE=  main.f check.f diagno.f esource.f field.f incoherent.f \\$/;"	m
+a	esource.f	/^      complex*16 w(*),a(/;"	L	subroutine:trirad	file:
+a	loadbeam.f	/^      real/;"	L	subroutine:scaledist	file:
+a1	track.f	/^      real*8 a1,/;"	L	subroutine:track	file:
+a2	track.f	/^      real*8 a1,a2,/;"	L	subroutine:track	file:
+a3	track.f	/^      real*8 a1,a2,a3,/;"	L	subroutine:track	file:
+alignradf	input.f	/^     +          alignradf,/;"	L	function:readin	file:
+alphax	input.f	/^     +          npart,gamma0,delgam,rxbeam,rybeam,alphax,/;"	L	function:readin	file:
+alphay	input.f	/^     +          npart,gamma0,delgam,rxbeam,rybeam,alphax,alphay,/;"	L	function:readin	file:
+am	math.f	/^      real*8  am,/;"	L	function:ran1	file:
+ampl_x	loadbeam.f	/^      real*8  ampl_x,/;"	L	subroutine:loadquiet	file:
+ampl_y	loadbeam.f	/^      real*8  ampl_x,ampl_y,/;"	L	subroutine:loadquiet	file:
+an	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,xkper0,phin,an$/;"	L	subroutine:shotnoise_fawley	file:
+an	output.f	/^      real*8  scltmp,phin,an,/;"	L	subroutine:outdump	file:
+atmp	magfield.f	/^      real*8 norm,rn,rnx,rny,rold,xkw0,atmp$/;"	L	subroutine:magfield	file:
+aw0	input.f	/^     +          aw0,/;"	L	function:readin	file:
+aw0	magfield.f	/^      real*8 z,taplen,pctap,fac,wcoefz(*),delz,xlamd,aw0,/;"	L	function:faw0	file:
+aw2	partsim.f	/^      real*8  zconst,wei,aw2,/;"	L	subroutine:partsorc	file:
+awd	input.f	/^     +          awd,/;"	L	function:readin	file:
+awloc	partsim.f	/^      real*8 xi,awloc$/;"	L	subroutine:harmcoupling	file:
+awloc	source.f	/^      real*8 stemp,wei,evencoupling,awloc,/;"	L	subroutine:source	file:
+awtmp	rpos.f	/^      real*8 x,awtmp,/;"	L	subroutine:rpos	file:
+awx	input.f	/^     +          awd,iseed,awx,/;"	L	function:readin	file:
+awy	input.f	/^     +          awd,iseed,awx,awy,/;"	L	function:readin	file:
+awz	incoherent.f	/^      real*8 tmp2,gam0,dgamavg,dgamsig,xkw0,awz$/;"	L	subroutine:incoherent	file:
+ax	math.f	/^      real*8 ax,/;"	L	function:bessj	file:
+ax	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj0, ax,/;"	L	function:bessj0	file:
+ax	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj1, ax,/;"	L	function:bessj1	file:
+b	esource.f	/^      complex*16 w(*),a(*),b(/;"	L	subroutine:trirad	file:
+b	loadbeam.f	/^      real*8 x(*),a,b$/;"	L	subroutine:scaledist	file:
+beamfile	input.f	/^     +          beamfile,/;"	L	function:readin	file:
+bessj	math.f	/^      function bessj(/;"	f
+bessj	math.f	/^      real*8 bessj,/;"	L	function:bessj	file:
+bessj0	math.f	/^      function bessj0(/;"	f
+bessj0	math.f	/^      real*8 ax,bj,bjm,bjp,sum,bessj0,/;"	L	function:bessj	file:
+bessj0	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj0,/;"	L	function:bessj0	file:
+bessj1	math.f	/^      function bessj1(/;"	f
+bessj1	math.f	/^      real*8 ax,bj,bjm,bjp,sum,bessj0,bessj1,/;"	L	function:bessj	file:
+bessj1	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj1,/;"	L	function:bessj1	file:
+bet	esource.f	/^      complex*16 w(*),a(*),b(*),c(*),r(*),u(*),bet$/;"	L	subroutine:trirad	file:
+betaxinv	loadbeam.f	/^      real*8  betaxinv,/;"	L	subroutine:loadquiet	file:
+betayinv	loadbeam.f	/^      real*8  betaxinv,betayinv,/;"	L	subroutine:loadquiet	file:
+betpar0	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,qy,betpar0,/;"	L	subroutine:track	file:
+bj	math.f	/^      real*8 ax,bj,/;"	L	function:bessj	file:
+bjm	math.f	/^      real*8 ax,bj,bjm,/;"	L	function:bessj	file:
+bjp	math.f	/^      real*8 ax,bj,bjm,bjp,/;"	L	function:bessj	file:
+btper0	partsim.f	/^      real*8 tgam,tthet,dgam,dthet,ztemp1,ztemp2,btper0$/;"	L	subroutine:partsim	file:
+bunch	input.f	/^     +          conditx,condity,bunch,/;"	L	function:readin	file:
+bunchphase	input.f	/^     +          conditx,condity,bunch,bunchphase,/;"	L	function:readin	file:
+c	esource.f	/^      co/;"	L	subroutine:trirad	file:
+c	field.f	/^      co/;"	L	subroutine:tridagx	file:
+c	field.f	/^      co/;"	L	subroutine:tridagy	file:
+c	string.f	/^      ch/;"	L	subroutine:touppercase	file:
+c0	check.f	/^      character*30 c0$/;"	L	function:chk_scan	file:
+carh	output.f	/^      character*1  carh$/;"	L	subroutine:outhistheader	file:
+cdiff	tdepend.f	/^      character*30 cdiff$/;"	L	subroutine:dotime	file:
+cdiff	tdepend.f	/^      character*30 cdiff$/;"	L	subroutine:dotimerad	file:
+cerr	input.f	/^      character*255 cerr,/;"	L	function:readdistfile	file:
+cerr	input.f	/^      character*255 line,cerr$/;"	L	subroutine:readslice	file:
+cerr	input.f	/^      character*50 cerr$/;"	L	subroutine:readbeamfile	file:
+cerr	input.f	/^      character*50 cerr$/;"	L	subroutine:readradfile	file:
+cfld	loadrad.f	/^      complex*16 cfld(/;"	L	subroutine:gauss_hermite	file:
+cgauss	loadrad.f	/^      complex*16 cfld(ncar*ncar*nhmax),cgauss$/;"	L	subroutine:gauss_hermite	file:
+chk_bnd	check.f	/^      function chk_bnd(/;"	f
+chk_input	check.f	/^      subroutine chk_input$/;"	s
+chk_loss	pushp.f	/^      subroutine chk_loss$/;"	s
+chk_maglen	magfield.f	/^      subroutine chk_maglen(/;"	s
+chk_scan	check.f	/^      function chk_scan(/;"	f
+chk_scan	check.f	/^      integer i,j,iscn,chk_scan /;"	L	function:chk_scan	file:
+cid	magfield.f	/^      character*3  cid(/;"	L	subroutine:magwrite	file:
+cin	input.f	/^      complex*16 cin(/;"	L	function:readfield	file:
+cin	magfield.f	/^      character*30 cmagtype(12),cin$/;"	L	subroutine:magread	file:
+cline	input.f	/^      character*255 cline$/;"	L	subroutine:getdistfileinfo	file:
+cline	input.f	/^      character*511 cline$/;"	L	subroutine:getbeamfileinfo	file:
+cline	input.f	/^      character*511 cline$/;"	L	subroutine:getradfileinfo	file:
+cline	string.f	/^      character*(255) cline$/;"	L	function:extractnumber	file:
+cline	string.f	/^      character*(255) cline$/;"	L	function:extractval	file:
+clocal	partsim.f	/^      complex*16 clocal$/;"	L	subroutine:partsorc	file:
+clocal	rpos.f	/^      complex*16 clocal$/;"	L	subroutine:getpsi	file:
+closefile	output.f	/^      subroutine closefile(/;"	s
+closeoutputbinmpi	output.f	/^      subroutine closeoutputbinmpi$/;"	s
+closetimerec	timerec.f	/^      subroutine closetimerec$/;"	s
+closs	pushp.f	/^      character*30 closs$/;"	L	subroutine:chk_loss	file:
+cma	esource.f	/^      complex *16 vn,coef,cma(/;"	L	subroutine:esource	file:
+cmagtype	magfield.f	/^      character*30   cmagtype(/;"	L	subroutine:chk_maglen	file:
+cmagtype	magfield.f	/^      character*30 cmagtype(/;"	L	subroutine:magread	file:
+cmb	esource.f	/^      complex *16 vn,coef,cma(nrgrid),cmb(/;"	L	subroutine:esource	file:
+cmc	esource.f	/^      complex *16 vn,coef,cma(nrgrid),cmb(nrgrid),cmc(/;"	L	subroutine:esource	file:
+coef	esource.f	/^      complex *16 vn,coef,/;"	L	subroutine:esource	file:
+command	mpi.f	/^      character*80  command$/;"	L	subroutine:mpi_merge	file:
+compmom	loadbeam.f	/^      subroutine compmom(/;"	s
+conditx	input.f	/^     +          conditx,/;"	L	function:readin	file:
+condity	input.f	/^     +          conditx,condity,/;"	L	function:readin	file:
+convharm	input.f	/^     +          isravg,isrsig,eloss,ndcut,ibfield,imagl,idril,convharm,/;"	L	function:readin	file:
+corx	magfield.f	/^      real*8 corx(/;"	L	subroutine:magfield	file:
+corx	magfield.f	/^      real*8 corx(/;"	L	subroutine:magwrite	file:
+corx	magfield.f	/^      real*8 r1,r2,corx(/;"	L	subroutine:magread	file:
+cory	magfield.f	/^      real*8 corx(*),cory(/;"	L	subroutine:magwrite	file:
+cory	magfield.f	/^      real*8 corx(nzmax),cory(/;"	L	subroutine:magfield	file:
+cory	magfield.f	/^      real*8 r1,r2,corx(*),cory(/;"	L	subroutine:magread	file:
+cpull	timerec.f	/^      complex*16 cpull(/;"	L	subroutine:pulltimerec	file:
+cpush	timerec.f	/^      complex*16 cpush(/;"	L	subroutine:pushtimerec	file:
+cr2	diagno.f	/^     +       xxsum,yysum,cr2,/;"	L	subroutine:diagno	file:
+crsum	diagno.f	/^     +       xxsum,yysum,cr2,crsum,/;"	L	subroutine:diagno	file:
+crtmp1	esource.f	/^     +            crtmp1(/;"	L	subroutine:esource	file:
+crtmp2	esource.f	/^     +            crtmp1(nrgrid),crtmp2(/;"	L	subroutine:esource	file:
+cscsource	esource.f	/^     +            crtmp1(nrgrid),crtmp2(nrgrid),cscsource(/;"	L	subroutine:esource	file:
+ctemp	esource.f	/^     +            ctemp$/;"	L	subroutine:esource	file:
+ctemp	source.f	/^      complex*16 ctemp,/;"	L	subroutine:source	file:
+ctmp	diagno.f	/^      complex*16 ctmp /;"	L	subroutine:diagno	file:
+ctmp	partsim.f	/^      complex*16 ctmp$/;"	L	subroutine:partsim	file:
+ctmp	source.f	/^      complex*16 ctemp,ctmp$/;"	L	subroutine:source	file:
+curlen	input.f	/^     +          curlen,/;"	L	function:readin	file:
+curpeak	input.f	/^     +          emitx,emity,xbeam,ybeam,pxbeam,pybeam,cuttail,curpeak,/;"	L	function:readin	file:
+cut_tail	loadbeam.f	/^      subroutine cut_tail(/;"	s
+cuttail	input.f	/^     +          emitx,emity,xbeam,ybeam,pxbeam,pybeam,cuttail,/;"	L	function:readin	file:
+cwarn	output.f	/^      character*40 cwarn$/;"	L	subroutine:outglob	file:
+cwrk1	field.f	/^      complex*16  cwrk1(/;"	L	subroutine:getdiag	file:
+cwrk2	field.f	/^      complex*16  cwrk1(ncmax),cwrk2(/;"	L	subroutine:getdiag	file:
+data	math.f	/^      real*8 data(/;"	L	subroutine:fourn	file:
+dd	loadbeam.f	/^      real*8 xa,ya,x,x2,y,y2,xy,dd$/;"	L	subroutine:compmom	file:
+delaw	input.f	/^     +          aw0,xkx,xky,wcoefz,xlamd,fbess0,delaw,/;"	L	function:readin	file:
+delgam	input.f	/^     +          npart,gamma0,delgam,/;"	L	function:readin	file:
+delip	pushp.f	/^      integer delip(/;"	L	subroutine:chk_loss	file:
+delz	input.f	/^     +          nwig,delz,/;"	L	function:readin	file:
+delz	magfield.f	/^      real*8 z,taplen,pctap,fac,wcoefz(*),delz,/;"	L	function:faw0	file:
+detectfiletype	input.f	/^      function detectfiletype(/;"	f
+dgam	partsim.f	/^      real*8 tgam,tthet,dgam,/;"	L	subroutine:partsim	file:
+dgamavg	incoherent.f	/^      real*8 tmp2,gam0,dgamavg,/;"	L	subroutine:incoherent	file:
+dgamsig	incoherent.f	/^      real*8 tmp2,gam0,dgamavg,dgamsig,/;"	L	subroutine:incoherent	file:
+dgrid	input.f	/^     +          ncar,lbc,rmax0,dgrid,/;"	L	function:readin	file:
+diagno	diagno.f	/^      subroutine diagno(/;"	s
+dierfc	loadbeam.f	/^      real*8  ampl_x,ampl_y,dierfc /;"	L	subroutine:loadquiet	file:
+dierfc	math.f	/^      real*8 function dierfc(/;"	f
+distfile	input.f	/^     +          partfile,distfile,/;"	L	function:readin	file:
+dl	input.f	/^     +          quadf,quadd,fl,dl,/;"	L	function:readin	file:
+doscan	scan.f	/^      subroutine doscan(/;"	s
+dotime	tdepend.f	/^      subroutine dotime(/;"	s
+dotimerad	tdepend.f	/^      subroutine dotimerad(/;"	s
+drl	input.f	/^     +          quadf,quadd,fl,dl,drl,/;"	L	function:readin	file:
+drsc	esource.f	/^      real*8 econst,rscmax,drsc,/;"	L	subroutine:esource	file:
+dthet	partsim.f	/^      real*8 tgam,tthet,dgam,dthet,/;"	L	subroutine:partsim	file:
+dump	loadrad.f	/^      real*8     dump$/;"	L	subroutine:gauss_hermite	file:
+econst	esource.f	/^      real*8 econst,/;"	L	subroutine:esource	file:
+ecorr	loadbeam.f	/^      real*8 ecorr$/;"	L	subroutine:shotnoise_fawley	file:
+ecorr	output.f	/^      real*8  scltmp,phin,an,enum,ecorr$/;"	L	subroutine:outdump	file:
+eloss	input.f	/^     +          isravg,isrsig,eloss,/;"	L	function:readin	file:
+emitx	input.f	/^     +          emitx,/;"	L	function:readin	file:
+emity	input.f	/^     +          emitx,emity,/;"	L	function:readin	file:
+emod	input.f	/^     +          conditx,condity,bunch,bunchphase,emod,/;"	L	function:readin	file:
+emodphase	input.f	/^     +          conditx,condity,bunch,bunchphase,emod,emodphase,/;"	L	function:readin	file:
+enum	loadbeam.f	/^      real*8 enum,/;"	L	subroutine:loadbeam	file:
+enum	loadbeam.f	/^      real*8 enum,/;"	L	subroutine:shotnoise_fawley	file:
+enum	loadbeam.f	/^      real*8 enum,/;"	L	subroutine:shotnoise_penman	file:
+enum	output.f	/^      real*8  scltmp,phin,an,enum,/;"	L	subroutine:outdump	file:
+eps	math.f	/^      real*8  am,eps,/;"	L	function:ran1	file:
+esource	esource.f	/^      subroutine esource(/;"	s
+evencoupling	source.f	/^      real*8 stemp,wei,evencoupling,/;"	L	subroutine:source	file:
+extension	output.f	/^      character*4  extension$/;"	L	function:openbinfile	file:
+extractnumber	string.f	/^      function extractnumber(/;"	f
+extractnumber	string.f	/^      integer extractnumber,/;"	L	function:extractnumber	file:
+extractval	string.f	/^      function extractval(/;"	f
+extractval	string.f	/^      integer i,j,nval,ix1,ix2,extractval$/;"	L	function:extractval	file:
+ezmax	esource.f	/^      real*8 ezmax /;"	L	subroutine:esource	file:
+f1st	input.f	/^     +          quadf,quadd,fl,dl,drl,f1st,/;"	L	function:readin	file:
+fac	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,/;"	L	subroutine:loadquiet	file:
+fac	magfield.f	/^      real*8 z,taplen,pctap,fac,/;"	L	function:faw0	file:
+fac	math.f	/^      real*8 v1,v2,hammv,r,fac,/;"	L	function:gasham	file:
+fac	math.f	/^      real*8 v1,v2,ran1,r,fac,/;"	L	function:gasran	file:
+faw0	magfield.f	/^      function faw0(/;"	f
+faw0	magfield.f	/^      real*8 z,taplen,pctap,fac,wcoefz(*),delz,xlamd,aw0,faw0$/;"	L	function:faw0	file:
+faw2	magfield.f	/^      function faw2(/;"	f
+fbess0	input.f	/^     +          aw0,xkx,xky,wcoefz,xlamd,fbess0,/;"	L	function:readin	file:
+ffspec	input.f	/^     +          idmpfld,ilog,ffspec,/;"	L	function:readin	file:
+field	field.f	/^      subroutine field(/;"	s
+fieldfile	input.f	/^     +          beamfile,fieldfile,/;"	L	function:readin	file:
+file	input.f	/^      character*(*) file$/;"	L	function:detectfiletype	file:
+file	input.f	/^      character*(*) file$/;"	L	function:openbininput	file:
+file	input.f	/^      character*(*) file$/;"	L	function:readdistfile	file:
+file	input.f	/^      character*(*) file$/;"	L	subroutine:readbeamfile	file:
+file	input.f	/^      character*(*) file$/;"	L	subroutine:readradfile	file:
+file	input.f	/^      character*34 file$/;"	L	subroutine:initio	file:
+file	output.f	/^      character*(*) file,/;"	L	function:opentextfile	file:
+file	source.f	/^      character*30 file$/;"	L	subroutine:source	file:
+file_ext	input.f	/^      character*4   file_ext$/;"	L	subroutine:initio	file:
+file_harm	output.f	/^      character*1    file_harm$/;"	L	subroutine:openoutputbinmpi	file:
+file_id	input.f	/^      character*11  file_id$/;"	L	subroutine:initio	file:
+file_id	output.f	/^      character*11 file_id$/;"	L	subroutine:output	file:
+file_id	output.f	/^      character*12   file_id$/;"	L	subroutine:openoutputbinmpi	file:
+file_id	output.f	/^      character*12   file_id$/;"	L	subroutine:outhist	file:
+file_id	output.f	/^      character*12  file_id$/;"	L	subroutine:outdump	file:
+filename	output.f	/^      character*36 filename$/;"	L	function:openbinfile	file:
+filetype	input.f	/^     +          partfile,distfile,filetype,/;"	L	function:readin	file:
+first	output.f	/^      subroutine first$/;"	s
+fl	input.f	/^     +          quadf,quadd,fl,/;"	L	function:readin	file:
+foc	track.f	/^      real*8 a1,a2,a3,xtmp,foc,/;"	L	subroutine:track	file:
+fourn	math.f	/^      subroutine fourn(/;"	s
+ft	input.f	/^      integer ft,/;"	L	function:openbininput	file:
+ft	input.f	/^      integer nin,i,ncol,ipar(15),ix,idata,j,ft,/;"	L	subroutine:readbeamfile	file:
+ft	input.f	/^      integer nin,i,ncol,ipar(5),ix,idata,j,ft,/;"	L	subroutine:readradfile	file:
+g	input.f	/^      real*8 x(*),px(*),y(*),py(*),g(/;"	L	subroutine:readslice	file:
+g	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(*),g(/;"	L	subroutine:neighbor	file:
+g	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(*),g(/;"	L	subroutine:switch	file:
+ga	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,pxs,pya,pys,ga,/;"	L	subroutine:loaddist	file:
+gainavg	diagno.f	/^      real*8 xavg,yavg,tpsin,tpcos,prad,ptot,gainavg,/;"	L	subroutine:diagno	file:
+gam0	incoherent.f	/^      real*8 tmp2,gam0,/;"	L	subroutine:incoherent	file:
+gamma0	input.f	/^     +          npart,gamma0,/;"	L	function:readin	file:
+gamma_old	input.f	/^      real*8 gamma_old,/;"	L	subroutine:importtransfer	file:
+gasham	math.f	/^      real*8 function gasham(/;"	f
+gasran	math.f	/^      real*8 function gasran(/;"	f
+gauss_hermite	loadrad.f	/^      subroutine gauss_hermite(/;"	s
+genesis	main.f	/^      program genesis$/;"	p
+getbeamfileinfo	input.f	/^      subroutine getbeamfileinfo(/;"	s
+getdiag	field.f	/^      subroutine getdiag(/;"	s
+getdistfileinfo	input.f	/^      subroutine getdistfileinfo(/;"	s
+getfirstchar	string.f	/^      subroutine getfirstchar(/;"	s
+getmagfileinfo	magfield.f	/^      subroutine getmagfileinfo(/;"	s
+getpsi	rpos.f	/^      subroutine getpsi(/;"	s
+getradfileinfo	input.f	/^      subroutine getradfileinfo(/;"	s
+gridsize	field.f	/^      real*8 mupp,mmid,mlow,rtmp,stepsize,gridsize,/;"	L	subroutine:getdiag	file:
+gs	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,pxs,pya,pys,ga,gs$/;"	L	subroutine:loaddist	file:
+gset	math.f	/^      real*8 v1,v2,hammv,r,fac,gset$/;"	L	function:gasham	file:
+gset	math.f	/^      real*8 v1,v2,ran1,r,fac,gset$/;"	L	function:gasran	file:
+h	field.f	/^      integer k,i,h,/;"	L	subroutine:tridagx	file:
+h	field.f	/^      integer n,k,i,h,/;"	L	subroutine:tridagy	file:
+hammv	math.f	/^      real*8 function hammv(/;"	f
+hammv	math.f	/^      real*8 v1,v2,hammv,/;"	L	function:gasham	file:
+harm	loadrad.f	/^      integer    iy,ix,idx,n,harm,/;"	L	subroutine:gauss_hermite	file:
+harm_id	output.f	/^      character*1   harm_id$/;"	L	subroutine:outdump	file:
+harmcoupling	partsim.f	/^      subroutine harmcoupling(/;"	s
+haszpos	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,haszpos,/;"	L	subroutine:getbeamfileinfo	file:
+haszpos	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,haszpos,/;"	L	subroutine:getradfileinfo	file:
+i	check.f	/^      in/;"	L	function:chk_bnd	file:
+i	check.f	/^      in/;"	L	function:chk_scan	file:
+i	check.f	/^      in/;"	L	subroutine:chk_input	file:
+i	diagno.f	/^      in/;"	L	subroutine:diagno	file:
+i	field.f	/^      in/;"	L	subroutine:field	file:
+i	field.f	/^      in/;"	L	subroutine:tridagx	file:
+i	field.f	/^      in/;"	L	subroutine:tridagy	file:
+i	initrun.f	/^      in/;"	L	subroutine:initrun	file:
+i	input.f	/^      in/;"	L	function:detectfiletype	file:
+i	input.f	/^      in/;"	L	function:readdistfile	file:
+i	input.f	/^      in/;"	L	function:readpart	file:
+i	input.f	/^      in/;"	L	subroutine:getbeamfileinfo	file:
+i	input.f	/^      in/;"	L	subroutine:getdistfileinfo	file:
+i	input.f	/^      in/;"	L	subroutine:getradfileinfo	file:
+i	input.f	/^      in/;"	L	subroutine:importdispersion	file:
+i	input.f	/^      in/;"	L	subroutine:importtransfer	file:
+i	input.f	/^      in/;"	L	subroutine:initio	file:
+i	input.f	/^      in/;"	L	subroutine:preset	file:
+i	input.f	/^      in/;"	L	subroutine:readbeamfile	file:
+i	input.f	/^      in/;"	L	subroutine:readradfile	file:
+i	input.f	/^      in/;"	L	subroutine:readslice	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:compmom	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:cut_tail	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:loadbeam	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:loaddist	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:neighbor	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:scaledist	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:shotnoise_fawley	file:
+i	loadbeam.f	/^      in/;"	L	subroutine:shotnoise_penman	file:
+i	loadrad.f	/^      in/;"	L	subroutine:loadslpfld	file:
+i	magfield.f	/^      in/;"	L	function:faw0	file:
+i	magfield.f	/^      in/;"	L	function:faw2	file:
+i	magfield.f	/^      in/;"	L	subroutine:chk_maglen	file:
+i	magfield.f	/^      in/;"	L	subroutine:getmagfileinfo	file:
+i	magfield.f	/^      in/;"	L	subroutine:magfield	file:
+i	magfield.f	/^      in/;"	L	subroutine:magread	file:
+i	magfield.f	/^      in/;"	L	subroutine:magwrite	file:
+i	math.f	/^      in/;"	L	function:hammv	file:
+i	mpi.f	/^      in/;"	L	subroutine:mpi_merge	file:
+i	output.f	/^      in/;"	L	function:openoutputfile	file:
+i	output.f	/^      in/;"	L	subroutine:closeoutputbinmpi	file:
+i	output.f	/^      in/;"	L	subroutine:openoutputbinmpi	file:
+i	output.f	/^      in/;"	L	subroutine:outdump	file:
+i	output.f	/^      in/;"	L	subroutine:outdumpslippage	file:
+i	output.f	/^      in/;"	L	subroutine:outfield	file:
+i	pushp.f	/^      in/;"	L	subroutine:chk_loss	file:
+i	source.f	/^      in/;"	L	subroutine:source	file:
+i	stepz.f	/^      in/;"	L	subroutine:stepz	file:
+i	string.f	/^      in/;"	L	function:extractnumber	file:
+i	string.f	/^      in/;"	L	function:extractval	file:
+i	string.f	/^      in/;"	L	subroutine:getfirstchar	file:
+i	string.f	/^      in/;"	L	subroutine:touppercase	file:
+i	tdepend.f	/^      in/;"	L	subroutine:dotime	file:
+i	tdepend.f	/^      in/;"	L	subroutine:dotimerad	file:
+i0	diagno.f	/^      integer i,ip,ix,iy,i0,/;"	L	subroutine:diagno	file:
+i0	output.f	/^      integer i,i0,/;"	L	subroutine:outdump	file:
+i0	output.f	/^      integer i,j,i0,/;"	L	subroutine:outdumpslippage	file:
+i1	check.f	/^      integer itmp,ibas(7),i1,/;"	L	function:chk_bnd	file:
+i1	diagno.f	/^      integer i,ip,ix,iy,i0,i1,/;"	L	subroutine:diagno	file:
+i1	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,n1st,nlat,i1,/;"	L	subroutine:magfield	file:
+i1	math.f	/^      integer i1,/;"	L	subroutine:fourn	file:
+i1	math.f	/^      integer j,jmax,i,nbase,i1,/;"	L	function:hammv	file:
+i1	output.f	/^      integer iz,itmp,i1,/;"	L	subroutine:outglob	file:
+i2	check.f	/^      integer itmp,ibas(7),i1,i2,/;"	L	function:chk_bnd	file:
+i2	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,n1st,nlat,i1,i2,/;"	L	subroutine:magfield	file:
+i2	math.f	/^      integer i1,i2,/;"	L	subroutine:fourn	file:
+i2	math.f	/^      integer j,jmax,i,nbase,i1,i2,/;"	L	function:hammv	file:
+i2	output.f	/^      integer iz,itmp,i1,i2,/;"	L	subroutine:outglob	file:
+i2rev	math.f	/^      integer i1,i2,i2rev,/;"	L	subroutine:fourn	file:
+i3	math.f	/^      integer i1,i2,i2rev,i3,/;"	L	subroutine:fourn	file:
+i3	output.f	/^      integer iz,itmp,i1,i2,i3,/;"	L	subroutine:outglob	file:
+i3rev	math.f	/^      integer i1,i2,i2rev,i3,i3rev,/;"	L	subroutine:fourn	file:
+ia1	math.f	/^      integer idum,im1,im2,imm1,ia1,/;"	L	function:ran1	file:
+ia2	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,/;"	L	function:ran1	file:
+iall	input.f	/^     +          curlen,ntail,nslice,shotnoise,iall,/;"	L	function:readin	file:
+iallharm	input.f	/^     +          idump,iotail,nharm,iallharm,/;"	L	function:readin	file:
+iaphi	input.f	/^      real*8 iarho,iaphi,/;"	L	subroutine:importdispersion	file:
+iarg	input.f	/^      integer n,i,idx,ix1,ix2,ncount,narg,iarg,/;"	L	subroutine:getdistfileinfo	file:
+iarg	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,haszpos,iarg$/;"	L	subroutine:getbeamfileinfo	file:
+iarg	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,haszpos,iarg$/;"	L	subroutine:getradfileinfo	file:
+iarho	input.f	/^      real*8 iarho,/;"	L	subroutine:importdispersion	file:
+ibas	check.f	/^      integer itmp,ibas(/;"	L	function:chk_bnd	file:
+ibfield	input.f	/^     +          isravg,isrsig,eloss,ndcut,ibfield,/;"	L	function:readin	file:
+ibit	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,/;"	L	subroutine:fourn	file:
+ic	magfield.f	/^      integer i,ic,/;"	L	subroutine:magwrite	file:
+ic	string.f	/^      integer i,ic$/;"	L	subroutine:touppercase	file:
+icall	math.f	/^      integer j,jmax,i,nbase,i1,i2,icall,/;"	L	function:hammv	file:
+icall	math.f	/^      integer j,jmax,icall,/;"	L	function:gasham	file:
+icar	field.f	/^      integer icar,/;"	L	subroutine:getdiag	file:
+idata	input.f	/^      integer nin,i,ncol,ipar(15),ix,idata,/;"	L	subroutine:readbeamfile	file:
+idata	input.f	/^      integer nin,i,ncol,ipar(5),ix,idata,/;"	L	subroutine:readradfile	file:
+idel	input.f	/^      integer j,i,islice,idel$/;"	L	function:readpart	file:
+idel	pushp.f	/^      integer delip(npmax),mpart,j,k,i,idel$/;"	L	subroutine:chk_loss	file:
+idim	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,/;"	L	subroutine:fourn	file:
+idmpfld	input.f	/^     +          idmpfld,/;"	L	function:readin	file:
+idmppar	input.f	/^     +          idump,iotail,nharm,iallharm,iharmsc,idmppar,/;"	L	function:readin	file:
+idril	input.f	/^     +          isravg,isrsig,eloss,ndcut,ibfield,imagl,idril,/;"	L	function:readin	file:
+idum	magfield.f	/^      integer i,nr,imz(11),imzb(11),idum,/;"	L	subroutine:magread	file:
+idum	math.f	/^      integer idum,/;"	L	function:ran1	file:
+idum	math.f	/^      integer iset,idum$/;"	L	function:gasran	file:
+idum2	math.f	/^      integer idum2,/;"	L	function:ran1	file:
+idump	input.f	/^     +          idump,/;"	L	function:readin	file:
+idx	field.f	/^      integer ix,idx,/;"	L	subroutine:field	file:
+idx	input.f	/^      integer n,i,idx,/;"	L	subroutine:getdistfileinfo	file:
+idx	loadrad.f	/^      integer    iy,ix,idx,/;"	L	subroutine:gauss_hermite	file:
+idx	magfield.f	/^      integer int_version,ncol,ierr,nlen,idx$/;"	L	subroutine:magread	file:
+idx	magfield.f	/^      integer n,i,idx,/;"	L	subroutine:getmagfileinfo	file:
+idx	partsim.f	/^      integer ip,idx,/;"	L	subroutine:partsorc	file:
+idx	rpos.f	/^      integer ip,idx$/;"	L	subroutine:getpsi	file:
+idx	source.f	/^      integer ip,j,idx,/;"	L	subroutine:source	file:
+idx	string.f	/^      integer idx,/;"	L	subroutine:getfirstchar	file:
+idx	tdepend.f	/^      integer i,idx,/;"	L	subroutine:dotime	file:
+idx	tdepend.f	/^      integer i,idx,/;"	L	subroutine:dotimerad	file:
+idx1	partsim.f	/^      integer idx1,/;"	L	subroutine:partsorc	file:
+idx2	partsim.f	/^      integer idx1,idx2,/;"	L	subroutine:partsorc	file:
+idx3	partsim.f	/^      integer idx1,idx2,idx3,/;"	L	subroutine:partsorc	file:
+idx4	partsim.f	/^      integer idx1,idx2,idx3,idx4,/;"	L	subroutine:partsorc	file:
+ierr	input.f	/^      integer i,ierr$/;"	L	subroutine:importdispersion	file:
+ierr	input.f	/^      integer i,ierr$/;"	L	subroutine:importtransfer	file:
+ierr	input.f	/^      integer n,i,idx,ix1,ix2,ncount,narg,iarg,j,ierr$/;"	L	subroutine:getdistfileinfo	file:
+ierr	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,/;"	L	subroutine:getbeamfileinfo	file:
+ierr	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,/;"	L	subroutine:getradfileinfo	file:
+ierr	loadrad.f	/^      integer ix,irec,islice,ierr,/;"	L	subroutine:loadrad	file:
+ierr	loadrad.f	/^      integer ix,islp,nslp,ierr,/;"	L	subroutine:loadslpfld	file:
+ierr	magfield.f	/^      integer int_version,ncol,ierr,/;"	L	subroutine:magread	file:
+ierr	magfield.f	/^      integer n,i,idx,ierr$/;"	L	subroutine:getmagfileinfo	file:
+ierr	output.f	/^      integer ierr$/;"	L	function:printerr	file:
+ierr1	input.f	/^      integer ierr1,/;"	L	subroutine:initio	file:
+ierr2	input.f	/^      integer ierr1,ierr2,/;"	L	subroutine:initio	file:
+ierror	output.f	/^      integer ierror,/;"	L	function:openoutputfile	file:
+iertyp	input.f	/^     +          aw0,xkx,xky,wcoefz,xlamd,fbess0,delaw,iertyp,/;"	L	function:readin	file:
+ifile	output.f	/^      integer i,i0,j,islice,mpart,jj,iharm,ih,ioffset,ifile$/;"	L	subroutine:outdump	file:
+ifile	output.f	/^      integer i,j,i0,ioffset,ih,ifile$/;"	L	subroutine:outdumpslippage	file:
+ifile	output.f	/^      integer ioffset,ih,ifile$/;"	L	subroutine:outfield	file:
+ifp1	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,/;"	L	subroutine:fourn	file:
+ifp2	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,ifp2,/;"	L	subroutine:fourn	file:
+igamgaus	input.f	/^     +          igamgaus,/;"	L	function:readin	file:
+igamref	input.f	/^     +          alignradf,offsetradf,multconv,igamref,/;"	L	function:readin	file:
+ih	input.f	/^      integer ierr1,ierr2,i,ih$/;"	L	subroutine:initio	file:
+ih	mpi.f	/^      integer i,ih,/;"	L	subroutine:mpi_merge	file:
+ih	output.f	/^      integer i,i0,j,islice,mpart,jj,iha/;"	L	subroutine:outdump	file:
+ih	output.f	/^      integer i,j,i0,ioffset,ih,/;"	L	subroutine:outdumpslippage	file:
+ih	output.f	/^      integer ih$/;"	L	subroutine:last	file:
+ih	output.f	/^      integer il,islice,ih,/;"	L	subroutine:outhist	file:
+ih	output.f	/^      integer ioffset,ih,/;"	L	subroutine:outfield	file:
+ih	output.f	/^      integer iz,islice,m,ih$/;"	L	subroutine:outhistheader	file:
+ih	partsim.f	/^      integer ih$/;"	L	subroutine:harmcoupling	file:
+ih	partsim.f	/^      integer ip,idx,istepz,ih,/;"	L	subroutine:partsorc	file:
+ih	partsim.f	/^      integer ip,istepz,ih,/;"	L	subroutine:partsim	file:
+iharm	loadbeam.f	/^      integer i,ip,mpart,islice,j,jj,iharm$/;"	L	subroutine:shotnoise_fawley	file:
+iharm	output.f	/^      integer i,i0,j,islice,mpart,jj,iharm,/;"	L	subroutine:outdump	file:
+iharmsc	input.f	/^     +          idump,iotail,nharm,iallharm,iharmsc,/;"	L	function:readin	file:
+ihloop	field.f	/^      integer icar,ix,ihloop$/;"	L	subroutine:getdiag	file:
+ihloop	field.f	/^      integer ix,idx,i,ihloop,/;"	L	subroutine:field	file:
+il	output.f	/^      integer il,/;"	L	subroutine:outhist	file:
+ildgam	input.f	/^     +          ildgam,/;"	L	function:readin	file:
+ildpsi	input.f	/^     +          ildgam,ildpsi,/;"	L	function:readin	file:
+ildpx	input.f	/^     +          ildgam,ildpsi,ildx,ildy,ildpx,/;"	L	function:readin	file:
+ildpy	input.f	/^     +          ildgam,ildpsi,ildx,ildy,ildpx,ildpy,/;"	L	function:readin	file:
+ildx	input.f	/^     +          ildgam,ildpsi,ildx,/;"	L	function:readin	file:
+ildy	input.f	/^     +          ildgam,ildpsi,ildx,ildy,/;"	L	function:readin	file:
+ill	output.f	/^      integer il,islice,ih,n,m,ill$/;"	L	subroutine:outhist	file:
+ilog	input.f	/^     +          idmpfld,ilog,/;"	L	function:readin	file:
+iloop	timerec.f	/^      integer n,it,irec,ioff,ioff2,iloop$/;"	L	subroutine:pulltimerec	file:
+iloop	timerec.f	/^      integer n,it,irec,ioff,ioff2,iloop$/;"	L	subroutine:pushtimerec	file:
+im1	math.f	/^      integer idum,im1,/;"	L	function:ran1	file:
+im2	math.f	/^      integer idum,im1,im2,/;"	L	function:ran1	file:
+imagl	input.f	/^     +          isravg,isrsig,eloss,ndcut,ibfield,imagl,/;"	L	function:readin	file:
+imagl_old	input.f	/^      real*8 iarho,iaphi,mam,imagl_old$/;"	L	subroutine:importdispersion	file:
+imm1	math.f	/^      integer idum,im1,im2,imm1,/;"	L	function:ran1	file:
+importdispersion	input.f	/^      subroutine importdispersion /;"	s
+importtransfer	input.f	/^      subroutine importtransfer /;"	s
+imz	magfield.f	/^      integer i,j,imz(/;"	L	subroutine:chk_maglen	file:
+imz	magfield.f	/^      integer i,nr,imz(/;"	L	subroutine:magread	file:
+imz	magfield.f	/^      integer imz(/;"	L	subroutine:magfield	file:
+imzb	magfield.f	/^      integer i,nr,imz(11),imzb(/;"	L	subroutine:magread	file:
+incoherent	incoherent.f	/^      subroutine incoherent(/;"	s
+initio	input.f	/^       subroutine initio$/;"	s
+initrun	initrun.f	/^      subroutine initrun$/;"	s
+int_version	magfield.f	/^      integer int_version,/;"	L	subroutine:magread	file:
+invcur	tdepend.f	/^      real*8 invcur,/;"	L	subroutine:dotime	file:
+invcur	tdepend.f	/^      real*8 invcur,/;"	L	subroutine:dotimerad	file:
+inverfc	input.f	/^     +          igamgaus,inverfc,/;"	L	function:readin	file:
+ioff	diagno.f	/^      integer ioff$/;"	L	subroutine:diagno	file:
+ioff	field.f	/^      integer ioff$/;"	L	subroutine:field	file:
+ioff	loadrad.f	/^      integer    iy,ix,idx,n,harm,ioff$/;"	L	subroutine:gauss_hermite	file:
+ioff	timerec.f	/^      integer n,it,irec,ioff,/;"	L	subroutine:pulltimerec	file:
+ioff	timerec.f	/^      integer n,it,irec,ioff,/;"	L	subroutine:pushtimerec	file:
+ioff1	field.f	/^      integer k,i,h,ioff1,/;"	L	subroutine:tridagx	file:
+ioff1	field.f	/^      integer n,k,i,h,ioff1,/;"	L	subroutine:tridagy	file:
+ioff2	field.f	/^      integer k,i,h,ioff1,ioff2$/;"	L	subroutine:tridagx	file:
+ioff2	field.f	/^      integer n,k,i,h,ioff1,ioff2$/;"	L	subroutine:tridagy	file:
+ioff2	timerec.f	/^      integer n,it,irec,ioff,ioff2,/;"	L	subroutine:pulltimerec	file:
+ioff2	timerec.f	/^      integer n,it,irec,ioff,ioff2,/;"	L	subroutine:pushtimerec	file:
+ioffset	output.f	/^      integer i,i0,j,islice,mpart,jj,iharm,ih,ioffset,/;"	L	subroutine:outdump	file:
+ioffset	output.f	/^      integer i,j,i0,ioffset,/;"	L	subroutine:outdumpslippage	file:
+ioffset	output.f	/^      integer ioffset,/;"	L	subroutine:outfield	file:
+ioffset	partsim.f	/^      integer idx1,idx2,idx3,idx4,ioffset$/;"	L	subroutine:partsorc	file:
+iopenerr	output.f	/^      integer islice,iopenerr,/;"	L	subroutine:openoutputbinmpi	file:
+iorb	input.f	/^     +          nwig,delz,zsep,nsec,iorb,/;"	L	function:readin	file:
+iotail	input.f	/^     +          idump,iotail,/;"	L	function:readin	file:
+ip	diagno.f	/^      integer i,ip,/;"	L	subroutine:diagno	file:
+ip	esource.f	/^      integer m,j,ip,/;"	L	subroutine:esource	file:
+ip	incoherent.f	/^      integer ip,/;"	L	subroutine:incoherent	file:
+ip	initrun.f	/^      integer ip,/;"	L	subroutine:initrun	file:
+ip	input.f	/^      integer   nio,nget,i,ix,ip,/;"	L	function:readdistfile	file:
+ip	input.f	/^      integer nget,n0,i,ix,ip$/;"	L	subroutine:readslice	file:
+ip	loadbeam.f	/^      integer i,ip,/;"	L	subroutine:loadbeam	file:
+ip	loadbeam.f	/^      integer i,ip,/;"	L	subroutine:shotnoise_fawley	file:
+ip	loadbeam.f	/^      integer i,ip,/;"	L	subroutine:shotnoise_penman	file:
+ip	loadbeam.f	/^      integer mpart,ip$/;"	L	subroutine:loadquiet	file:
+ip	partsim.f	/^      integer ip,/;"	L	subroutine:partsim	file:
+ip	partsim.f	/^      integer ip,/;"	L	subroutine:partsorc	file:
+ip	rpos.f	/^      integer ip,/;"	L	subroutine:getpsi	file:
+ip	rpos.f	/^      integer ip,/;"	L	subroutine:rpos	file:
+ip	source.f	/^      integer ip,/;"	L	subroutine:source	file:
+ip	track.f	/^      integer ip,/;"	L	subroutine:track	file:
+ip1	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,ifp2,ip1,/;"	L	subroutine:fourn	file:
+ip2	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,ifp2,ip1,ip2,/;"	L	subroutine:fourn	file:
+ip3	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,ifp2,ip1,ip2,ip3,/;"	L	subroutine:fourn	file:
+ipar	input.f	/^      integer ndata,ipar(/;"	L	subroutine:getbeamfileinfo	file:
+ipar	input.f	/^      integer ndata,ipar(/;"	L	subroutine:getradfileinfo	file:
+ipar	input.f	/^      integer nin,i,ncol,ipar(/;"	L	subroutine:readbeamfile	file:
+ipar	input.f	/^      integer nin,i,ncol,ipar(/;"	L	subroutine:readradfile	file:
+iphsty	input.f	/^     +          iphsty,/;"	L	function:readin	file:
+ippart	input.f	/^     +          iphsty,ishsty,ippart,/;"	L	function:readin	file:
+ipradi	input.f	/^     +          iphsty,ishsty,ippart,ispart,ipradi,/;"	L	function:readin	file:
+ipseed	input.f	/^     +          curlen,ntail,nslice,shotnoise,iall,itdp,ipseed,/;"	L	function:readin	file:
+iq1	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,/;"	L	function:ran1	file:
+iq2	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,iq2,/;"	L	function:ran1	file:
+ir	esource.f	/^      integer m,j,ip,ir,/;"	L	subroutine:esource	file:
+ir1	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,iq2,ir1,/;"	L	function:ran1	file:
+ir2	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,iq2,ir1,ir2,/;"	L	function:ran1	file:
+irec	input.f	/^      integer ix,irec$/;"	L	function:readfield	file:
+irec	loadrad.f	/^      integer ix,irec,/;"	L	subroutine:loadrad	file:
+irec	loadrad.f	/^      integer ix,islp,nslp,ierr,irec,/;"	L	subroutine:loadslpfld	file:
+irec	timerec.f	/^      integer n,it,irec,/;"	L	subroutine:pulltimerec	file:
+irec	timerec.f	/^      integer n,it,irec,/;"	L	subroutine:pushtimerec	file:
+iscan	input.f	/^     +          iscan,/;"	L	function:readin	file:
+iscn	check.f	/^      integer i,j,iscn,/;"	L	function:chk_scan	file:
+iscrkup	input.f	/^     +          ncar,lbc,rmax0,dgrid,nscr,nscz,nptr,rmax0sc,iscrkup,/;"	L	function:readin	file:
+isdefined	output.f	/^      integer ierror,i,isdefined,/;"	L	function:openoutputfile	file:
+iseed	input.f	/^     +          awd,iseed,/;"	L	function:readin	file:
+iseed	loadbeam.f	/^      integer n1,n2,n,i,iseed$/;"	L	subroutine:neighbor	file:
+isep	main.f	/^      integer islp,isep,/;"	v	program:genesis
+iserr	magfield.f	/^      integer imz(11),nwigz,iserr,/;"	L	subroutine:magfield	file:
+iset	math.f	/^      integer iset,/;"	L	function:gasran	file:
+iset	math.f	/^      integer j,jmax,icall,iset,/;"	L	function:gasham	file:
+isfield	input.f	/^      integer ft,nio,size,isfield$/;"	L	function:openbininput	file:
+ishsty	input.f	/^     +          iphsty,ishsty,/;"	L	function:readin	file:
+isign	math.f	/^      integer isign,/;"	L	subroutine:fourn	file:
+iskip	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,n1st,nlat,i1,i2,i,iskip$/;"	L	subroutine:magfield	file:
+islice	input.f	/^      integer j,i,islice,/;"	L	function:readpart	file:
+islice	loadbeam.f	/^      integer i,ip,mpart,islice$/;"	L	subroutine:loadbeam	file:
+islice	loadbeam.f	/^      integer i,ip,mpart,islice$/;"	L	subroutine:shotnoise_penman	file:
+islice	loadbeam.f	/^      integer i,ip,mpart,islice,/;"	L	subroutine:shotnoise_fawley	file:
+islice	loadbeam.f	/^      integer mpart,mget,n1,n2,i,islice$/;"	L	subroutine:loaddist	file:
+islice	loadrad.f	/^      integer ix,irec,islice,/;"	L	subroutine:loadrad	file:
+islice	main.f	/^      integer islp,isep,lstepz,istepz,islice$/;"	v	program:genesis
+islice	mpi.f	/^      integer i,ih,islice,/;"	L	subroutine:mpi_merge	file:
+islice	output.f	/^      integer i,i0,j,islice,/;"	L	subroutine:outdump	file:
+islice	output.f	/^      integer i,islice,/;"	L	subroutine:outfield	file:
+islice	output.f	/^      integer il,islice,/;"	L	subroutine:outhist	file:
+islice	output.f	/^      integer islice,/;"	L	subroutine:openoutputbinmpi	file:
+islice	output.f	/^      integer istepz,islice$/;"	L	subroutine:output	file:
+islice	output.f	/^      integer istepz,islice$/;"	L	subroutine:status	file:
+islice	output.f	/^      integer iz,islice,/;"	L	subroutine:outhistheader	file:
+islice	output.f	/^      integer iz,istepz,islice$/;"	L	subroutine:outpart	file:
+islice	scan.f	/^      integer islice$/;"	L	subroutine:doscan	file:
+islice	tdepend.f	/^      integer i,idx,islice$/;"	L	subroutine:dotime	file:
+islice	tdepend.f	/^      integer i,idx,islice$/;"	L	subroutine:dotimerad	file:
+islp	loadrad.f	/^      integer islp,/;"	L	subroutine:swapfield	file:
+islp	loadrad.f	/^      integer ix,islp,/;"	L	subroutine:loadslpfld	file:
+islp	main.f	/^      integer islp,/;"	v	program:genesis
+isntyp	input.f	/^     +          curlen,ntail,nslice,shotnoise,iall,itdp,ipseed,isntyp,/;"	L	function:readin	file:
+isop	input.f	/^      logical isop$/;"	L	function:readpart	file:
+isop	output.f	/^      logical isop$/;"	L	subroutine:closefile	file:
+ispart	input.f	/^     +          iphsty,ishsty,ippart,ispart,/;"	L	function:readin	file:
+isradi	input.f	/^     +          iphsty,ishsty,ippart,ispart,ipradi,isradi,/;"	L	function:readin	file:
+isravg	input.f	/^     +          isravg,/;"	L	function:readin	file:
+isrsig	input.f	/^     +          isravg,isrsig,/;"	L	function:readin	file:
+istepz	diagno.f	/^      integer i,ip,ix,iy,i0,i1,nn(2),istepz,/;"	L	subroutine:diagno	file:
+istepz	esource.f	/^      integer m,j,ip,ir,istepz$/;"	L	subroutine:esource	file:
+istepz	main.f	/^      integer islp,isep,lstepz,istepz,/;"	v	program:genesis
+istepz	output.f	/^      integer i,islice,istepz$/;"	L	subroutine:outfield	file:
+istepz	output.f	/^      integer istepz,/;"	L	subroutine:output	file:
+istepz	output.f	/^      integer istepz,/;"	L	subroutine:status	file:
+istepz	output.f	/^      integer iz,istepz,/;"	L	subroutine:outpart	file:
+istepz	partsim.f	/^      integer ip,idx,istepz,/;"	L	subroutine:partsorc	file:
+istepz	partsim.f	/^      integer ip,istepz,/;"	L	subroutine:partsim	file:
+istepz	pushp.f	/^      integer n,istepz$/;"	L	subroutine:pushp	file:
+istepz	rpos.f	/^      integer ip,ix1,iy1,ix2,iy2,istepz$/;"	L	subroutine:rpos	file:
+istepz	source.f	/^      integer ip,j,idx,istepz,/;"	L	subroutine:source	file:
+istepz	stepz.f	/^      integer istepz,/;"	L	subroutine:stepz	file:
+istepz	track.f	/^      integer ip,istepz$/;"	L	subroutine:track	file:
+istr	output.f	/^      integer ierror,i,isdefined,istr$/;"	L	function:openoutputfile	file:
+isup	magfield.f	/^      integer i,nr,imz(11),imzb(11),idum,isup$/;"	L	subroutine:magread	file:
+isup	magfield.f	/^      integer imz(11),nwigz,iserr,nsl,isup,/;"	L	subroutine:magfield	file:
+it	loadrad.f	/^      integer islp,it,/;"	L	subroutine:swapfield	file:
+it	timerec.f	/^      integer n,it,/;"	L	subroutine:pulltimerec	file:
+it	timerec.f	/^      integer n,it,/;"	L	subroutine:pushtimerec	file:
+itdp	input.f	/^     +          curlen,ntail,nslice,shotnoise,iall,itdp,/;"	L	function:readin	file:
+itgaus	input.f	/^     +          ildgam,ildpsi,ildx,ildy,ildpx,ildpy,itgaus,/;"	L	function:readin	file:
+itmp	check.f	/^      integer itmp,/;"	L	function:chk_bnd	file:
+itmp	input.f	/^      integer nin,i,ncol,ipar(15),ix,idata,j,ft,itmp$/;"	L	subroutine:readbeamfile	file:
+itmp	input.f	/^      integer nin,i,ncol,ipar(5),ix,idata,j,ft,itmp$/;"	L	subroutine:readradfile	file:
+itmp	magfield.f	/^      integer imz(11),nwigz,iserr,nsl,isup,itmp,/;"	L	subroutine:magfield	file:
+itmp	output.f	/^      integer iz,itmp,/;"	L	subroutine:outglob	file:
+itram11	input.f	/^     +          trama,itram11,/;"	L	function:readin	file:
+itram12	input.f	/^     +          trama,itram11,itram12,/;"	L	function:readin	file:
+itram13	input.f	/^     +          trama,itram11,itram12,itram13,/;"	L	function:readin	file:
+itram14	input.f	/^     +          trama,itram11,itram12,itram13,itram14,/;"	L	function:readin	file:
+itram15	input.f	/^     +          trama,itram11,itram12,itram13,itram14,itram15,/;"	L	function:readin	file:
+itram16	input.f	/^     +          trama,itram11,itram12,itram13,itram14,itram15,itram16,/;"	L	function:readin	file:
+itram21	input.f	/^     +          itram21,/;"	L	function:readin	file:
+itram22	input.f	/^     +          itram21,itram22,/;"	L	function:readin	file:
+itram23	input.f	/^     +          itram21,itram22,itram23,/;"	L	function:readin	file:
+itram24	input.f	/^     +          itram21,itram22,itram23,itram24,/;"	L	function:readin	file:
+itram25	input.f	/^     +          itram21,itram22,itram23,itram24,itram25,/;"	L	function:readin	file:
+itram26	input.f	/^     +          itram21,itram22,itram23,itram24,itram25,itram26,/;"	L	function:readin	file:
+itram31	input.f	/^     +          itram31,/;"	L	function:readin	file:
+itram32	input.f	/^     +          itram31,itram32,/;"	L	function:readin	file:
+itram33	input.f	/^     +          itram31,itram32,itram33,/;"	L	function:readin	file:
+itram34	input.f	/^     +          itram31,itram32,itram33,itram34,/;"	L	function:readin	file:
+itram35	input.f	/^     +          itram31,itram32,itram33,itram34,itram35,/;"	L	function:readin	file:
+itram36	input.f	/^     +          itram31,itram32,itram33,itram34,itram35,itram36,/;"	L	function:readin	file:
+itram41	input.f	/^     +          itram41,/;"	L	function:readin	file:
+itram42	input.f	/^     +          itram41,itram42,/;"	L	function:readin	file:
+itram43	input.f	/^     +          itram41,itram42,itram43,/;"	L	function:readin	file:
+itram44	input.f	/^     +          itram41,itram42,itram43,itram44,/;"	L	function:readin	file:
+itram45	input.f	/^     +          itram41,itram42,itram43,itram44,itram45,/;"	L	function:readin	file:
+itram46	input.f	/^     +          itram41,itram42,itram43,itram44,itram45,itram46,/;"	L	function:readin	file:
+itram51	input.f	/^     +          itram51,/;"	L	function:readin	file:
+itram52	input.f	/^     +          itram51,itram52,/;"	L	function:readin	file:
+itram53	input.f	/^     +          itram51,itram52,itram53,/;"	L	function:readin	file:
+itram54	input.f	/^     +          itram51,itram52,itram53,itram54,/;"	L	function:readin	file:
+itram55	input.f	/^     +          itram51,itram52,itram53,itram54,itram55,/;"	L	function:readin	file:
+itram56	input.f	/^     +          itram51,itram52,itram53,itram54,itram55,itram56,/;"	L	function:readin	file:
+itram61	input.f	/^     +          itram61,/;"	L	function:readin	file:
+itram62	input.f	/^     +          itram61,itram62,/;"	L	function:readin	file:
+itram63	input.f	/^     +          itram61,itram62,itram63,/;"	L	function:readin	file:
+itram64	input.f	/^     +          itram61,itram62,itram63,itram64,/;"	L	function:readin	file:
+itram65	input.f	/^     +          itram61,itram62,itram63,itram64,itram65,/;"	L	function:readin	file:
+itram66	input.f	/^     +          itram61,itram62,itram63,itram64,itram65,itram66$/;"	L	function:readin	file:
+iv	math.f	/^      integer idum2,j,k,iv(/;"	L	function:ran1	file:
+iwityp	input.f	/^     +          aw0,xkx,xky,wcoefz,xlamd,fbess0,delaw,iertyp,iwityp,/;"	L	function:readin	file:
+ix	check.f	/^      integer i,ix$/;"	L	subroutine:chk_input	file:
+ix	diagno.f	/^      integer i,ip,ix,/;"	L	subroutine:diagno	file:
+ix	field.f	/^      integer icar,ix,/;"	L	subroutine:getdiag	file:
+ix	field.f	/^      integer ix,/;"	L	subroutine:field	file:
+ix	input.f	/^      integer   nio,nget,i,ix,/;"	L	function:readdistfile	file:
+ix	input.f	/^      integer ix,/;"	L	function:readfield	file:
+ix	input.f	/^      integer nget,n0,i,ix,/;"	L	subroutine:readslice	file:
+ix	input.f	/^      integer nin,i,ncol,ipar(15),ix,/;"	L	subroutine:readbeamfile	file:
+ix	input.f	/^      integer nin,i,ncol,ipar(5),ix,/;"	L	subroutine:readradfile	file:
+ix	loadrad.f	/^      integer    iy,ix,/;"	L	subroutine:gauss_hermite	file:
+ix	loadrad.f	/^      integer ix,/;"	L	subroutine:loadrad	file:
+ix	loadrad.f	/^      integer ix,/;"	L	subroutine:loadslpfld	file:
+ix	partsim.f	/^      integer ip,idx,istepz,ih,ix,/;"	L	subroutine:partsorc	file:
+ix1	input.f	/^      integer n,i,idx,ix1,/;"	L	subroutine:getdistfileinfo	file:
+ix1	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,/;"	L	subroutine:getbeamfileinfo	file:
+ix1	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,/;"	L	subroutine:getradfileinfo	file:
+ix1	rpos.f	/^      integer ip,ix1,/;"	L	subroutine:rpos	file:
+ix1	string.f	/^      integer i,j,nval,ix1,/;"	L	function:extractval	file:
+ix2	input.f	/^      integer n,i,idx,ix1,ix2,/;"	L	subroutine:getdistfileinfo	file:
+ix2	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,/;"	L	subroutine:getbeamfileinfo	file:
+ix2	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,ix1,ix2,/;"	L	subroutine:getradfileinfo	file:
+ix2	rpos.f	/^      integer ip,ix1,iy1,ix2,/;"	L	subroutine:rpos	file:
+ix2	string.f	/^      integer i,j,nval,ix1,ix2,/;"	L	function:extractval	file:
+iy	diagno.f	/^      integer i,ip,ix,iy,/;"	L	subroutine:diagno	file:
+iy	loadrad.f	/^      integer    iy,/;"	L	subroutine:gauss_hermite	file:
+iy	math.f	/^      integer idum2,j,k,iv(ntab),iy$/;"	L	function:ran1	file:
+iy1	rpos.f	/^      integer ip,ix1,iy1,/;"	L	subroutine:rpos	file:
+iy2	rpos.f	/^      integer ip,ix1,iy1,ix2,iy2,/;"	L	subroutine:rpos	file:
+iz	output.f	/^      integer iz,/;"	L	subroutine:outglob	file:
+iz	output.f	/^      integer iz,/;"	L	subroutine:outhistheader	file:
+iz	output.f	/^      integer iz,/;"	L	subroutine:outpart	file:
+j	check.f	/^      integer i,j,/;"	L	function:chk_scan	file:
+j	esource.f	/^      integer m,j,/;"	L	subroutine:esource	file:
+j	input.f	/^      integer j,/;"	L	function:readpart	file:
+j	input.f	/^      integer n,i,idx,ix1,ix2,ncount,narg,iarg,j,/;"	L	subroutine:getdistfileinfo	file:
+j	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,/;"	L	subroutine:getbeamfileinfo	file:
+j	input.f	/^      integer ndata,ipar(*),i,n,ncol,ierr,j,/;"	L	subroutine:getradfileinfo	file:
+j	input.f	/^      integer nin,i,ncol,ipar(15),ix,idata,j,/;"	L	subroutine:readbeamfile	file:
+j	input.f	/^      integer nin,i,ncol,ipar(5),ix,idata,j,/;"	L	subroutine:readradfile	file:
+j	loadbeam.f	/^      integer i,ip,mpart,islice,j,/;"	L	subroutine:shotnoise_fawley	file:
+j	magfield.f	/^      integer i,j,/;"	L	subroutine:chk_maglen	file:
+j	magfield.f	/^      integer loop,loopcnt,j,/;"	L	subroutine:magread	file:
+j	math.f	/^      integer idum2,j,/;"	L	function:ran1	file:
+j	math.f	/^      integer j,/;"	L	function:bessj	file:
+j	math.f	/^      integer j,/;"	L	function:gasham	file:
+j	math.f	/^      integer j,/;"	L	function:hammv	file:
+j	output.f	/^      integer i,i0,j,/;"	L	subroutine:outdump	file:
+j	output.f	/^      integer i,j,/;"	L	subroutine:outdumpslippage	file:
+j	output.f	/^      integer islice,iopenerr,j,/;"	L	subroutine:openoutputbinmpi	file:
+j	output.f	/^      integer nio,nsize,j,/;"	L	function:openbinfile	file:
+j	pushp.f	/^      integer delip(npmax),mpart,j,/;"	L	subroutine:chk_loss	file:
+j	source.f	/^      integer ip,j,/;"	L	subroutine:source	file:
+j	string.f	/^      integer extractnumber,i,n,j$/;"	L	function:extractnumber	file:
+j	string.f	/^      integer i,j,/;"	L	function:extractval	file:
+jd	math.f	/^      integer j,jmax,i,nbase,i1,i2,icall,jd$/;"	L	function:hammv	file:
+jd	math.f	/^      integer j,jmax,icall,iset,jd$/;"	L	function:gasham	file:
+jj	loadbeam.f	/^      integer i,ip,mpart,islice,j,jj,/;"	L	subroutine:shotnoise_fawley	file:
+jj	output.f	/^      integer i,i0,j,islice,mpart,jj,/;"	L	subroutine:outdump	file:
+jj	output.f	/^      integer nio,nsize,j,jj$/;"	L	function:openbinfile	file:
+jl	math.f	/^      integer n,jl,/;"	L	function:luf	file:
+jm	math.f	/^      integer n,jl,ju,jm$/;"	L	function:luf	file:
+jmax	math.f	/^      integer j,jmax,/;"	L	function:gasham	file:
+jmax	math.f	/^      integer j,jmax,/;"	L	function:hammv	file:
+jsum	math.f	/^      integer j,jsum,/;"	L	function:bessj	file:
+ju	math.f	/^      integer n,jl,ju,/;"	L	function:luf	file:
+k	esource.f	/^      integer n,k$/;"	L	subroutine:trirad	file:
+k	field.f	/^      integer k,/;"	L	subroutine:tridagx	file:
+k	field.f	/^      integer n,k,/;"	L	subroutine:tridagy	file:
+k	incoherent.f	/^      integer ip,mpart,k$/;"	L	subroutine:incoherent	file:
+k	magfield.f	/^      integer i,ic,k,/;"	L	subroutine:magwrite	file:
+k	magfield.f	/^      integer loop,loopcnt,j,k,/;"	L	subroutine:magread	file:
+k	math.f	/^      integer idum2,j,k,/;"	L	function:ran1	file:
+k	pushp.f	/^      integer delip(npmax),mpart,j,k,/;"	L	subroutine:chk_loss	file:
+k1	math.f	/^      integer i1,i2,i2rev,i3,i3rev,ibit,idim,ifp1,ifp2,ip1,ip2,ip3,k1,/;"	L	subroutine:fourn	file:
+k2	math.f	/^     *k2,/;"	L	subroutine:fourn	file:
+last	output.f	/^      subroutine last$/;"	s
+lbc	input.f	/^     +          ncar,lbc,/;"	L	function:readin	file:
+len	string.f	/^      integer nchar, nchar1,len,/;"	L	function:strlen	file:
+line	input.f	/^      character*(*) line$/;"	L	subroutine:getbeamfileinfo	file:
+line	input.f	/^      character*(*) line$/;"	L	subroutine:getdistfileinfo	file:
+line	input.f	/^      character*(*) line$/;"	L	subroutine:getradfileinfo	file:
+line	input.f	/^      character*255 cerr,line$/;"	L	function:readdistfile	file:
+line	input.f	/^      character*255 line,/;"	L	subroutine:readslice	file:
+line	input.f	/^      character*511 line$/;"	L	subroutine:readbeamfile	file:
+line	input.f	/^      character*511 line$/;"	L	subroutine:readradfile	file:
+line	input.f	/^      character*80 line$/;"	L	function:detectfiletype	file:
+line	magfield.f	/^      character*(*) line$/;"	L	subroutine:getmagfileinfo	file:
+line	magfield.f	/^      character*255 line$/;"	L	subroutine:magread	file:
+line	string.f	/^      character*(*) line$/;"	L	function:extractnumber	file:
+line	string.f	/^      character*(*) line$/;"	L	function:extractval	file:
+line	string.f	/^      character*(*) line$/;"	L	function:strlen	file:
+line	string.f	/^      character*(*) line$/;"	L	subroutine:getfirstchar	file:
+loadbeam	loadbeam.f	/^      subroutine loadbeam(/;"	s
+loaddist	loadbeam.f	/^      subroutine loaddist(/;"	s
+loadquiet	loadbeam.f	/^      subroutine loadquiet(/;"	s
+loadrad	loadrad.f	/^      subroutine loadrad(/;"	s
+loadslpfld	loadrad.f	/^      subroutine loadslpfld(/;"	s
+loop	magfield.f	/^      integer loop,/;"	L	subroutine:magread	file:
+loopcnt	magfield.f	/^      integer loop,loopcnt,/;"	L	subroutine:magread	file:
+lout	input.f	/^     +          ildgam,ildpsi,ildx,ildy,ildpx,ildpy,itgaus,lout,/;"	L	function:readin	file:
+lstepz	main.f	/^      integer islp,isep,lstepz,/;"	v	program:genesis
+luf	math.f	/^      integer function luf(/;"	f
+m	esource.f	/^      integer m,/;"	L	subroutine:esource	file:
+m	math.f	/^      integer j,jsum,/;"	L	function:bessj	file:
+m	output.f	/^      integer il,islice,ih,n,m,/;"	L	subroutine:outhist	file:
+m	output.f	/^      integer iz,islice,m,/;"	L	subroutine:outhistheader	file:
+ma12	input.f	/^      real*8 ma12,/;"	L	subroutine:importdispersion	file:
+ma33	input.f	/^      real*8 ma12,ma33,/;"	L	subroutine:importdispersion	file:
+ma34	input.f	/^      real*8 ma12,ma33,ma34,/;"	L	subroutine:importdispersion	file:
+ma43	input.f	/^      real*8 ma12,ma33,ma34,ma43,/;"	L	subroutine:importdispersion	file:
+ma56	input.f	/^      real*8 ma12,ma33,ma34,ma43,ma56$/;"	L	subroutine:importdispersion	file:
+magfield	magfield.f	/^      subroutine magfield(/;"	s
+magin	input.f	/^     +          nwig,delz,zsep,nsec,iorb,zstop,magin,/;"	L	function:readin	file:
+maginfile	input.f	/^     +          beamfile,fieldfile,maginfile,/;"	L	function:readin	file:
+magout	input.f	/^     +          nwig,delz,zsep,nsec,iorb,zstop,magin,magout,/;"	L	function:readin	file:
+magoutfile	input.f	/^     +          beamfile,fieldfile,maginfile,magoutfile,/;"	L	function:readin	file:
+magread	magfield.f	/^      subroutine magread(/;"	s
+magwrite	magfield.f	/^      subroutine magwrite(/;"	s
+mam	input.f	/^      real*8 iarho,iaphi,mam,/;"	L	subroutine:importdispersion	file:
+memsize	loadrad.f	/^      integer memsize$/;"	L	subroutine:swapfield	file:
+mget	loadbeam.f	/^      integer mpart,mget,/;"	L	subroutine:loaddist	file:
+mlow	field.f	/^      real*8 mupp,mmid,mlow,/;"	L	subroutine:getdiag	file:
+mmid	field.f	/^      real*8 mupp,mmid,/;"	L	subroutine:getdiag	file:
+mp	loadbeam.f	/^      integer i,mp$/;"	L	subroutine:cut_tail	file:
+mpart	incoherent.f	/^      integer ip,mpart,/;"	L	subroutine:incoherent	file:
+mpart	loadbeam.f	/^      integer i,ip,mpart,/;"	L	subroutine:loadbeam	file:
+mpart	loadbeam.f	/^      integer i,ip,mpart,/;"	L	subroutine:shotnoise_fawley	file:
+mpart	loadbeam.f	/^      integer i,ip,mpart,/;"	L	subroutine:shotnoise_penman	file:
+mpart	loadbeam.f	/^      integer mpart,/;"	L	subroutine:loaddist	file:
+mpart	loadbeam.f	/^      integer mpart,/;"	L	subroutine:loadquiet	file:
+mpart	output.f	/^      integer i,i0,j,islice,mpart,/;"	L	subroutine:outdump	file:
+mpart	pushp.f	/^      integer delip(npmax),mpart,/;"	L	subroutine:chk_loss	file:
+mpi_bot	loadrad.f	/^      integer islp,it,mpi_top,mpi_bot$/;"	L	subroutine:swapfield	file:
+mpi_merge	mpi.f	/^      subroutine mpi_merge$/;"	s
+mpi_tmp	mpi.f	/^      integer i,ih,islice,mpi_tmp,/;"	L	subroutine:mpi_merge	file:
+mpi_top	loadrad.f	/^      integer islp,it,mpi_top,/;"	L	subroutine:swapfield	file:
+multconv	input.f	/^     +          alignradf,offsetradf,multconv,/;"	L	function:readin	file:
+mupp	field.f	/^      real*8 mupp,/;"	L	subroutine:getdiag	file:
+n	diagno.f	/^      int/;"	L	subroutine:diagno	file:
+n	esource.f	/^      int/;"	L	subroutine:trirad	file:
+n	field.f	/^      int/;"	L	subroutine:field	file:
+n	field.f	/^      int/;"	L	subroutine:tridagy	file:
+n	input.f	/^      int/;"	L	subroutine:getbeamfileinfo	file:
+n	input.f	/^      int/;"	L	subroutine:getdistfileinfo	file:
+n	input.f	/^      int/;"	L	subroutine:getradfileinfo	file:
+n	loadbeam.f	/^      int/;"	L	subroutine:compmom	file:
+n	loadbeam.f	/^      int/;"	L	subroutine:neighbor	file:
+n	loadbeam.f	/^      int/;"	L	subroutine:scaledist	file:
+n	loadrad.f	/^      int/;"	L	subroutine:gauss_hermite	file:
+n	loadrad.f	/^      int/;"	L	subroutine:loadrad	file:
+n	magfield.f	/^      int/;"	L	subroutine:getmagfileinfo	file:
+n	math.f	/^      int/;"	L	function:bessj	file:
+n	math.f	/^      int/;"	L	function:luf	file:
+n	math.f	/^     *k2,n,/;"	L	subroutine:fourn	file:
+n	output.f	/^      int/;"	L	subroutine:outhist	file:
+n	pushp.f	/^      int/;"	L	subroutine:pushp	file:
+n	string.f	/^      int/;"	L	function:extractnumber	file:
+n	timerec.f	/^      int/;"	L	subroutine:opentimerec	file:
+n	timerec.f	/^      int/;"	L	subroutine:pulltimerec	file:
+n	timerec.f	/^      int/;"	L	subroutine:pushtimerec	file:
+n0	input.f	/^      integer nget,n0,/;"	L	subroutine:readslice	file:
+n1	loadbeam.f	/^      integer mpart,mget,n1,/;"	L	subroutine:loaddist	file:
+n1	loadbeam.f	/^      integer n1,/;"	L	subroutine:neighbor	file:
+n1	loadbeam.f	/^      integer n1,/;"	L	subroutine:switch	file:
+n1st	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,n1st,/;"	L	subroutine:magfield	file:
+n2	loadbeam.f	/^      integer mpart,mget,n1,n2,/;"	L	subroutine:loaddist	file:
+n2	loadbeam.f	/^      integer n1,n2$/;"	L	subroutine:switch	file:
+n2	loadbeam.f	/^      integer n1,n2,/;"	L	subroutine:neighbor	file:
+narg	input.f	/^      integer n,i,idx,ix1,ix2,ncount,narg,/;"	L	subroutine:getdistfileinfo	file:
+nbase	math.f	/^      integer j,jmax,i,nbase,/;"	L	function:hammv	file:
+nbins	input.f	/^     +          nwig,delz,zsep,nsec,iorb,zstop,magin,magout,nbins,/;"	L	function:readin	file:
+ncar	input.f	/^     +          ncar,/;"	L	function:readin	file:
+nchar	string.f	/^      integer nchar,/;"	L	function:strlen	file:
+nchar1	string.f	/^      integer nchar, nchar1,/;"	L	function:strlen	file:
+ncol	input.f	/^      integer ndata,ipar(*),i,n,ncol,/;"	L	subroutine:getbeamfileinfo	file:
+ncol	input.f	/^      integer ndata,ipar(*),i,n,ncol,/;"	L	subroutine:getradfileinfo	file:
+ncol	input.f	/^      integer nin,i,ncol,/;"	L	subroutine:readbeamfile	file:
+ncol	input.f	/^      integer nin,i,ncol,/;"	L	subroutine:readradfile	file:
+ncol	magfield.f	/^      integer int_version,ncol,/;"	L	subroutine:magread	file:
+ncount	input.f	/^      integer n,i,idx,ix1,ix2,ncount,/;"	L	subroutine:getdistfileinfo	file:
+nctmp	diagno.f	/^      integer i,ip,ix,iy,i0,i1,nn(2),istepz,nctmp,/;"	L	subroutine:diagno	file:
+ndata	input.f	/^      integer ndata,/;"	L	subroutine:getbeamfileinfo	file:
+ndata	input.f	/^      integer ndata,/;"	L	subroutine:getradfileinfo	file:
+ndcut	input.f	/^     +          isravg,isrsig,eloss,ndcut,/;"	L	function:readin	file:
+ndim	math.f	/^      integer isign,ndim,/;"	L	subroutine:fourn	file:
+ndiv	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,iq2,ir1,ir2,ntab,ndiv$/;"	L	function:ran1	file:
+ndl	magfield.f	/^      integer nfl,ndl,/;"	L	subroutine:magfield	file:
+ndmp2tmp	output.f	/^      integer ndmp2tmp$/;"	L	subroutine:outdump	file:
+ndrl	magfield.f	/^      integer nfl,ndl,ndrl,/;"	L	subroutine:magfield	file:
+neighbor	loadbeam.f	/^      subroutine neighbor(/;"	s
+newrun	input.f	/^      namelist \/newrun\//;"	n	function:readin
+nfl	magfield.f	/^      integer nfl,/;"	L	subroutine:magfield	file:
+nfodol	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,/;"	L	subroutine:magfield	file:
+nget	input.f	/^      integer   nio,nget,/;"	L	function:readdistfile	file:
+nget	input.f	/^      integer nget,/;"	L	subroutine:readslice	file:
+nharm	input.f	/^     +          idump,iotail,nharm,/;"	L	function:readin	file:
+nharmpart	partsim.f	/^      integer ip,idx,istepz,ih,ix,nharmpart$/;"	L	subroutine:partsorc	file:
+nharmpart	partsim.f	/^      integer ip,istepz,ih,nharmpart$/;"	L	subroutine:partsim	file:
+nin	input.f	/^      integer nin$/;"	L	function:readin	file:
+nin	input.f	/^      integer nin,/;"	L	subroutine:readbeamfile	file:
+nin	input.f	/^      integer nin,/;"	L	subroutine:readradfile	file:
+ninfo	magfield.f	/^      integer nloop,ninfo,/;"	L	subroutine:magread	file:
+nio	input.f	/^      integer   nio,/;"	L	function:readdistfile	file:
+nio	input.f	/^      integer ft,nio,/;"	L	function:openbininput	file:
+nio	output.f	/^      integer nio$/;"	L	function:opentextfile	file:
+nio	output.f	/^      integer nio,/;"	L	function:openbinfile	file:
+niotmp	input.f	/^      integer   nio,nget,i,ix,ip,niotmp$/;"	L	function:readdistfile	file:
+nlat	magfield.f	/^      integer nfl,ndl,ndrl,nfodol,n1st,nlat,/;"	L	subroutine:magfield	file:
+nlen	magfield.f	/^      integer int_version,ncol,ierr,nlen,/;"	L	subroutine:magread	file:
+nloop	magfield.f	/^      integer nloop,/;"	L	subroutine:magread	file:
+nmin	magfield.f	/^      integer loop,loopcnt,j,k,ntemp,nmin$/;"	L	subroutine:magread	file:
+nmout	magfield.f	/^      integer i,ic,k,nmout,/;"	L	subroutine:magwrite	file:
+nn	diagno.f	/^      integer i,ip,ix,iy,i0,i1,nn(/;"	L	subroutine:diagno	file:
+nn	math.f	/^      integer isign,ndim,nn(/;"	L	subroutine:fourn	file:
+norm	magfield.f	/^      real*8 norm,/;"	L	subroutine:magfield	file:
+npart	input.f	/^     +          npart,/;"	L	function:readin	file:
+nprev	math.f	/^     *k2,n,nprev,/;"	L	subroutine:fourn	file:
+nptr	input.f	/^     +          ncar,lbc,rmax0,dgrid,nscr,nscz,nptr,/;"	L	function:readin	file:
+nr	magfield.f	/^      integer i,ic,k,nmout,nr$/;"	L	subroutine:magwrite	file:
+nr	magfield.f	/^      integer i,nr,/;"	L	subroutine:magread	file:
+nr2	magfield.f	/^      integer nloop,ninfo,nr2$/;"	L	subroutine:magread	file:
+nrem	math.f	/^     *k2,n,nprev,nrem,/;"	L	subroutine:fourn	file:
+nscan	input.f	/^     +          iscan,nscan,/;"	L	function:readin	file:
+nscr	input.f	/^     +          ncar,lbc,rmax0,dgrid,nscr,/;"	L	function:readin	file:
+nscz	input.f	/^     +          ncar,lbc,rmax0,dgrid,nscr,nscz,/;"	L	function:readin	file:
+nsec	input.f	/^     +          nwig,delz,zsep,nsec,/;"	L	function:readin	file:
+nsecl	magfield.f	/^      integer imz(11),nwigz,iserr,nsl,isup,itmp,nsecl$/;"	L	subroutine:magfield	file:
+nsize	output.f	/^      integer nio,nsize,/;"	L	function:openbinfile	file:
+nsl	magfield.f	/^      integer imz(11),nwigz,iserr,nsl,/;"	L	subroutine:magfield	file:
+nslice	input.f	/^     +          curlen,ntail,nslice,/;"	L	function:readin	file:
+nslp	loadrad.f	/^      integer ix,islp,nslp,/;"	L	subroutine:loadslpfld	file:
+nstepz	magfield.f	/^      integer i,j,imz(11),nstepz$/;"	L	subroutine:chk_maglen	file:
+nstepz	magfield.f	/^      integer i,nstepz$/;"	L	function:faw0	file:
+ntab	math.f	/^      integer idum,im1,im2,imm1,ia1,ia2,iq1,iq2,ir1,ir2,ntab,/;"	L	function:ran1	file:
+ntail	input.f	/^     +          curlen,ntail,/;"	L	function:readin	file:
+ntemp	magfield.f	/^      integer loop,loopcnt,j,k,ntemp,/;"	L	subroutine:magread	file:
+ntmp	output.f	/^      integer iz,itmp,i1,i2,i3,ntmp$/;"	L	subroutine:outglob	file:
+ntot	math.f	/^     *k2,n,nprev,nrem,ntot$/;"	L	subroutine:fourn	file:
+nval	string.f	/^      integer i,j,nval,/;"	L	function:extractval	file:
+nwig	input.f	/^     +          nwig,/;"	L	function:readin	file:
+nwigz	magfield.f	/^      integer imz(11),nwigz,/;"	L	subroutine:magfield	file:
+offsetradf	input.f	/^     +          alignradf,offsetradf,/;"	L	function:readin	file:
+omg	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,/;"	L	subroutine:track	file:
+openbinfile	output.f	/^      function openbinfile(/;"	f
+openbininput	input.f	/^      function openbininput(/;"	f
+openoutputbinmpi	output.f	/^      subroutine openoutputbinmpi(/;"	s
+openoutputfile	output.f	/^      function openoutputfile(/;"	f
+opentextfile	output.f	/^      function opentextfile(/;"	f
+opentimerec	timerec.f	/^      subroutine opentimerec(/;"	s
+outdump	output.f	/^      subroutine outdump(/;"	s
+outdumpslippage	output.f	/^      subroutine outdumpslippage$/;"	s
+outfield	output.f	/^      subroutine outfield(/;"	s
+outglob	output.f	/^      subroutine outglob$/;"	s
+outhist	output.f	/^      subroutine outhist(/;"	s
+outhistheader	output.f	/^      subroutine outhistheader(/;"	s
+outpart	output.f	/^      subroutine outpart(/;"	s
+output	output.f	/^      subroutine output(/;"	s
+outputfile	input.f	/^     +          beamfile,fieldfile,maginfile,magoutfile,outputfile,/;"	L	function:readin	file:
+p1	math.f	/^      real*8 y,p1,/;"	L	function:bessj0	file:
+p1	math.f	/^      real*8 y,p1,/;"	L	function:bessj1	file:
+p2	math.f	/^      real*8 y,p1,p2,/;"	L	function:bessj0	file:
+p2	math.f	/^      real*8 y,p1,p2,/;"	L	function:bessj1	file:
+p3	math.f	/^      real*8 y,p1,p2,p3,/;"	L	function:bessj0	file:
+p3	math.f	/^      real*8 y,p1,p2,p3,/;"	L	function:bessj1	file:
+p4	math.f	/^      real*8 y,p1,p2,p3,p4,/;"	L	function:bessj0	file:
+p4	math.f	/^      real*8 y,p1,p2,p3,p4,/;"	L	function:bessj1	file:
+p5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,/;"	L	function:bessj0	file:
+p5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,/;"	L	function:bessj1	file:
+partfile	input.f	/^     +          partfile,/;"	L	function:readin	file:
+partsim	partsim.f	/^      subroutine partsim(/;"	s
+partsorc	partsim.f	/^      subroutine partsorc(/;"	s
+pctap	magfield.f	/^      real*8 z,taplen,pctap,/;"	L	function:faw0	file:
+phase	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,power,zr,zw,rks,phase$/;"	L	subroutine:gauss_hermite	file:
+philoc	rpos.f	/^      real*8 philoc,/;"	L	subroutine:getpsi	file:
+phin	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,xkper0,phin,/;"	L	subroutine:shotnoise_fawley	file:
+phin	output.f	/^      real*8  scltmp,phin,/;"	L	subroutine:outdump	file:
+power	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,power,/;"	L	subroutine:gauss_hermite	file:
+prad	diagno.f	/^      real*8 xavg,yavg,tpsin,tpcos,prad,/;"	L	subroutine:diagno	file:
+prad0	input.f	/^     +          xlamds,prad0,/;"	L	function:readin	file:
+pradh0	input.f	/^     +          xlamds,prad0,zrayl,zwaist,pradh0,/;"	L	function:readin	file:
+pradin	loadrad.f	/^      real*8  pradin$/;"	L	subroutine:loadrad	file:
+pradn	diagno.f	/^     +       xxsum,yysum,cr2,crsum,wwcr,pradn /;"	L	subroutine:diagno	file:
+preset	input.f	/^      subroutine preset$/;"	s
+printerr	output.f	/^      function printerr(/;"	f
+psi	rpos.f	/^      real*8 philoc,wei,psi(/;"	L	subroutine:getpsi	file:
+ptot	diagno.f	/^      real*8 xavg,yavg,tpsin,tpcos,prad,ptot,/;"	L	subroutine:diagno	file:
+pulltimerec	timerec.f	/^      subroutine pulltimerec(/;"	s
+pushp	pushp.f	/^      subroutine pushp(/;"	s
+pushtimerec	timerec.f	/^      subroutine pushtimerec(/;"	s
+px	input.f	/^      real*8 x(*),px(/;"	L	subroutine:readslice	file:
+px	loadbeam.f	/^      real*8 x(*),px(/;"	L	subroutine:neighbor	file:
+px	loadbeam.f	/^      real*8 x(*),px(/;"	L	subroutine:switch	file:
+px_old	input.f	/^      real*8 ypart_old,py_old,xpart_old,px_old$/;"	L	subroutine:importtransfer	file:
+pxa	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,/;"	L	subroutine:loaddist	file:
+pxbeam	input.f	/^     +          emitx,emity,xbeam,ybeam,pxbeam,/;"	L	function:readin	file:
+pxd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,yd,pxd,/;"	L	subroutine:loadquiet	file:
+pxs	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,pxs,/;"	L	subroutine:loaddist	file:
+py	input.f	/^      real*8 x(*),px(*),y(*),py(/;"	L	subroutine:readslice	file:
+py	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(/;"	L	subroutine:neighbor	file:
+py	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(/;"	L	subroutine:switch	file:
+py_old	input.f	/^      real*8 ypart_old,py_old$/;"	L	subroutine:importdispersion	file:
+py_old	input.f	/^      real*8 ypart_old,py_old,/;"	L	subroutine:importtransfer	file:
+pya	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,pxs,pya,/;"	L	subroutine:loaddist	file:
+pybeam	input.f	/^     +          emitx,emity,xbeam,ybeam,pxbeam,pybeam,/;"	L	function:readin	file:
+pyd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,yd,pxd,pyd,/;"	L	subroutine:loadquiet	file:
+pys	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,pxa,pxs,pya,pys,/;"	L	subroutine:loaddist	file:
+q1	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,/;"	L	function:bessj0	file:
+q1	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,/;"	L	function:bessj1	file:
+q2	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,/;"	L	function:bessj0	file:
+q2	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,/;"	L	function:bessj1	file:
+q3	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,/;"	L	function:bessj0	file:
+q3	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,/;"	L	function:bessj1	file:
+q4	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,/;"	L	function:bessj0	file:
+q4	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,/;"	L	function:bessj1	file:
+q5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,/;"	L	function:bessj0	file:
+q5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,/;"	L	function:bessj1	file:
+qfdx	input.f	/^     +          quadf,quadd,fl,dl,drl,f1st,qfdx,/;"	L	function:readin	file:
+qfdy	input.f	/^     +          quadf,quadd,fl,dl,drl,f1st,qfdx,qfdy,/;"	L	function:readin	file:
+quadd	input.f	/^     +          quadf,quadd,/;"	L	function:readin	file:
+quadf	input.f	/^     +          quadf,/;"	L	function:readin	file:
+qx	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,/;"	L	subroutine:track	file:
+qy	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,qy,/;"	L	subroutine:track	file:
+r	esource.f	/^      complex*16 w(*),a(*),b(*),c(*),r(/;"	L	subroutine:trirad	file:
+r	field.f	/^      complex*16 c(*),r(/;"	L	subroutine:tridagx	file:
+r	field.f	/^      complex*16 c(*),r(/;"	L	subroutine:tridagy	file:
+r	loadbeam.f	/^      re/;"	L	subroutine:cut_tail	file:
+r	loadbeam.f	/^      re/;"	L	subroutine:neighbor	file:
+r	math.f	/^      re/;"	L	function:gasham	file:
+r	math.f	/^      re/;"	L	function:gasran	file:
+r1	magfield.f	/^      real*8 r1,/;"	L	subroutine:magread	file:
+r1	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,/;"	L	function:bessj0	file:
+r1	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,/;"	L	function:bessj1	file:
+r2	loadbeam.f	/^      real*8  betaxinv,betayinv,r2p/;"	L	subroutine:loadquiet	file:
+r2	magfield.f	/^      real*8 r1,r2,/;"	L	subroutine:magread	file:
+r2	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,/;"	L	function:bessj0	file:
+r2	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,/;"	L	function:bessj1	file:
+r2p	loadbeam.f	/^      real*8  betaxinv,betayinv,r2p,/;"	L	subroutine:loadquiet	file:
+r3	magfield.f	/^      real*8 r3,/;"	L	subroutine:magread	file:
+r3	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,/;"	L	function:bessj0	file:
+r3	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,/;"	L	function:bessj1	file:
+r4	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,/;"	L	function:bessj0	file:
+r4	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,/;"	L	function:bessj1	file:
+r5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,r5,/;"	L	function:bessj0	file:
+r5	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,r5,/;"	L	function:bessj1	file:
+r6	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,r5,r6,/;"	L	function:bessj0	file:
+r6	math.f	/^      real*8 y,p1,p2,p3,p4,p5,q1,q2,q3,q4,q5,r1,r2,r3,r4,r5,r6,/;"	L	function:bessj1	file:
+radfile	input.f	/^     +          partfile,distfile,filetype,radfile,/;"	L	function:readin	file:
+ran1	loadbeam.f	/^      real*8 ran1$/;"	L	subroutine:neighbor	file:
+ran1	math.f	/^      real*8 function ran1(/;"	f
+ran1	math.f	/^      real*8 v1,v2,ran1,/;"	L	function:gasran	file:
+ratio	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,/;"	L	subroutine:loadbeam	file:
+ratio	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,/;"	L	subroutine:shotnoise_fawley	file:
+ratio	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,/;"	L	subroutine:shotnoise_penman	file:
+rcr2	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,/;"	L	subroutine:gauss_hermite	file:
+rcur	magfield.f	/^      real*8 corx(*),cory(*),rold,rcur,/;"	L	subroutine:magwrite	file:
+rdig	esource.f	/^     +       rmid(nrgrid),rlog(nrgrid),rdig(/;"	L	subroutine:esource	file:
+readbeamfile	input.f	/^      subroutine readbeamfile(/;"	s
+readdistfile	input.f	/^      function readdistfile(/;"	f
+readfield	input.f	/^      function readfield(/;"	f
+readin	input.f	/^      function readin(/;"	f
+readpart	input.f	/^      function readpart(/;"	f
+readradfile	input.f	/^      subroutine readradfile(/;"	s
+readslice	input.f	/^      subroutine readslice(/;"	s
+reverse	input.f	/^      real*8  ver,val,reverse$/;"	L	subroutine:getbeamfileinfo	file:
+reverse	input.f	/^      real*8  ver,val,reverse,/;"	L	subroutine:getradfileinfo	file:
+reverse	input.f	/^      real*8  ver,values(15),tmin,tmax,reverse$/;"	L	subroutine:readbeamfile	file:
+reverse	input.f	/^      real*8  ver,values(5),tmin,tmax,reverse,/;"	L	subroutine:readradfile	file:
+rks	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,power,zr,zw,rks,/;"	L	subroutine:gauss_hermite	file:
+rlog	esource.f	/^     +       rmid(nrgrid),rlog(/;"	L	subroutine:esource	file:
+rmax0	input.f	/^     +          ncar,lbc,rmax0,/;"	L	function:readin	file:
+rmax0sc	input.f	/^     +          ncar,lbc,rmax0,dgrid,nscr,nscz,nptr,rmax0sc,/;"	L	function:readin	file:
+rmid	esource.f	/^     +       rmid(/;"	L	subroutine:esource	file:
+rmin	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(*),g(*),r,rmin$/;"	L	subroutine:neighbor	file:
+rn	magfield.f	/^      real*8 norm,rn,/;"	L	subroutine:magfield	file:
+rnmx	math.f	/^      real*8  am,eps,rnmx$/;"	L	function:ran1	file:
+rnx	magfield.f	/^      real*8 norm,rn,rnx,/;"	L	subroutine:magfield	file:
+rny	magfield.f	/^      real*8 norm,rn,rnx,rny,/;"	L	subroutine:magfield	file:
+rold	magfield.f	/^      real*8 corx(*),cory(*),rold,/;"	L	subroutine:magwrite	file:
+rold	magfield.f	/^      real*8 norm,rn,rnx,rny,rold,/;"	L	subroutine:magfield	file:
+root	output.f	/^      character*30 root$/;"	L	function:openbinfile	file:
+rpos	rpos.f	/^      subroutine rpos(/;"	s
+rscmax	esource.f	/^      real*8 econst,rscmax,/;"	L	subroutine:esource	file:
+rtmp	field.f	/^      real*8 mupp,mmid,mlow,rtmp,/;"	L	subroutine:getdiag	file:
+rtmp	partsim.f	/^      real*8 wei1,wei2,wei3,wei4,rtmp$/;"	L	subroutine:partsorc	file:
+rtmp	pushp.f	/^      real*8  rtmp$/;"	L	subroutine:chk_loss	file:
+rtmpy	source.f	/^      real*8 stemp,wei,evencoupling,awloc,rtmpy$/;"	L	subroutine:source	file:
+rw0	check.f	/^      real*8  rw0$/;"	L	subroutine:chk_input	file:
+rxbeam	input.f	/^     +          npart,gamma0,delgam,rxbeam,/;"	L	function:readin	file:
+rybeam	input.f	/^     +          npart,gamma0,delgam,rxbeam,rybeam,/;"	L	function:readin	file:
+s	math.f	/^        real*8  s,/;"	L	function:dierfc	file:
+s1	math.f	/^     *    s1,/;"	L	function:bessj0	file:
+s1	math.f	/^     *    s1,/;"	L	function:bessj1	file:
+s2	math.f	/^     *    s1,s2,/;"	L	function:bessj0	file:
+s2	math.f	/^     *    s1,s2,/;"	L	function:bessj1	file:
+s3	math.f	/^     *    s1,s2,s3,/;"	L	function:bessj0	file:
+s3	math.f	/^     *    s1,s2,s3,/;"	L	function:bessj1	file:
+s4	math.f	/^     *    s1,s2,s3,s4,/;"	L	function:bessj0	file:
+s4	math.f	/^     *    s1,s2,s3,s4,/;"	L	function:bessj1	file:
+s5	math.f	/^     *    s1,s2,s3,s4,s5,/;"	L	function:bessj0	file:
+s5	math.f	/^     *    s1,s2,s3,s4,s5,/;"	L	function:bessj1	file:
+s6	math.f	/^     *    s1,s2,s3,s4,s5,s6,/;"	L	function:bessj0	file:
+s6	math.f	/^     *    s1,s2,s3,s4,s5,s6,/;"	L	function:bessj1	file:
+scale	scan.f	/^      real*8 scale$/;"	L	subroutine:doscan	file:
+scaledist	loadbeam.f	/^      subroutine scaledist(/;"	s
+scan	input.f	/^     +          iscan,/;"	L	function:readin	file:
+scaninit	scan.f	/^      subroutine scaninit$/;"	s
+scltmp	input.f	/^      real*8 scltmp$/;"	L	function:readfield	file:
+scltmp	output.f	/^      real*8  scltmp,/;"	L	subroutine:outdump	file:
+scltmp	output.f	/^      real*8 scltmp$/;"	L	subroutine:outdumpslippage	file:
+scltmp	output.f	/^      real*8 scltmp,/;"	L	subroutine:outfield	file:
+shotnoise	input.f	/^     +          curlen,ntail,nslice,shotnoise,/;"	L	function:readin	file:
+shotnoise_fawley	loadbeam.f	/^      subroutine shotnoise_fawley$/;"	s
+shotnoise_penman	loadbeam.f	/^      subroutine shotnoise_penman$/;"	s
+size	input.f	/^      integer ft,nio,size,/;"	L	function:openbininput	file:
+sl	input.f	/^     +          quadf,quadd,fl,dl,drl,f1st,qfdx,qfdy,sl,/;"	L	function:readin	file:
+sn1	loadbeam.f	/^      real*8 enum,snoise,sn1,/;"	L	subroutine:loadbeam	file:
+sn1	loadbeam.f	/^      real*8 enum,snoise,sn1,/;"	L	subroutine:shotnoise_fawley	file:
+sn1	loadbeam.f	/^      real*8 enum,snoise,sn1,/;"	L	subroutine:shotnoise_penman	file:
+sn2	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,/;"	L	subroutine:loadbeam	file:
+sn2	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,/;"	L	subroutine:shotnoise_fawley	file:
+sn2	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,/;"	L	subroutine:shotnoise_penman	file:
+snoise	loadbeam.f	/^      real*8 enum,snoise,/;"	L	subroutine:loadbeam	file:
+snoise	loadbeam.f	/^      real*8 enum,snoise,/;"	L	subroutine:shotnoise_fawley	file:
+snoise	loadbeam.f	/^      real*8 enum,snoise,/;"	L	subroutine:shotnoise_penman	file:
+solen	input.f	/^     +          quadf,quadd,fl,dl,drl,f1st,qfdx,qfdy,sl,solen,/;"	L	function:readin	file:
+source	source.f	/^      subroutine source(/;"	s
+status	loadrad.f	/^      integer status(/;"	L	subroutine:swapfield	file:
+status	mpi.f	/^      integer i,ih,islice,mpi_tmp,status(/;"	L	subroutine:mpi_merge	file:
+status	output.f	/^      character*(*) file,status$/;"	L	function:opentextfile	file:
+status	output.f	/^      subroutine status(/;"	s
+stemp	source.f	/^      real*8 stemp,/;"	L	subroutine:source	file:
+stepsize	field.f	/^      real*8 mupp,mmid,mlow,rtmp,stepsize,/;"	L	subroutine:getdiag	file:
+stepz	stepz.f	/^      subroutine stepz(/;"	s
+stpz	pushp.f	/^      real*8  stpz,/;"	L	subroutine:pushp	file:
+strlen	string.f	/^      function strlen(/;"	f
+strlen	string.f	/^      integer nchar, nchar1,len,strlen$/;"	L	function:strlen	file:
+sum	math.f	/^      real*8 ax,bj,bjm,bjp,sum,/;"	L	function:bessj	file:
+svar	input.f	/^     +          iscan,nscan,svar,/;"	L	function:readin	file:
+swapfield	loadrad.f	/^      subroutine swapfield(/;"	s
+switch	loadbeam.f	/^      subroutine switch(/;"	s
+t	math.f	/^        real*8  s, t,/;"	L	function:dierfc	file:
+t0	loadbeam.f	/^      real*8 t0,/;"	L	subroutine:loaddist	file:
+t1	loadbeam.f	/^      real*8 t0,t1,/;"	L	subroutine:loaddist	file:
+table	math.f	/^      real*8 x,table(/;"	L	function:luf	file:
+taplen	magfield.f	/^      real*8 z,taplen,/;"	L	function:faw0	file:
+tempi	math.f	/^      real*8 tempi,/;"	L	subroutine:fourn	file:
+templatefilename	output.f	/^      character*(*) templatefilename$/;"	L	function:openoutputfile	file:
+tempr	math.f	/^      real*8 tempi,tempr$/;"	L	subroutine:fourn	file:
+text	output.f	/^      character*(*) text$/;"	L	function:printerr	file:
+tg	input.f	/^      real*8 tx,tpx,ty,tpy,tt,tg$/;"	L	subroutine:readslice	file:
+tgam	partsim.f	/^      real*8 tgam,/;"	L	subroutine:partsim	file:
+thet	esource.f	/^      real*8 thet$/;"	L	subroutine:esource	file:
+theta	math.f	/^      double precision theta,/;"	L	subroutine:fourn	file:
+theta_old	input.f	/^      real*8 gamma_old,theta_old /;"	L	subroutine:importtransfer	file:
+titel	output.f	/^      character*14 titel$/;"	L	subroutine:outglob	file:
+titel	output.f	/^      character*14 titel$/;"	L	subroutine:outhistheader	file:
+tmax	input.f	/^      real*8  ver,values(15),tmin,tmax,/;"	L	subroutine:readbeamfile	file:
+tmax	input.f	/^      real*8  ver,values(5),tmin,tmax,/;"	L	subroutine:readradfile	file:
+tmax	input.f	/^      real*8 tmin,tmax,/;"	L	subroutine:readslice	file:
+tmin	input.f	/^      real*8  ver,values(15),tmin,/;"	L	subroutine:readbeamfile	file:
+tmin	input.f	/^      real*8  ver,values(5),tmin,/;"	L	subroutine:readradfile	file:
+tmin	input.f	/^      real*8 tmin,/;"	L	subroutine:readslice	file:
+tmp	loadbeam.f	/^      real*8 x(*),px(*),y(*),py(*),g(*),tmp$/;"	L	subroutine:switch	file:
+tmp1	loadbeam.f	/^      real*8 tmp1,/;"	L	subroutine:loaddist	file:
+tmp2	incoherent.f	/^      real*8 tmp2,/;"	L	subroutine:incoherent	file:
+tmp2	loadbeam.f	/^      real*8 tmp1,tmp2,/;"	L	subroutine:loaddist	file:
+tmp3	loadbeam.f	/^      real*8 tmp1,tmp2,tmp3$/;"	L	subroutine:loaddist	file:
+touppercase	string.f	/^      subroutine touppercase(/;"	s
+tox	math.f	/^      real*8 ax,bj,bjm,bjp,sum,bessj0,bessj1,tox$/;"	L	function:bessj	file:
+tpcos	diagno.f	/^      real*8 xavg,yavg,tpsin,tpcos,/;"	L	subroutine:diagno	file:
+tpsin	diagno.f	/^      real*8 xavg,yavg,tpsin,/;"	L	subroutine:diagno	file:
+tpx	input.f	/^      real*8 tx,tpx,/;"	L	subroutine:readslice	file:
+tpy	input.f	/^      real*8 tx,tpx,ty,tpy,/;"	L	subroutine:readslice	file:
+track	track.f	/^      subroutine track(/;"	s
+trama	input.f	/^     +          trama,/;"	L	function:readin	file:
+tridagx	field.f	/^      subroutine tridagx(/;"	s
+tridagy	field.f	/^      subroutine tridagy(/;"	s
+trirad	esource.f	/^      subroutine trirad(/;"	s
+tt	input.f	/^      real*8 tt,/;"	L	function:readdistfile	file:
+tt	input.f	/^      real*8 tx,tpx,ty,tpy,tt,/;"	L	subroutine:readslice	file:
+tthet	partsim.f	/^      real*8 tgam,tthet,/;"	L	subroutine:partsim	file:
+tx	input.f	/^      real*8 tx,/;"	L	subroutine:readslice	file:
+ty	input.f	/^      real*8 tx,tpx,ty,/;"	L	subroutine:readslice	file:
+u	esource.f	/^      complex*16 w(*),a(*),b(*),c(*),r(*),u(/;"	L	subroutine:trirad	file:
+u	field.f	/^      complex*16 c(*),r(*),u(/;"	L	subroutine:tridagx	file:
+u	field.f	/^      complex*16 c(*),r(*),u(/;"	L	subroutine:tridagy	file:
+u	math.f	/^        real*8  s, t, u,/;"	L	function:dierfc	file:
+v1	math.f	/^      real*8 v1,/;"	L	function:gasham	file:
+v1	math.f	/^      real*8 v1,/;"	L	function:gasran	file:
+v2	math.f	/^      real*8 v1,v2,/;"	L	function:gasham	file:
+v2	math.f	/^      real*8 v1,v2,/;"	L	function:gasran	file:
+val	input.f	/^      real*8  val$/;"	L	subroutine:getdistfileinfo	file:
+val	input.f	/^      real*8  ver,val,/;"	L	subroutine:getbeamfileinfo	file:
+val	input.f	/^      real*8  ver,val,/;"	L	subroutine:getradfileinfo	file:
+val	magfield.f	/^      real*8  val$/;"	L	subroutine:getmagfileinfo	file:
+val	magfield.f	/^      real*8 r3,valu/;"	L	subroutine:magread	file:
+val	string.f	/^      real*8 val$/;"	L	function:extractnumber	file:
+values	input.f	/^      real*8  ver,values(/;"	L	subroutine:readbeamfile	file:
+values	input.f	/^      real*8  ver,values(/;"	L	subroutine:readradfile	file:
+values	input.f	/^      real*8 tmin,tmax,values(/;"	L	subroutine:readslice	file:
+values	input.f	/^      real*8 tt,values(/;"	L	function:readdistfile	file:
+values	magfield.f	/^      real*8 r3,values(/;"	L	subroutine:magread	file:
+values	string.f	/^      real*8 values(/;"	L	function:extractval	file:
+ver	input.f	/^      real*8  ver,/;"	L	subroutine:getbeamfileinfo	file:
+ver	input.f	/^      real*8  ver,/;"	L	subroutine:getradfileinfo	file:
+ver	input.f	/^      real*8  ver,/;"	L	subroutine:readbeamfile	file:
+ver	input.f	/^      real*8  ver,/;"	L	subroutine:readradfile	file:
+version	input.f	/^     +          version,/;"	L	function:readin	file:
+vn	esource.f	/^      complex *16 vn,/;"	L	subroutine:esource	file:
+vol	esource.f	/^      real*8 econst,rscmax,drsc,vol(/;"	L	subroutine:esource	file:
+vout	output.f	/^      real*8 vout(/;"	L	subroutine:outhist	file:
+w	esource.f	/^      complex*16 w(/;"	L	subroutine:trirad	file:
+w	math.f	/^        real*8  s, t, u, w,/;"	L	function:dierfc	file:
+w1	tdepend.f	/^      real*8 invcur,zpos,w1,/;"	L	subroutine:dotime	file:
+w1	tdepend.f	/^      real*8 invcur,zpos,w1,/;"	L	subroutine:dotimerad	file:
+w2	tdepend.f	/^      real*8 invcur,zpos,w1,w2$/;"	L	subroutine:dotime	file:
+w2	tdepend.f	/^      real*8 invcur,zpos,w1,w2$/;"	L	subroutine:dotimerad	file:
+wavenumber	field.f	/^      real*8 mupp,mmid,mlow,rtmp,stepsize,gridsize,wavenumber /;"	L	subroutine:getdiag	file:
+wcoefz	input.f	/^     +          aw0,xkx,xky,wcoefz,/;"	L	function:readin	file:
+wcoefz	magfield.f	/^      real*8 z,taplen,pctap,fac,wcoefz(/;"	L	function:faw0	file:
+wei	partsim.f	/^      real*8  zconst,wei,/;"	L	subroutine:partsorc	file:
+wei	rpos.f	/^      real*8 philoc,wei,/;"	L	subroutine:getpsi	file:
+wei	source.f	/^      real*8 stemp,wei,/;"	L	subroutine:source	file:
+wei1	partsim.f	/^      real*8 wei1,/;"	L	subroutine:partsorc	file:
+wei2	partsim.f	/^      real*8 wei1,wei2,/;"	L	subroutine:partsorc	file:
+wei3	partsim.f	/^      real*8 wei1,wei2,wei3,/;"	L	subroutine:partsorc	file:
+wei4	partsim.f	/^      real*8 wei1,wei2,wei3,wei4,/;"	L	subroutine:partsorc	file:
+wi	math.f	/^      double precision theta,wi,/;"	L	subroutine:fourn	file:
+wpi	math.f	/^      double precision theta,wi,wpi,/;"	L	subroutine:fourn	file:
+wpr	math.f	/^      double precision theta,wi,wpi,wpr,/;"	L	subroutine:fourn	file:
+wr	math.f	/^      double precision theta,wi,wpi,wpr,wr,/;"	L	subroutine:fourn	file:
+wtemp	math.f	/^      double precision theta,wi,wpi,wpr,wr,wtemp$/;"	L	subroutine:fourn	file:
+wwcr	diagno.f	/^     +       xxsum,yysum,cr2,crsum,wwcr,/;"	L	subroutine:diagno	file:
+wxlow	rpos.f	/^      real*8 x,awtmp,wxlow,/;"	L	subroutine:rpos	file:
+wylow	rpos.f	/^      real*8 x,awtmp,wxlow,wylow,/;"	L	subroutine:rpos	file:
+x	input.f	/^      real*8 x(/;"	L	subroutine:readslice	file:
+x	loadbeam.f	/^      real*8  xy/;"	L	subroutine:loadquiet	file:
+x	loadbeam.f	/^      real*8 x(/;"	L	subroutine:neighbor	file:
+x	loadbeam.f	/^      real*8 x(/;"	L	subroutine:scaledist	file:
+x	loadbeam.f	/^      real*8 x(/;"	L	subroutine:switch	file:
+x	loadbeam.f	/^      real*8 xa/;"	L	subroutine:compmom	file:
+x	magfield.f	/^      real*8 x,/;"	L	function:faw2	file:
+x	math.f	/^        real*8  s, t, u, w, x,/;"	L	function:dierfc	file:
+x	math.f	/^      real*8 bessj, x,/;"	L	function:bessj	file:
+x	math.f	/^      real*8 x,/;"	L	function:luf	file:
+x	math.f	/^     *    s1,s2,s3,s4,s5,s6, x,/;"	L	function:bessj0	file:
+x	math.f	/^     *    s1,s2,s3,s4,s5,s6, x,/;"	L	function:bessj1	file:
+x	rpos.f	/^      real*8 x,/;"	L	subroutine:rpos	file:
+x2	loadbeam.f	/^      real*8 xa,ya,x,x2,/;"	L	subroutine:compmom	file:
+xa	loadbeam.f	/^      real*8 t0,t1,xa,/;"	L	subroutine:loaddist	file:
+xa	loadbeam.f	/^      real*8 xa,/;"	L	subroutine:compmom	file:
+xavg	diagno.f	/^      real*8 xavg,/;"	L	subroutine:diagno	file:
+xbeam	input.f	/^     +          emitx,emity,xbeam,/;"	L	function:readin	file:
+xcr	loadrad.f	/^      real*8     zscal,xcr,/;"	L	subroutine:gauss_hermite	file:
+xd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,/;"	L	subroutine:loadquiet	file:
+xi	initrun.f	/^      real*8 xi$/;"	L	subroutine:initrun	file:
+xi	partsim.f	/^      real*8  zconst,wei,aw2,xi$/;"	L	subroutine:partsorc	file:
+xi	partsim.f	/^      real*8 xi,/;"	L	subroutine:harmcoupling	file:
+xkper0	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,xkper0$/;"	L	subroutine:loadbeam	file:
+xkper0	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,xkper0$/;"	L	subroutine:shotnoise_penman	file:
+xkper0	loadbeam.f	/^      real*8 enum,snoise,sn1,sn2,ratio,xkper0,/;"	L	subroutine:shotnoise_fawley	file:
+xkper0	output.f	/^      real*8 scltmp,xkper0$/;"	L	subroutine:outfield	file:
+xkper0	pushp.f	/^      real*8  stpz,xkper0$/;"	L	subroutine:pushp	file:
+xkper0	stepz.f	/^      real*8  xkper0$/;"	L	subroutine:stepz	file:
+xkper0	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,qy,betpar0,xkper0,/;"	L	subroutine:track	file:
+xks	esource.f	/^      real*8 econst,rscmax,drsc,vol(nrgrid),xmid,ymid,xks,/;"	L	subroutine:esource	file:
+xkw0	esource.f	/^      real*8 econst,rscmax,drsc,vol(nrgrid),xmid,ymid,xks,xkw0,/;"	L	subroutine:esource	file:
+xkw0	incoherent.f	/^      real*8 tmp2,gam0,dgamavg,dgamsig,xkw0,/;"	L	subroutine:incoherent	file:
+xkw0	magfield.f	/^      real*8 corx(*),cory(*),rold,rcur,xkw0$/;"	L	subroutine:magwrite	file:
+xkw0	magfield.f	/^      real*8 norm,rn,rnx,rny,rold,xkw0,/;"	L	subroutine:magfield	file:
+xkw0	output.f	/^      real*8  xkw0$/;"	L	subroutine:output	file:
+xkx	input.f	/^     +          aw0,xkx,/;"	L	function:readin	file:
+xky	input.f	/^     +          aw0,xkx,xky,/;"	L	function:readin	file:
+xlamd	input.f	/^     +          aw0,xkx,xky,wcoefz,xlamd,/;"	L	function:readin	file:
+xlamd	magfield.f	/^      real*8 z,taplen,pctap,fac,wcoefz(*),delz,xlamd,/;"	L	function:faw0	file:
+xlamds	input.f	/^     +          xlamds,/;"	L	function:readin	file:
+xmid	esource.f	/^      real*8 econst,rscmax,drsc,vol(nrgrid),xmid,/;"	L	subroutine:esource	file:
+xoff	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,qy,betpar0,xkper0,xoff,/;"	L	subroutine:track	file:
+xpart_old	input.f	/^      real*8 ypart_old,py_old,xpart_old,/;"	L	subroutine:importtransfer	file:
+xpd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,yd,pxd,pyd,xpd,/;"	L	subroutine:loadquiet	file:
+xper	output.f	/^      real*8 xper,/;"	L	subroutine:status	file:
+xs	loadbeam.f	/^      real*8 t0,t1,xa,xs,/;"	L	subroutine:loaddist	file:
+xs	math.f	/^      real*8 xs,/;"	L	function:hammv	file:
+xsi	math.f	/^      real*8 xs,xsi$/;"	L	function:hammv	file:
+xt	magfield.f	/^      real*8 x,y,xt,/;"	L	function:faw2	file:
+xtmp	track.f	/^      real*8 a1,a2,a3,xtmp,/;"	L	subroutine:track	file:
+xx	loadbeam.f	/^      real*8  xy,x,xx,/;"	L	subroutine:loadquiet	file:
+xx	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj0, ax, z, xx$/;"	L	function:bessj0	file:
+xx	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj1, ax, z, xx$/;"	L	function:bessj1	file:
+xx	rpos.f	/^      real*8 x,awtmp,wxlow,wylow,xx(/;"	L	subroutine:rpos	file:
+xxsum	diagno.f	/^     +       xxsum,/;"	L	subroutine:diagno	file:
+xy	loadbeam.f	/^      real*8  xy,/;"	L	subroutine:loadquiet	file:
+xy	loadbeam.f	/^      real*8 xa,ya,x,x2,y,y2,xy,/;"	L	subroutine:compmom	file:
+y	input.f	/^      real*8 x(*),px(*),y(/;"	L	subroutine:readslice	file:
+y	loadbeam.f	/^      real*8  xy,/;"	L	subroutine:loadquiet	file:
+y	loadbeam.f	/^      real*8 x(*),px(*),y(/;"	L	subroutine:neighbor	file:
+y	loadbeam.f	/^      real*8 x(*),px(*),y(/;"	L	subroutine:switch	file:
+y	loadbeam.f	/^      real*8 xa,ya/;"	L	subroutine:compmom	file:
+y	magfield.f	/^      real*8 x,y,/;"	L	function:faw2	file:
+y	math.f	/^        real*8 y /;"	L	function:dierfc	file:
+y	math.f	/^      real*8 y,/;"	L	function:bessj0	file:
+y	math.f	/^      real*8 y,/;"	L	function:bessj1	file:
+y2	loadbeam.f	/^      real*8 xa,ya,x,x2,y,y2,/;"	L	subroutine:compmom	file:
+ya	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,/;"	L	subroutine:loaddist	file:
+ya	loadbeam.f	/^      real*8 xa,ya,/;"	L	subroutine:compmom	file:
+yavg	diagno.f	/^      real*8 xavg,yavg,/;"	L	subroutine:diagno	file:
+ybeam	input.f	/^     +          emitx,emity,xbeam,ybeam,/;"	L	function:readin	file:
+ycr	loadrad.f	/^      real*8     zscal,xcr,ycr,/;"	L	subroutine:gauss_hermite	file:
+yd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,yd,/;"	L	subroutine:loadquiet	file:
+ymid	esource.f	/^      real*8 econst,rscmax,drsc,vol(nrgrid),xmid,ymid,/;"	L	subroutine:esource	file:
+yoff	track.f	/^      real*8 a1,a2,a3,xtmp,foc,omg,qx,qy,betpar0,xkper0,xoff,yoff$/;"	L	subroutine:track	file:
+ypart_old	input.f	/^      real*8 ypart_old,/;"	L	subroutine:importdispersion	file:
+ypart_old	input.f	/^      real*8 ypart_old,/;"	L	subroutine:importtransfer	file:
+ypd	loadbeam.f	/^      real*8  xy,x,xx,y,yy,fac,xd,yd,pxd,pyd,xpd,ypd$/;"	L	subroutine:loadquiet	file:
+yper	output.f	/^      real*8 xper,yper$/;"	L	subroutine:status	file:
+ys	loadbeam.f	/^      real*8 t0,t1,xa,xs,ya,ys,/;"	L	subroutine:loaddist	file:
+yt	magfield.f	/^      real*8 x,y,xt,yt$/;"	L	function:faw2	file:
+yy	loadbeam.f	/^      real*8  xy,x,xx,y,yy,/;"	L	subroutine:loadquiet	file:
+yy	rpos.f	/^      real*8 x,awtmp,wxlow,wylow,xx(*),yy(/;"	L	subroutine:rpos	file:
+yysum	diagno.f	/^     +       xxsum,yysum,/;"	L	subroutine:diagno	file:
+z	magfield.f	/^      real*8 z,/;"	L	function:faw0	file:
+z	math.f	/^        real*8  s, t, u, w, x, z$/;"	L	function:dierfc	file:
+z	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj0, ax, z,/;"	L	function:bessj0	file:
+z	math.f	/^     *    s1,s2,s3,s4,s5,s6, x, bessj1, ax, z,/;"	L	function:bessj1	file:
+zconst	partsim.f	/^      real*8  zconst,/;"	L	subroutine:partsorc	file:
+zoffset	input.f	/^      real*8  ver,val,reverse,zoffset$/;"	L	subroutine:getradfileinfo	file:
+zoffset	input.f	/^      real*8  ver,values(5),tmin,tmax,reverse,zoffset$/;"	L	subroutine:readradfile	file:
+zpos	tdepend.f	/^      real*8 invcur,zpos,/;"	L	subroutine:dotime	file:
+zpos	tdepend.f	/^      real*8 invcur,zpos,/;"	L	subroutine:dotimerad	file:
+zr	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,power,zr,/;"	L	subroutine:gauss_hermite	file:
+zrayl	input.f	/^     +          xlamds,prad0,zrayl,/;"	L	function:readin	file:
+zscal	loadrad.f	/^      real*8     zscal,/;"	L	subroutine:gauss_hermite	file:
+zsep	input.f	/^     +          nwig,delz,zsep,/;"	L	function:readin	file:
+zstop	input.f	/^     +          nwig,delz,zsep,nsec,iorb,zstop,/;"	L	function:readin	file:
+ztemp1	partsim.f	/^      real*8 tgam,tthet,dgam,dthet,ztemp1,/;"	L	subroutine:partsim	file:
+ztemp2	partsim.f	/^      real*8 tgam,tthet,dgam,dthet,ztemp1,ztemp2,/;"	L	subroutine:partsim	file:
+zw	loadrad.f	/^      real*8     zscal,xcr,ycr,rcr2,power,zr,zw,/;"	L	subroutine:gauss_hermite	file:
+zwaist	input.f	/^     +          xlamds,prad0,zrayl,zwaist,/;"	L	function:readin	file:
