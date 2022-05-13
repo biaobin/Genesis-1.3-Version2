@@ -1,0 +1,3 @@
+#!/bin/bash
+np=4
+echo rad.in | mpirun -np $np genesis
