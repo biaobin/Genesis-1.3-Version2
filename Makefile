@@ -11,17 +11,15 @@ SOURCE=  main.f check.f diagno.f esource.f field.f incoherent.f \
 # LIB=  -lmdbmth -lSDDS1 -lmdblib -lz 
 #
 #OBJECTS =$(SOURCE:.f=.o)
-#
+
 #COMPILER = gfortran
+#EXECUTABLE = genesis 
+
 COMPILER = mpif77
-#
-#  executable name
-#
-EXECUTABLE = genesis 
-#EXECUTABLE = genesis_mpi 
-#
+EXECUTABLE = genesis_mpi 
+
 # targets
-#
+
 genesis:	$(SOURCE)
 	$(COMPILER) -g -w -O -Wall -o $(EXECUTABLE) $(SOURCE) $(LIB)
 	@echo ' ******* end of linking ****** '
