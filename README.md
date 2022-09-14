@@ -34,7 +34,6 @@ For multi-processes version:
 ```bash
 cp mpi.f.multi mpi.f
 
-cp mpif.h.multi mpif.h
 ```
 
 Go to `Makefile`, change the compiler to `mpif77`, then
