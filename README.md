@@ -11,7 +11,6 @@
 	`sudo apt install mpich`
 
 
-
 For single process version:
 
 ```bash
@@ -43,3 +42,8 @@ make clean
 make
 ```
 
+# run genesis
+For parallel version genesis, run it in the command line using 64 proceses:
+```bash
+echo input.in | mpirun -np 64 genesis_mpi
+```
